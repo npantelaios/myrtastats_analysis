@@ -10,18 +10,17 @@ def main() -> None:
 
 def first_analysis() -> None:
     os.chdir("./..")
-    f = open("./data/test1.json")
-    dict = load(f)
-    # print(dict["replay_list"][0]["wizard_name"])
-    return dict 
+    f = open("./data/getRtpvpReplayList.json")
+    initial_dict = load(f)
+    return initial_dict 
 
-def user_choices(dict: dict) -> None:
+def user_choices(initial_dict: dict) -> None:
     user_dict = {}
-    for each in dict["replay_list"]:
+    for each in initial_dict["replay_list"]:
         print(each["wizard_name"])
         name = each["wizard_name"]
         if not (name in user_dict.keys()): 
-            # if user_dict[each["wizard_name"]] does not exist: initiate
+            # if initial_dict[each["wizard_name"]] does not exist: initiate
             user_dict[name] = initiate_user_entry(each)
             print("first for %s" % name)
         else:

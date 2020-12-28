@@ -1,55 +1,55 @@
 {
-    "command":"GetFavoriteRtpvpReplayList",
+    "command":"getRankerRtpvpReplayList",
     "ret_code":0,
-    "replay_list":[
+    "ranker_replay_list":[
        {
-          "wizard_id":545196,
-          "server_id":1,
-          "channel_uid":129834943,
-          "wizard_name":"바니횽",
-          "country":"KG",
-          "rtpvp_score":2102,
-          "rtpvp_rating_id":4003,
+          "wizard_id":3774522,
+          "server_id":4,
+          "channel_uid":119342631,
+          "wizard_name":"TopaV",
+          "country":"US",
+          "rtpvp_score":1482,
+          "rtpvp_rating_id":4002,
           "slot_id":1,
           "is_placement":0,
-          "opp_wizard_id":37717,
-          "opp_server_id":5,
-          "opp_channel_uid":119738508,
-          "opp_wizard_name":"Lếu.Lều",
-          "opp_country":"VN",
-          "opp_rtpvp_score":1641,
-          "opp_rtpvp_rating_id":3002,
+          "opp_wizard_id":4712203,
+          "opp_server_id":6,
+          "opp_channel_uid":186266829,
+          "opp_wizard_name":"AdrianMgl",
+          "opp_country":"FR",
+          "opp_rtpvp_score":1423,
+          "opp_rtpvp_rating_id":4001,
           "opp_slot_id":2,
           "opp_is_placement":0,
-          "first_slot_id":1,
-          "replay_rid_ref":266065922,
+          "first_slot_id":2,
+          "replay_rid_ref":266339349,
           "pick_info":{
              "unit_list":[
                 {
                    "pick_slot_id":1,
-                   "unit_master_id":19614
+                   "unit_master_id":15713
                 },
                 {
                    "pick_slot_id":2,
-                   "unit_master_id":15712
-                },
-                {
-                   "pick_slot_id":3,
-                   "unit_master_id":16614
+                   "unit_master_id":19114
                 },
                 {
                    "pick_slot_id":4,
-                   "unit_master_id":16813
+                   "unit_master_id":14712
                 },
                 {
                    "pick_slot_id":5,
-                   "unit_master_id":20513
+                   "unit_master_id":19712
+                },
+                {
+                   "pick_slot_id":3,
+                   "unit_master_id":19314
                 }
              ],
              "banned_slot_ids":[
-                5
+                3
              ],
-             "leader_slot_id":4,
+             "leader_slot_id":1,
              "pre_ban_units":[
                 
              ]
@@ -58,29 +58,29 @@
              "unit_list":[
                 {
                    "pick_slot_id":1,
-                   "unit_master_id":15713
+                   "unit_master_id":21413
                 },
                 {
                    "pick_slot_id":2,
-                   "unit_master_id":18314
+                   "unit_master_id":11032
                 },
                 {
                    "pick_slot_id":3,
-                   "unit_master_id":21211
+                   "unit_master_id":23713
+                },
+                {
+                   "pick_slot_id":5,
+                   "unit_master_id":15513
                 },
                 {
                    "pick_slot_id":4,
                    "unit_master_id":14031
-                },
-                {
-                   "pick_slot_id":5,
-                   "unit_master_id":16612
                 }
              ],
              "banned_slot_ids":[
-                5
+                4
              ],
-             "leader_slot_id":2,
+             "leader_slot_id":3,
              "pre_ban_units":[
                 
              ]
@@ -90,40 +90,40 @@
           "infocsv":"4.02.38",
           "proto_ver":1180,
           "battle_ver":54001,
-          "group_id":16539,
-          "date_add":"2020-12-27 03:32:33",
-          "battle_type":5,
+          "group_id":0,
+          "date_add":"2020-12-28 09:49:01",
+          "battle_type":6,
           "win_lose":1,
-          "kill_count":3,
+          "kill_count":1,
           "opp_kill_count":null,
           "total_battle_units_count":8
        },
        {
-          "wizard_id":545196,
-          "server_id":1,
-          "channel_uid":129834943,
-          "wizard_name":"바니횽",
-          "country":"KG",
-          "rtpvp_score":2102,
-          "rtpvp_rating_id":4003,
+          "wizard_id":1707133,
+          "server_id":5,
+          "channel_uid":150368977,
+          "wizard_name":"..Mây..",
+          "country":"VN",
+          "rtpvp_score":1357,
+          "rtpvp_rating_id":3003,
           "slot_id":1,
           "is_placement":0,
-          "opp_wizard_id":37717,
+          "opp_wizard_id":104715,
           "opp_server_id":5,
-          "opp_channel_uid":119738508,
-          "opp_wizard_name":"Lếu.Lều",
-          "opp_country":"VN",
-          "opp_rtpvp_score":1641,
-          "opp_rtpvp_rating_id":3002,
+          "opp_channel_uid":113909660,
+          "opp_wizard_name":"[symp]Abarai",
+          "opp_country":"ID",
+          "opp_rtpvp_score":1352,
+          "opp_rtpvp_rating_id":3003,
           "opp_slot_id":2,
           "opp_is_placement":0,
-          "first_slot_id":2,
-          "replay_rid_ref":266064721,
+          "first_slot_id":1,
+          "replay_rid_ref":266339305,
           "pick_info":{
              "unit_list":[
                 {
                    "pick_slot_id":1,
-                   "unit_master_id":20513
+                   "unit_master_id":19114
                 },
                 {
                    "pick_slot_id":2,
@@ -131,15 +131,15 @@
                 },
                 {
                    "pick_slot_id":4,
-                   "unit_master_id":19712
+                   "unit_master_id":10911
                 },
                 {
                    "pick_slot_id":5,
-                   "unit_master_id":19114
+                   "unit_master_id":13515
                 },
                 {
                    "pick_slot_id":3,
-                   "unit_master_id":23511
+                   "unit_master_id":15715
                 }
              ],
              "banned_slot_ids":[
@@ -154,23 +154,599 @@
              "unit_list":[
                 {
                    "pick_slot_id":1,
-                   "unit_master_id":21113
+                   "unit_master_id":19614
                 },
                 {
                    "pick_slot_id":2,
-                   "unit_master_id":17012
+                   "unit_master_id":21211
                 },
                 {
                    "pick_slot_id":4,
-                   "unit_master_id":18314
+                   "unit_master_id":11915
                 },
                 {
                    "pick_slot_id":5,
-                   "unit_master_id":18914
+                   "unit_master_id":15035
                 },
                 {
                    "pick_slot_id":3,
+                   "unit_master_id":21412
+                }
+             ],
+             "banned_slot_ids":[
+                3
+             ],
+             "leader_slot_id":2,
+             "pre_ban_units":[
+                
+             ]
+          },
+          "rank":0,
+          "opp_rank":0,
+          "infocsv":"4.02.38",
+          "proto_ver":1180,
+          "battle_ver":54001,
+          "group_id":0,
+          "date_add":"2020-12-28 09:48:43",
+          "battle_type":6,
+          "win_lose":2,
+          "kill_count":2,
+          "opp_kill_count":null,
+          "total_battle_units_count":8
+       },
+       {
+          "wizard_id":2272847,
+          "server_id":2,
+          "channel_uid":172747061,
+          "wizard_name":"akimahen",
+          "country":"JP",
+          "rtpvp_score":1434,
+          "rtpvp_rating_id":4001,
+          "slot_id":1,
+          "is_placement":0,
+          "opp_wizard_id":15335323,
+          "opp_server_id":3,
+          "opp_channel_uid":154805894,
+          "opp_wizard_name":"姐姐们的马",
+          "opp_country":"CN",
+          "opp_rtpvp_score":1422,
+          "opp_rtpvp_rating_id":4001,
+          "opp_slot_id":2,
+          "opp_is_placement":0,
+          "first_slot_id":2,
+          "replay_rid_ref":266339261,
+          "pick_info":{
+             "unit_list":[
+                {
+                   "pick_slot_id":1,
+                   "unit_master_id":13231
+                },
+                {
+                   "pick_slot_id":2,
+                   "unit_master_id":14612
+                },
+                {
+                   "pick_slot_id":4,
+                   "unit_master_id":14034
+                },
+                {
+                   "pick_slot_id":5,
+                   "unit_master_id":10514
+                },
+                {
+                   "pick_slot_id":3,
+                   "unit_master_id":20515
+                }
+             ],
+             "banned_slot_ids":[
+                3
+             ],
+             "leader_slot_id":2,
+             "pre_ban_units":[
+                
+             ]
+          },
+          "opp_pick_info":{
+             "unit_list":[
+                {
+                   "pick_slot_id":1,
+                   "unit_master_id":15713
+                },
+                {
+                   "pick_slot_id":2,
+                   "unit_master_id":10914
+                },
+                {
+                   "pick_slot_id":3,
+                   "unit_master_id":13413
+                },
+                {
+                   "pick_slot_id":4,
+                   "unit_master_id":10911
+                },
+                {
+                   "pick_slot_id":5,
+                   "unit_master_id":13911
+                }
+             ],
+             "banned_slot_ids":[
+                5
+             ],
+             "leader_slot_id":1,
+             "pre_ban_units":[
+                
+             ]
+          },
+          "rank":0,
+          "opp_rank":0,
+          "infocsv":"4.02.38",
+          "proto_ver":1180,
+          "battle_ver":54001,
+          "group_id":0,
+          "date_add":"2020-12-28 09:48:23",
+          "battle_type":6,
+          "win_lose":2,
+          "kill_count":0,
+          "opp_kill_count":null,
+          "total_battle_units_count":8
+       },
+       {
+          "wizard_id":1251672,
+          "server_id":1,
+          "channel_uid":124578699,
+          "wizard_name":"《명량》유성",
+          "country":"KR",
+          "rtpvp_score":1380,
+          "rtpvp_rating_id":3003,
+          "slot_id":1,
+          "is_placement":0,
+          "opp_wizard_id":10432679,
+          "opp_server_id":3,
+          "opp_channel_uid":137061358,
+          "opp_wizard_name":"非洲萨",
+          "opp_country":"CN",
+          "opp_rtpvp_score":1375,
+          "opp_rtpvp_rating_id":3003,
+          "opp_slot_id":2,
+          "opp_is_placement":0,
+          "first_slot_id":1,
+          "replay_rid_ref":266339202,
+          "pick_info":{
+             "unit_list":[
+                {
+                   "pick_slot_id":1,
+                   "unit_master_id":14031
+                },
+                {
+                   "pick_slot_id":2,
+                   "unit_master_id":14034
+                },
+                {
+                   "pick_slot_id":3,
+                   "unit_master_id":23511
+                },
+                {
+                   "pick_slot_id":5,
+                   "unit_master_id":11811
+                },
+                {
+                   "pick_slot_id":4,
+                   "unit_master_id":21111
+                }
+             ],
+             "banned_slot_ids":[
+                4
+             ],
+             "leader_slot_id":5,
+             "pre_ban_units":[
+                
+             ]
+          },
+          "opp_pick_info":{
+             "unit_list":[
+                {
+                   "pick_slot_id":2,
+                   "unit_master_id":15911
+                },
+                {
+                   "pick_slot_id":3,
+                   "unit_master_id":14413
+                },
+                {
+                   "pick_slot_id":4,
+                   "unit_master_id":13413
+                },
+                {
+                   "pick_slot_id":5,
+                   "unit_master_id":11813
+                },
+                {
+                   "pick_slot_id":1,
+                   "unit_master_id":21314
+                }
+             ],
+             "banned_slot_ids":[
+                1
+             ],
+             "leader_slot_id":5,
+             "pre_ban_units":[
+                
+             ]
+          },
+          "rank":0,
+          "opp_rank":0,
+          "infocsv":"4.02.38",
+          "proto_ver":1180,
+          "battle_ver":54001,
+          "group_id":0,
+          "date_add":"2020-12-28 09:47:56",
+          "battle_type":6,
+          "win_lose":1,
+          "kill_count":2,
+          "opp_kill_count":null,
+          "total_battle_units_count":8
+       },
+       {
+          "wizard_id":17367168,
+          "server_id":3,
+          "channel_uid":165460860,
+          "wizard_name":"徐小超",
+          "country":"CN",
+          "rtpvp_score":1511,
+          "rtpvp_rating_id":4003,
+          "slot_id":2,
+          "is_placement":0,
+          "opp_wizard_id":1432422,
+          "opp_server_id":6,
+          "opp_channel_uid":163678747,
+          "opp_wizard_name":"Tydus~",
+          "opp_country":"BE",
+          "opp_rtpvp_score":1490,
+          "opp_rtpvp_rating_id":4002,
+          "opp_slot_id":1,
+          "opp_is_placement":0,
+          "first_slot_id":2,
+          "replay_rid_ref":266339177,
+          "pick_info":{
+             "unit_list":[
+                {
+                   "pick_slot_id":1,
+                   "unit_master_id":12012
+                },
+                {
+                   "pick_slot_id":3,
+                   "unit_master_id":14034
+                },
+                {
+                   "pick_slot_id":4,
+                   "unit_master_id":19114
+                },
+                {
+                   "pick_slot_id":5,
+                   "unit_master_id":15031
+                },
+                {
+                   "pick_slot_id":2,
+                   "unit_master_id":21413
+                }
+             ],
+             "banned_slot_ids":[
+                2
+             ],
+             "leader_slot_id":4,
+             "pre_ban_units":[
+                
+             ]
+          },
+          "opp_pick_info":{
+             "unit_list":[
+                {
+                   "pick_slot_id":1,
+                   "unit_master_id":14031
+                },
+                {
+                   "pick_slot_id":3,
+                   "unit_master_id":15713
+                },
+                {
+                   "pick_slot_id":4,
+                   "unit_master_id":14712
+                },
+                {
+                   "pick_slot_id":5,
+                   "unit_master_id":11813
+                },
+                {
+                   "pick_slot_id":2,
+                   "unit_master_id":19614
+                }
+             ],
+             "banned_slot_ids":[
+                2
+             ],
+             "leader_slot_id":3,
+             "pre_ban_units":[
+                
+             ]
+          },
+          "rank":0,
+          "opp_rank":0,
+          "infocsv":"4.02.38",
+          "proto_ver":1180,
+          "battle_ver":54001,
+          "group_id":0,
+          "date_add":"2020-12-28 09:47:47",
+          "battle_type":6,
+          "win_lose":1,
+          "kill_count":0,
+          "opp_kill_count":null,
+          "total_battle_units_count":8
+       },
+       {
+          "wizard_id":38610,
+          "server_id":2,
+          "channel_uid":110787991,
+          "wizard_name":"メロ529",
+          "country":"JP",
+          "rtpvp_score":1386,
+          "rtpvp_rating_id":3003,
+          "slot_id":1,
+          "is_placement":0,
+          "opp_wizard_id":17126157,
+          "opp_server_id":4,
+          "opp_channel_uid":163529085,
+          "opp_wizard_name":"@DeadStrock@",
+          "opp_country":"BR",
+          "opp_rtpvp_score":1367,
+          "opp_rtpvp_rating_id":3003,
+          "opp_slot_id":2,
+          "opp_is_placement":0,
+          "first_slot_id":1,
+          "replay_rid_ref":266339091,
+          "pick_info":{
+             "unit_list":[
+                {
+                   "pick_slot_id":2,
+                   "unit_master_id":14712
+                },
+                {
+                   "pick_slot_id":3,
+                   "unit_master_id":10131
+                },
+                {
+                   "pick_slot_id":4,
+                   "unit_master_id":23713
+                },
+                {
+                   "pick_slot_id":5,
+                   "unit_master_id":23513
+                },
+                {
+                   "pick_slot_id":1,
+                   "unit_master_id":19114
+                }
+             ],
+             "banned_slot_ids":[
+                1
+             ],
+             "leader_slot_id":3,
+             "pre_ban_units":[
+                
+             ]
+          },
+          "opp_pick_info":{
+             "unit_list":[
+                {
+                   "pick_slot_id":1,
+                   "unit_master_id":15713
+                },
+                {
+                   "pick_slot_id":2,
+                   "unit_master_id":14031
+                },
+                {
+                   "pick_slot_id":3,
+                   "unit_master_id":21413
+                },
+                {
+                   "pick_slot_id":4,
+                   "unit_master_id":19314
+                },
+                {
+                   "pick_slot_id":5,
+                   "unit_master_id":19712
+                }
+             ],
+             "banned_slot_ids":[
+                5
+             ],
+             "leader_slot_id":1,
+             "pre_ban_units":[
+                
+             ]
+          },
+          "rank":0,
+          "opp_rank":0,
+          "infocsv":"4.02.38",
+          "proto_ver":1180,
+          "battle_ver":54001,
+          "group_id":0,
+          "date_add":"2020-12-28 09:47:16",
+          "battle_type":6,
+          "win_lose":1,
+          "kill_count":1,
+          "opp_kill_count":null,
+          "total_battle_units_count":8
+       },
+       {
+          "wizard_id":748291,
+          "server_id":2,
+          "channel_uid":147462650,
+          "wizard_name":"しげっチ",
+          "country":"JP",
+          "rtpvp_score":1440,
+          "rtpvp_rating_id":4001,
+          "slot_id":1,
+          "is_placement":0,
+          "opp_wizard_id":2292959,
+          "opp_server_id":2,
+          "opp_channel_uid":171488231,
+          "opp_wizard_name":"ユスティ",
+          "opp_country":"JP",
+          "opp_rtpvp_score":1367,
+          "opp_rtpvp_rating_id":3003,
+          "opp_slot_id":2,
+          "opp_is_placement":0,
+          "first_slot_id":1,
+          "replay_rid_ref":266339084,
+          "pick_info":{
+             "unit_list":[
+                {
+                   "pick_slot_id":1,
+                   "unit_master_id":15713
+                },
+                {
+                   "pick_slot_id":2,
+                   "unit_master_id":14712
+                },
+                {
+                   "pick_slot_id":3,
+                   "unit_master_id":14034
+                },
+                {
+                   "pick_slot_id":4,
                    "unit_master_id":21112
+                },
+                {
+                   "pick_slot_id":5,
+                   "unit_master_id":15035
+                }
+             ],
+             "banned_slot_ids":[
+                5
+             ],
+             "leader_slot_id":1,
+             "pre_ban_units":[
+                
+             ]
+          },
+          "opp_pick_info":{
+             "unit_list":[
+                {
+                   "pick_slot_id":1,
+                   "unit_master_id":19114
+                },
+                {
+                   "pick_slot_id":2,
+                   "unit_master_id":19314
+                },
+                {
+                   "pick_slot_id":3,
+                   "unit_master_id":14031
+                },
+                {
+                   "pick_slot_id":4,
+                   "unit_master_id":16612
+                },
+                {
+                   "pick_slot_id":5,
+                   "unit_master_id":21211
+                }
+             ],
+             "banned_slot_ids":[
+                5
+             ],
+             "leader_slot_id":1,
+             "pre_ban_units":[
+                
+             ]
+          },
+          "rank":0,
+          "opp_rank":0,
+          "infocsv":"4.02.38",
+          "proto_ver":1180,
+          "battle_ver":54001,
+          "group_id":0,
+          "date_add":"2020-12-28 09:47:13",
+          "battle_type":6,
+          "win_lose":1,
+          "kill_count":2,
+          "opp_kill_count":null,
+          "total_battle_units_count":8
+       },
+       {
+          "wizard_id":6790389,
+          "server_id":3,
+          "channel_uid":115867125,
+          "wizard_name":"那些你冒险的梦",
+          "country":"CN",
+          "rtpvp_score":1364,
+          "rtpvp_rating_id":3003,
+          "slot_id":2,
+          "is_placement":0,
+          "opp_wizard_id":1189819,
+          "opp_server_id":6,
+          "opp_channel_uid":163222566,
+          "opp_wizard_name":"Shushiru⛵",
+          "opp_country":"GR",
+          "opp_rtpvp_score":1374,
+          "opp_rtpvp_rating_id":3003,
+          "opp_slot_id":1,
+          "opp_is_placement":0,
+          "first_slot_id":1,
+          "replay_rid_ref":266339041,
+          "pick_info":{
+             "unit_list":[
+                {
+                   "pick_slot_id":1,
+                   "unit_master_id":21413
+                },
+                {
+                   "pick_slot_id":2,
+                   "unit_master_id":10131
+                },
+                {
+                   "pick_slot_id":4,
+                   "unit_master_id":14031
+                },
+                {
+                   "pick_slot_id":5,
+                   "unit_master_id":15715
+                },
+                {
+                   "pick_slot_id":3,
+                   "unit_master_id":13812
+                }
+             ],
+             "banned_slot_ids":[
+                3
+             ],
+             "leader_slot_id":5,
+             "pre_ban_units":[
+                
+             ]
+          },
+          "opp_pick_info":{
+             "unit_list":[
+                {
+                   "pick_slot_id":1,
+                   "unit_master_id":18012
+                },
+                {
+                   "pick_slot_id":2,
+                   "unit_master_id":15911
+                },
+                {
+                   "pick_slot_id":4,
+                   "unit_master_id":13911
+                },
+                {
+                   "pick_slot_id":5,
+                   "unit_master_id":11813
+                },
+                {
+                   "pick_slot_id":3,
+                   "unit_master_id":13413
                 }
              ],
              "banned_slot_ids":[
@@ -186,35 +762,227 @@
           "infocsv":"4.02.38",
           "proto_ver":1180,
           "battle_ver":54001,
-          "group_id":16539,
-          "date_add":"2020-12-27 03:27:54",
-          "battle_type":5,
+          "group_id":0,
+          "date_add":"2020-12-28 09:46:48",
+          "battle_type":6,
           "win_lose":2,
           "kill_count":0,
           "opp_kill_count":null,
           "total_battle_units_count":8
        },
        {
-          "wizard_id":545196,
-          "server_id":1,
-          "channel_uid":129834943,
-          "wizard_name":"바니횽",
-          "country":"KG",
-          "rtpvp_score":2102,
-          "rtpvp_rating_id":4003,
+          "wizard_id":3774522,
+          "server_id":4,
+          "channel_uid":119342631,
+          "wizard_name":"TopaV",
+          "country":"US",
+          "rtpvp_score":1477,
+          "rtpvp_rating_id":4002,
           "slot_id":1,
           "is_placement":0,
-          "opp_wizard_id":4232958,
+          "opp_wizard_id":230801,
+          "opp_server_id":6,
+          "opp_channel_uid":120452388,
+          "opp_wizard_name":"Syvar",
+          "opp_country":"DE",
+          "opp_rtpvp_score":1411,
+          "opp_rtpvp_rating_id":4001,
+          "opp_slot_id":2,
+          "opp_is_placement":0,
+          "first_slot_id":1,
+          "replay_rid_ref":266339016,
+          "pick_info":{
+             "unit_list":[
+                {
+                   "pick_slot_id":1,
+                   "unit_master_id":19114
+                },
+                {
+                   "pick_slot_id":2,
+                   "unit_master_id":15713
+                },
+                {
+                   "pick_slot_id":3,
+                   "unit_master_id":19314
+                },
+                {
+                   "pick_slot_id":5,
+                   "unit_master_id":18314
+                },
+                {
+                   "pick_slot_id":4,
+                   "unit_master_id":14712
+                }
+             ],
+             "banned_slot_ids":[
+                4
+             ],
+             "leader_slot_id":2,
+             "pre_ban_units":[
+                
+             ]
+          },
+          "opp_pick_info":{
+             "unit_list":[
+                {
+                   "pick_slot_id":1,
+                   "unit_master_id":13231
+                },
+                {
+                   "pick_slot_id":3,
+                   "unit_master_id":16813
+                },
+                {
+                   "pick_slot_id":4,
+                   "unit_master_id":17012
+                },
+                {
+                   "pick_slot_id":5,
+                   "unit_master_id":16312
+                },
+                {
+                   "pick_slot_id":2,
+                   "unit_master_id":14031
+                }
+             ],
+             "banned_slot_ids":[
+                2
+             ],
+             "leader_slot_id":3,
+             "pre_ban_units":[
+                
+             ]
+          },
+          "rank":0,
+          "opp_rank":0,
+          "infocsv":"4.02.38",
+          "proto_ver":1180,
+          "battle_ver":54001,
+          "group_id":0,
+          "date_add":"2020-12-28 09:46:39",
+          "battle_type":6,
+          "win_lose":1,
+          "kill_count":2,
+          "opp_kill_count":null,
+          "total_battle_units_count":8
+       },
+       {
+          "wizard_id":4712203,
+          "server_id":6,
+          "channel_uid":186266829,
+          "wizard_name":"AdrianMgl",
+          "country":"FR",
+          "rtpvp_score":1415,
+          "rtpvp_rating_id":4001,
+          "slot_id":2,
+          "is_placement":0,
+          "opp_wizard_id":2354082,
+          "opp_server_id":2,
+          "opp_channel_uid":175785748,
+          "opp_wizard_name":"kiruaちゃん",
+          "opp_country":"JP",
+          "opp_rtpvp_score":1452,
+          "opp_rtpvp_rating_id":4002,
+          "opp_slot_id":1,
+          "opp_is_placement":0,
+          "first_slot_id":2,
+          "replay_rid_ref":266339014,
+          "pick_info":{
+             "unit_list":[
+                {
+                   "pick_slot_id":1,
+                   "unit_master_id":14031
+                },
+                {
+                   "pick_slot_id":2,
+                   "unit_master_id":11032
+                },
+                {
+                   "pick_slot_id":3,
+                   "unit_master_id":21413
+                },
+                {
+                   "pick_slot_id":5,
+                   "unit_master_id":13312
+                },
+                {
+                   "pick_slot_id":4,
+                   "unit_master_id":23713
+                }
+             ],
+             "banned_slot_ids":[
+                4
+             ],
+             "leader_slot_id":5,
+             "pre_ban_units":[
+                
+             ]
+          },
+          "opp_pick_info":{
+             "unit_list":[
+                {
+                   "pick_slot_id":1,
+                   "unit_master_id":13231
+                },
+                {
+                   "pick_slot_id":3,
+                   "unit_master_id":17913
+                },
+                {
+                   "pick_slot_id":4,
+                   "unit_master_id":15713
+                },
+                {
+                   "pick_slot_id":5,
+                   "unit_master_id":17012
+                },
+                {
+                   "pick_slot_id":2,
+                   "unit_master_id":19314
+                }
+             ],
+             "banned_slot_ids":[
+                2
+             ],
+             "leader_slot_id":4,
+             "pre_ban_units":[
+                
+             ]
+          },
+          "rank":0,
+          "opp_rank":0,
+          "infocsv":"4.02.38",
+          "proto_ver":1180,
+          "battle_ver":54001,
+          "group_id":0,
+          "date_add":"2020-12-28 09:46:38",
+          "battle_type":6,
+          "win_lose":1,
+          "kill_count":0,
+          "opp_kill_count":null,
+          "total_battle_units_count":8
+       },
+       {
+          "wizard_id":1414835,
+          "server_id":2,
+          "channel_uid":116897781,
+          "wizard_name":"噂の陰陽師",
+          "country":"JP",
+          "rtpvp_score":1440,
+          "rtpvp_rating_id":4001,
+          "slot_id":1,
+          "is_placement":0,
+          "opp_wizard_id":15835773,
           "opp_server_id":4,
-          "opp_channel_uid":118203586,
-          "opp_wizard_name":"EVAJERINESS",
-          "opp_country":"TH",
-          "opp_rtpvp_score":1537,
-          "opp_rtpvp_rating_id":3001,
+          "opp_channel_uid":157237581,
+          "opp_wizard_name":"Syosett",
+          "opp_country":"US",
+          "opp_rtpvp_score":1410,
+          "opp_rtpvp_rating_id":4001,
           "opp_slot_id":2,
           "opp_is_placement":0,
           "first_slot_id":2,
-          "replay_rid_ref":266063801,
+          "replay_rid_ref":266338972,
           "pick_info":{
              "unit_list":[
                 {
@@ -223,23 +991,23 @@
                 },
                 {
                    "pick_slot_id":2,
-                   "unit_master_id":17012
+                   "unit_master_id":14031
                 },
                 {
                    "pick_slot_id":3,
-                   "unit_master_id":23511
-                },
-                {
-                   "pick_slot_id":4,
-                   "unit_master_id":20513
+                   "unit_master_id":16813
                 },
                 {
                    "pick_slot_id":5,
-                   "unit_master_id":18612
+                   "unit_master_id":19314
+                },
+                {
+                   "pick_slot_id":4,
+                   "unit_master_id":21413
                 }
              ],
              "banned_slot_ids":[
-                5
+                4
              ],
              "leader_slot_id":1,
              "pre_ban_units":[
@@ -250,11 +1018,107 @@
              "unit_list":[
                 {
                    "pick_slot_id":1,
-                   "unit_master_id":19712
+                   "unit_master_id":11813
                 },
                 {
                    "pick_slot_id":2,
+                   "unit_master_id":13911
+                },
+                {
+                   "pick_slot_id":4,
+                   "unit_master_id":18014
+                },
+                {
+                   "pick_slot_id":5,
+                   "unit_master_id":14613
+                },
+                {
+                   "pick_slot_id":3,
+                   "unit_master_id":12012
+                }
+             ],
+             "banned_slot_ids":[
+                3
+             ],
+             "leader_slot_id":1,
+             "pre_ban_units":[
+                
+             ]
+          },
+          "rank":0,
+          "opp_rank":0,
+          "infocsv":"4.02.38",
+          "proto_ver":1180,
+          "battle_ver":54001,
+          "group_id":0,
+          "date_add":"2020-12-28 09:46:23",
+          "battle_type":6,
+          "win_lose":1,
+          "kill_count":3,
+          "opp_kill_count":null,
+          "total_battle_units_count":8
+       },
+       {
+          "wizard_id":970470,
+          "server_id":1,
+          "channel_uid":120173919,
+          "wizard_name":"사린준복귀",
+          "country":"KR",
+          "rtpvp_score":1355,
+          "rtpvp_rating_id":3003,
+          "slot_id":1,
+          "is_placement":0,
+          "opp_wizard_id":1945869,
+          "opp_server_id":6,
+          "opp_channel_uid":168722805,
+          "opp_wizard_name":"DønJex",
+          "opp_country":"AT",
+          "opp_rtpvp_score":1458,
+          "opp_rtpvp_rating_id":4002,
+          "opp_slot_id":2,
+          "opp_is_placement":0,
+          "first_slot_id":1,
+          "replay_rid_ref":266338908,
+          "pick_info":{
+             "unit_list":[
+                {
+                   "pick_slot_id":1,
                    "unit_master_id":19114
+                },
+                {
+                   "pick_slot_id":3,
+                   "unit_master_id":22615
+                },
+                {
+                   "pick_slot_id":4,
+                   "unit_master_id":13231
+                },
+                {
+                   "pick_slot_id":5,
+                   "unit_master_id":19614
+                },
+                {
+                   "pick_slot_id":2,
+                   "unit_master_id":16813
+                }
+             ],
+             "banned_slot_ids":[
+                2
+             ],
+             "leader_slot_id":1,
+             "pre_ban_units":[
+                
+             ]
+          },
+          "opp_pick_info":{
+             "unit_list":[
+                {
+                   "pick_slot_id":1,
+                   "unit_master_id":14031
+                },
+                {
+                   "pick_slot_id":2,
+                   "unit_master_id":21413
                 },
                 {
                    "pick_slot_id":3,
@@ -262,11 +1126,299 @@
                 },
                 {
                    "pick_slot_id":5,
-                   "unit_master_id":22611
+                   "unit_master_id":15713
                 },
                 {
                    "pick_slot_id":4,
-                   "unit_master_id":21511
+                   "unit_master_id":19314
+                }
+             ],
+             "banned_slot_ids":[
+                4
+             ],
+             "leader_slot_id":5,
+             "pre_ban_units":[
+                
+             ]
+          },
+          "rank":0,
+          "opp_rank":0,
+          "infocsv":"4.02.38",
+          "proto_ver":1180,
+          "battle_ver":54001,
+          "group_id":0,
+          "date_add":"2020-12-28 09:45:55",
+          "battle_type":6,
+          "win_lose":2,
+          "kill_count":0,
+          "opp_kill_count":null,
+          "total_battle_units_count":8
+       },
+       {
+          "wizard_id":2244714,
+          "server_id":2,
+          "channel_uid":170830577,
+          "wizard_name":"“nao”",
+          "country":"JP",
+          "rtpvp_score":1424,
+          "rtpvp_rating_id":4001,
+          "slot_id":1,
+          "is_placement":0,
+          "opp_wizard_id":19571624,
+          "opp_server_id":3,
+          "opp_channel_uid":197863029,
+          "opp_wizard_name":"Flowstop",
+          "opp_country":"CN",
+          "opp_rtpvp_score":1480,
+          "opp_rtpvp_rating_id":4002,
+          "opp_slot_id":2,
+          "opp_is_placement":0,
+          "first_slot_id":1,
+          "replay_rid_ref":266338883,
+          "pick_info":{
+             "unit_list":[
+                {
+                   "pick_slot_id":1,
+                   "unit_master_id":19114
+                },
+                {
+                   "pick_slot_id":3,
+                   "unit_master_id":14031
+                },
+                {
+                   "pick_slot_id":4,
+                   "unit_master_id":13515
+                },
+                {
+                   "pick_slot_id":5,
+                   "unit_master_id":14712
+                },
+                {
+                   "pick_slot_id":2,
+                   "unit_master_id":21413
+                }
+             ],
+             "banned_slot_ids":[
+                2
+             ],
+             "leader_slot_id":1,
+             "pre_ban_units":[
+                
+             ]
+          },
+          "opp_pick_info":{
+             "unit_list":[
+                {
+                   "pick_slot_id":1,
+                   "unit_master_id":15713
+                },
+                {
+                   "pick_slot_id":2,
+                   "unit_master_id":19314
+                },
+                {
+                   "pick_slot_id":4,
+                   "unit_master_id":19614
+                },
+                {
+                   "pick_slot_id":5,
+                   "unit_master_id":15031
+                },
+                {
+                   "pick_slot_id":3,
+                   "unit_master_id":18314
+                }
+             ],
+             "banned_slot_ids":[
+                3
+             ],
+             "leader_slot_id":1,
+             "pre_ban_units":[
+                
+             ]
+          },
+          "rank":0,
+          "opp_rank":0,
+          "infocsv":"4.02.38",
+          "proto_ver":1180,
+          "battle_ver":54001,
+          "group_id":0,
+          "date_add":"2020-12-28 09:45:47",
+          "battle_type":6,
+          "win_lose":1,
+          "kill_count":3,
+          "opp_kill_count":null,
+          "total_battle_units_count":8
+       },
+       {
+          "wizard_id":15335323,
+          "server_id":3,
+          "channel_uid":154805894,
+          "wizard_name":"姐姐们的马",
+          "country":"CN",
+          "rtpvp_score":1415,
+          "rtpvp_rating_id":4001,
+          "slot_id":2,
+          "is_placement":0,
+          "opp_wizard_id":2420528,
+          "opp_server_id":2,
+          "opp_channel_uid":179434231,
+          "opp_wizard_name":"まんぷくほっぺ",
+          "opp_country":"JP",
+          "opp_rtpvp_score":1409,
+          "opp_rtpvp_rating_id":4001,
+          "opp_slot_id":1,
+          "opp_is_placement":0,
+          "first_slot_id":2,
+          "replay_rid_ref":266338880,
+          "pick_info":{
+             "unit_list":[
+                {
+                   "pick_slot_id":1,
+                   "unit_master_id":15713
+                },
+                {
+                   "pick_slot_id":2,
+                   "unit_master_id":10914
+                },
+                {
+                   "pick_slot_id":4,
+                   "unit_master_id":13911
+                },
+                {
+                   "pick_slot_id":5,
+                   "unit_master_id":10911
+                },
+                {
+                   "pick_slot_id":3,
+                   "unit_master_id":13413
+                }
+             ],
+             "banned_slot_ids":[
+                3
+             ],
+             "leader_slot_id":1,
+             "pre_ban_units":[
+                
+             ]
+          },
+          "opp_pick_info":{
+             "unit_list":[
+                {
+                   "pick_slot_id":1,
+                   "unit_master_id":19114
+                },
+                {
+                   "pick_slot_id":2,
+                   "unit_master_id":19314
+                },
+                {
+                   "pick_slot_id":3,
+                   "unit_master_id":15712
+                },
+                {
+                   "pick_slot_id":4,
+                   "unit_master_id":14031
+                },
+                {
+                   "pick_slot_id":5,
+                   "unit_master_id":21513
+                }
+             ],
+             "banned_slot_ids":[
+                5
+             ],
+             "leader_slot_id":1,
+             "pre_ban_units":[
+                
+             ]
+          },
+          "rank":0,
+          "opp_rank":0,
+          "infocsv":"4.02.38",
+          "proto_ver":1180,
+          "battle_ver":54001,
+          "group_id":0,
+          "date_add":"2020-12-28 09:45:46",
+          "battle_type":6,
+          "win_lose":1,
+          "kill_count":3,
+          "opp_kill_count":null,
+          "total_battle_units_count":8
+       },
+       {
+          "wizard_id":2093294,
+          "server_id":6,
+          "channel_uid":164769769,
+          "wizard_name":"NotWWWTrustMe",
+          "country":"AQ",
+          "rtpvp_score":1486,
+          "rtpvp_rating_id":4002,
+          "slot_id":2,
+          "is_placement":0,
+          "opp_wizard_id":682075,
+          "opp_server_id":1,
+          "opp_channel_uid":86170977,
+          "opp_wizard_name":"R00T_",
+          "opp_country":"KR",
+          "opp_rtpvp_score":1415,
+          "opp_rtpvp_rating_id":4001,
+          "opp_slot_id":1,
+          "opp_is_placement":0,
+          "first_slot_id":1,
+          "replay_rid_ref":266338846,
+          "pick_info":{
+             "unit_list":[
+                {
+                   "pick_slot_id":2,
+                   "unit_master_id":19314
+                },
+                {
+                   "pick_slot_id":3,
+                   "unit_master_id":15713
+                },
+                {
+                   "pick_slot_id":4,
+                   "unit_master_id":21413
+                },
+                {
+                   "pick_slot_id":5,
+                   "unit_master_id":23713
+                },
+                {
+                   "pick_slot_id":1,
+                   "unit_master_id":19114
+                }
+             ],
+             "banned_slot_ids":[
+                1
+             ],
+             "leader_slot_id":3,
+             "pre_ban_units":[
+                
+             ]
+          },
+          "opp_pick_info":{
+             "unit_list":[
+                {
+                   "pick_slot_id":1,
+                   "unit_master_id":14031
+                },
+                {
+                   "pick_slot_id":2,
+                   "unit_master_id":16813
+                },
+                {
+                   "pick_slot_id":3,
+                   "unit_master_id":19614
+                },
+                {
+                   "pick_slot_id":5,
+                   "unit_master_id":13235
+                },
+                {
+                   "pick_slot_id":4,
+                   "unit_master_id":14712
                 }
              ],
              "banned_slot_ids":[
@@ -282,62 +1434,62 @@
           "infocsv":"4.02.38",
           "proto_ver":1180,
           "battle_ver":54001,
-          "group_id":16539,
-          "date_add":"2020-12-27 03:24:21",
-          "battle_type":5,
+          "group_id":0,
+          "date_add":"2020-12-28 09:45:31",
+          "battle_type":6,
           "win_lose":1,
-          "kill_count":4,
+          "kill_count":1,
           "opp_kill_count":null,
           "total_battle_units_count":8
        },
        {
-          "wizard_id":2249363,
-          "server_id":2,
-          "channel_uid":170631653,
-          "wizard_name":"kamechan♪",
-          "country":"GF",
-          "rtpvp_score":2104,
-          "rtpvp_rating_id":4003,
-          "slot_id":1,
+          "wizard_id":18207135,
+          "server_id":4,
+          "channel_uid":171099652,
+          "wizard_name":"llsevenll",
+          "country":"HN",
+          "rtpvp_score":1378,
+          "rtpvp_rating_id":3003,
+          "slot_id":2,
           "is_placement":0,
-          "opp_wizard_id":2586907,
-          "opp_server_id":2,
-          "opp_channel_uid":181473348,
-          "opp_wizard_name":"ヒロシ777",
-          "opp_country":"JP",
-          "opp_rtpvp_score":1852,
-          "opp_rtpvp_rating_id":4001,
-          "opp_slot_id":2,
+          "opp_wizard_id":104715,
+          "opp_server_id":5,
+          "opp_channel_uid":113909660,
+          "opp_wizard_name":"[symp]Abarai",
+          "opp_country":"ID",
+          "opp_rtpvp_score":1361,
+          "opp_rtpvp_rating_id":3003,
+          "opp_slot_id":1,
           "opp_is_placement":0,
           "first_slot_id":1,
-          "replay_rid_ref":266000767,
+          "replay_rid_ref":266338760,
           "pick_info":{
              "unit_list":[
                 {
                    "pick_slot_id":1,
-                   "unit_master_id":15713
+                   "unit_master_id":14031
                 },
                 {
                    "pick_slot_id":2,
-                   "unit_master_id":19114
+                   "unit_master_id":19712
                 },
                 {
                    "pick_slot_id":3,
-                   "unit_master_id":19314
-                },
-                {
-                   "pick_slot_id":5,
-                   "unit_master_id":15031
+                   "unit_master_id":23713
                 },
                 {
                    "pick_slot_id":4,
-                   "unit_master_id":21112
+                   "unit_master_id":21012
+                },
+                {
+                   "pick_slot_id":5,
+                   "unit_master_id":21413
                 }
              ],
              "banned_slot_ids":[
-                4
+                5
              ],
-             "leader_slot_id":1,
+             "leader_slot_id":2,
              "pre_ban_units":[
                 
              ]
@@ -346,19 +1498,372 @@
              "unit_list":[
                 {
                    "pick_slot_id":1,
-                   "unit_master_id":14712
+                   "unit_master_id":19614
                 },
                 {
                    "pick_slot_id":2,
-                   "unit_master_id":22213
+                   "unit_master_id":21211
                 },
                 {
-                   "pick_slot_id":3,
-                   "unit_master_id":17012
+                   "pick_slot_id":4,
+                   "unit_master_id":11915
                 },
                 {
                    "pick_slot_id":5,
-                   "unit_master_id":11033
+                   "unit_master_id":10911
+                },
+                {
+                   "pick_slot_id":3,
+                   "unit_master_id":22611
+                }
+             ],
+             "banned_slot_ids":[
+                3
+             ],
+             "leader_slot_id":2,
+             "pre_ban_units":[
+                
+             ]
+          },
+          "rank":0,
+          "opp_rank":0,
+          "infocsv":"4.02.38",
+          "proto_ver":1180,
+          "battle_ver":54001,
+          "group_id":0,
+          "date_add":"2020-12-28 09:44:45",
+          "battle_type":6,
+          "win_lose":1,
+          "kill_count":0,
+          "opp_kill_count":null,
+          "total_battle_units_count":8
+       },
+       {
+          "wizard_id":38610,
+          "server_id":2,
+          "channel_uid":110787991,
+          "wizard_name":"メロ529",
+          "country":"JP",
+          "rtpvp_score":1376,
+          "rtpvp_rating_id":3003,
+          "slot_id":1,
+          "is_placement":0,
+          "opp_wizard_id":6790389,
+          "opp_server_id":3,
+          "opp_channel_uid":115867125,
+          "opp_wizard_name":"那些你冒险的梦",
+          "opp_country":"CN",
+          "opp_rtpvp_score":1373,
+          "opp_rtpvp_rating_id":3003,
+          "opp_slot_id":2,
+          "opp_is_placement":0,
+          "first_slot_id":1,
+          "replay_rid_ref":266338736,
+          "pick_info":{
+             "unit_list":[
+                {
+                   "pick_slot_id":2,
+                   "unit_master_id":14712
+                },
+                {
+                   "pick_slot_id":3,
+                   "unit_master_id":14031
+                },
+                {
+                   "pick_slot_id":4,
+                   "unit_master_id":23513
+                },
+                {
+                   "pick_slot_id":5,
+                   "unit_master_id":23713
+                },
+                {
+                   "pick_slot_id":1,
+                   "unit_master_id":19114
+                }
+             ],
+             "banned_slot_ids":[
+                1
+             ],
+             "leader_slot_id":5,
+             "pre_ban_units":[
+                
+             ]
+          },
+          "opp_pick_info":{
+             "unit_list":[
+                {
+                   "pick_slot_id":1,
+                   "unit_master_id":15713
+                },
+                {
+                   "pick_slot_id":2,
+                   "unit_master_id":10131
+                },
+                {
+                   "pick_slot_id":4,
+                   "unit_master_id":21413
+                },
+                {
+                   "pick_slot_id":5,
+                   "unit_master_id":15035
+                },
+                {
+                   "pick_slot_id":3,
+                   "unit_master_id":15715
+                }
+             ],
+             "banned_slot_ids":[
+                3
+             ],
+             "leader_slot_id":1,
+             "pre_ban_units":[
+                
+             ]
+          },
+          "rank":0,
+          "opp_rank":0,
+          "infocsv":"4.02.38",
+          "proto_ver":1180,
+          "battle_ver":54001,
+          "group_id":0,
+          "date_add":"2020-12-28 09:44:37",
+          "battle_type":6,
+          "win_lose":1,
+          "kill_count":3,
+          "opp_kill_count":null,
+          "total_battle_units_count":8
+       },
+       {
+          "wizard_id":2292959,
+          "server_id":2,
+          "channel_uid":171488231,
+          "wizard_name":"ユスティ",
+          "country":"JP",
+          "rtpvp_score":1358,
+          "rtpvp_rating_id":3003,
+          "slot_id":2,
+          "is_placement":0,
+          "opp_wizard_id":15156073,
+          "opp_server_id":4,
+          "opp_channel_uid":153359903,
+          "opp_wizard_name":"JYB7",
+          "opp_country":"MX",
+          "opp_rtpvp_score":1353,
+          "opp_rtpvp_rating_id":3003,
+          "opp_slot_id":1,
+          "opp_is_placement":0,
+          "first_slot_id":2,
+          "replay_rid_ref":266338617,
+          "pick_info":{
+             "unit_list":[
+                {
+                   "pick_slot_id":1,
+                   "unit_master_id":19114
+                },
+                {
+                   "pick_slot_id":2,
+                   "unit_master_id":16613
+                },
+                {
+                   "pick_slot_id":4,
+                   "unit_master_id":21811
+                },
+                {
+                   "pick_slot_id":5,
+                   "unit_master_id":21413
+                },
+                {
+                   "pick_slot_id":3,
+                   "unit_master_id":19314
+                }
+             ],
+             "banned_slot_ids":[
+                3
+             ],
+             "leader_slot_id":4,
+             "pre_ban_units":[
+                
+             ]
+          },
+          "opp_pick_info":{
+             "unit_list":[
+                {
+                   "pick_slot_id":1,
+                   "unit_master_id":21314
+                },
+                {
+                   "pick_slot_id":2,
+                   "unit_master_id":19712
+                },
+                {
+                   "pick_slot_id":4,
+                   "unit_master_id":14031
+                },
+                {
+                   "pick_slot_id":5,
+                   "unit_master_id":16312
+                },
+                {
+                   "pick_slot_id":3,
+                   "unit_master_id":14712
+                }
+             ],
+             "banned_slot_ids":[
+                3
+             ],
+             "leader_slot_id":1,
+             "pre_ban_units":[
+                
+             ]
+          },
+          "rank":0,
+          "opp_rank":0,
+          "infocsv":"4.02.38",
+          "proto_ver":1180,
+          "battle_ver":54001,
+          "group_id":0,
+          "date_add":"2020-12-28 09:43:50",
+          "battle_type":6,
+          "win_lose":1,
+          "kill_count":4,
+          "opp_kill_count":null,
+          "total_battle_units_count":8
+       },
+       {
+          "wizard_id":1945869,
+          "server_id":6,
+          "channel_uid":168722805,
+          "wizard_name":"DønJex",
+          "country":"AT",
+          "rtpvp_score":1452,
+          "rtpvp_rating_id":4002,
+          "slot_id":2,
+          "is_placement":0,
+          "opp_wizard_id":1414835,
+          "opp_server_id":2,
+          "opp_channel_uid":116897781,
+          "opp_wizard_name":"噂の陰陽師",
+          "opp_country":"JP",
+          "opp_rtpvp_score":1446,
+          "opp_rtpvp_rating_id":4001,
+          "opp_slot_id":1,
+          "opp_is_placement":0,
+          "first_slot_id":1,
+          "replay_rid_ref":266338568,
+          "pick_info":{
+             "unit_list":[
+                {
+                   "pick_slot_id":1,
+                   "unit_master_id":14031
+                },
+                {
+                   "pick_slot_id":2,
+                   "unit_master_id":15713
+                },
+                {
+                   "pick_slot_id":3,
+                   "unit_master_id":21413
+                },
+                {
+                   "pick_slot_id":5,
+                   "unit_master_id":15031
+                },
+                {
+                   "pick_slot_id":4,
+                   "unit_master_id":18314
+                }
+             ],
+             "banned_slot_ids":[
+                4
+             ],
+             "leader_slot_id":2,
+             "pre_ban_units":[
+                
+             ]
+          },
+          "opp_pick_info":{
+             "unit_list":[
+                {
+                   "pick_slot_id":1,
+                   "unit_master_id":19114
+                },
+                {
+                   "pick_slot_id":2,
+                   "unit_master_id":19314
+                },
+                {
+                   "pick_slot_id":3,
+                   "unit_master_id":14712
+                },
+                {
+                   "pick_slot_id":5,
+                   "unit_master_id":16813
+                },
+                {
+                   "pick_slot_id":4,
+                   "unit_master_id":17913
+                }
+             ],
+             "banned_slot_ids":[
+                4
+             ],
+             "leader_slot_id":5,
+             "pre_ban_units":[
+                
+             ]
+          },
+          "rank":0,
+          "opp_rank":0,
+          "infocsv":"4.02.38",
+          "proto_ver":1180,
+          "battle_ver":54001,
+          "group_id":0,
+          "date_add":"2020-12-28 09:43:34",
+          "battle_type":6,
+          "win_lose":1,
+          "kill_count":0,
+          "opp_kill_count":null,
+          "total_battle_units_count":8
+       },
+       {
+          "wizard_id":2272847,
+          "server_id":2,
+          "channel_uid":172747061,
+          "wizard_name":"akimahen",
+          "country":"JP",
+          "rtpvp_score":1427,
+          "rtpvp_rating_id":4001,
+          "slot_id":1,
+          "is_placement":0,
+          "opp_wizard_id":1500255,
+          "opp_server_id":6,
+          "opp_channel_uid":164301366,
+          "opp_wizard_name":"BuddhaToast",
+          "opp_country":"DE",
+          "opp_rtpvp_score":1359,
+          "opp_rtpvp_rating_id":3003,
+          "opp_slot_id":2,
+          "opp_is_placement":0,
+          "first_slot_id":1,
+          "replay_rid_ref":266338552,
+          "pick_info":{
+             "unit_list":[
+                {
+                   "pick_slot_id":1,
+                   "unit_master_id":14031
+                },
+                {
+                   "pick_slot_id":2,
+                   "unit_master_id":21513
+                },
+                {
+                   "pick_slot_id":3,
+                   "unit_master_id":19614
+                },
+                {
+                   "pick_slot_id":5,
+                   "unit_master_id":13231
                 },
                 {
                    "pick_slot_id":4,
@@ -368,72 +1873,7 @@
              "banned_slot_ids":[
                 4
              ],
-             "leader_slot_id":3,
-             "pre_ban_units":[
-                
-             ]
-          },
-          "rank":0,
-          "opp_rank":0,
-          "infocsv":"4.02.38",
-          "proto_ver":1180,
-          "battle_ver":54001,
-          "group_id":356021,
-          "date_add":"2020-12-26 21:32:36",
-          "battle_type":5,
-          "win_lose":2,
-          "kill_count":2,
-          "opp_kill_count":null,
-          "total_battle_units_count":8
-       },
-       {
-          "wizard_id":1252597,
-          "server_id":2,
-          "channel_uid":181484002,
-          "wizard_name":"オッセール",
-          "country":"JP",
-          "rtpvp_score":1906,
-          "rtpvp_rating_id":4002,
-          "slot_id":1,
-          "is_placement":0,
-          "opp_wizard_id":800970,
-          "opp_server_id":2,
-          "opp_channel_uid":141913747,
-          "opp_wizard_name":"HIDE〆",
-          "opp_country":"JP",
-          "opp_rtpvp_score":1703,
-          "opp_rtpvp_rating_id":3003,
-          "opp_slot_id":2,
-          "opp_is_placement":0,
-          "first_slot_id":2,
-          "replay_rid_ref":265832841,
-          "pick_info":{
-             "unit_list":[
-                {
-                   "pick_slot_id":1,
-                   "unit_master_id":19114
-                },
-                {
-                   "pick_slot_id":3,
-                   "unit_master_id":21513
-                },
-                {
-                   "pick_slot_id":4,
-                   "unit_master_id":15712
-                },
-                {
-                   "pick_slot_id":5,
-                   "unit_master_id":13231
-                },
-                {
-                   "pick_slot_id":2,
-                   "unit_master_id":19314
-                }
-             ],
-             "banned_slot_ids":[
-                2
-             ],
-             "leader_slot_id":1,
+             "leader_slot_id":5,
              "pre_ban_units":[
                 
              ]
@@ -442,1490 +1882,50 @@
              "unit_list":[
                 {
                    "pick_slot_id":1,
-                   "unit_master_id":15713
-                },
-                {
-                   "pick_slot_id":2,
-                   "unit_master_id":19712
-                },
-                {
-                   "pick_slot_id":3,
-                   "unit_master_id":20511
-                },
-                {
-                   "pick_slot_id":5,
-                   "unit_master_id":14031
-                },
-                {
-                   "pick_slot_id":4,
-                   "unit_master_id":21112
-                }
-             ],
-             "banned_slot_ids":[
-                4
-             ],
-             "leader_slot_id":1,
-             "pre_ban_units":[
-                
-             ]
-          },
-          "rank":0,
-          "opp_rank":0,
-          "infocsv":"4.02.38",
-          "proto_ver":1180,
-          "battle_ver":54001,
-          "group_id":0,
-          "date_add":"2020-12-26 02:10:21",
-          "battle_type":1,
-          "win_lose":1,
-          "kill_count":0,
-          "opp_kill_count":null,
-          "total_battle_units_count":8
-       },
-       {
-          "wizard_id":1252597,
-          "server_id":2,
-          "channel_uid":181484002,
-          "wizard_name":"オッセール",
-          "country":"JP",
-          "rtpvp_score":1906,
-          "rtpvp_rating_id":4002,
-          "slot_id":1,
-          "is_placement":0,
-          "opp_wizard_id":800970,
-          "opp_server_id":2,
-          "opp_channel_uid":141913747,
-          "opp_wizard_name":"HIDE〆",
-          "opp_country":"JP",
-          "opp_rtpvp_score":1703,
-          "opp_rtpvp_rating_id":3003,
-          "opp_slot_id":2,
-          "opp_is_placement":0,
-          "first_slot_id":1,
-          "replay_rid_ref":265832435,
-          "pick_info":{
-             "unit_list":[
-                {
-                   "pick_slot_id":1,
-                   "unit_master_id":15713
-                },
-                {
-                   "pick_slot_id":2,
-                   "unit_master_id":23511
-                },
-                {
-                   "pick_slot_id":3,
-                   "unit_master_id":19712
-                },
-                {
-                   "pick_slot_id":5,
                    "unit_master_id":19114
                 },
                 {
-                   "pick_slot_id":4,
-                   "unit_master_id":19314
-                }
-             ],
-             "banned_slot_ids":[
-                4
-             ],
-             "leader_slot_id":1,
-             "pre_ban_units":[
-                
-             ]
-          },
-          "opp_pick_info":{
-             "unit_list":[
-                {
                    "pick_slot_id":2,
-                   "unit_master_id":21112
+                   "unit_master_id":21413
                 },
                 {
                    "pick_slot_id":3,
-                   "unit_master_id":14031
+                   "unit_master_id":15035
                 },
                 {
                    "pick_slot_id":4,
-                   "unit_master_id":19614
-                },
-                {
-                   "pick_slot_id":5,
-                   "unit_master_id":21511
-                },
-                {
-                   "pick_slot_id":1,
-                   "unit_master_id":20511
-                }
-             ],
-             "banned_slot_ids":[
-                1
-             ],
-             "leader_slot_id":2,
-             "pre_ban_units":[
-                
-             ]
-          },
-          "rank":0,
-          "opp_rank":0,
-          "infocsv":"4.02.38",
-          "proto_ver":1180,
-          "battle_ver":54001,
-          "group_id":0,
-          "date_add":"2020-12-26 02:08:21",
-          "battle_type":1,
-          "win_lose":1,
-          "kill_count":1,
-          "opp_kill_count":null,
-          "total_battle_units_count":8
-       },
-       {
-          "wizard_id":1252597,
-          "server_id":2,
-          "channel_uid":181484002,
-          "wizard_name":"オッセール",
-          "country":"JP",
-          "rtpvp_score":1906,
-          "rtpvp_rating_id":4002,
-          "slot_id":1,
-          "is_placement":0,
-          "opp_wizard_id":800970,
-          "opp_server_id":2,
-          "opp_channel_uid":141913747,
-          "opp_wizard_name":"HIDE〆",
-          "opp_country":"JP",
-          "opp_rtpvp_score":1703,
-          "opp_rtpvp_rating_id":3003,
-          "opp_slot_id":2,
-          "opp_is_placement":0,
-          "first_slot_id":1,
-          "replay_rid_ref":265831825,
-          "pick_info":{
-             "unit_list":[
-                {
-                   "pick_slot_id":2,
-                   "unit_master_id":23511
-                },
-                {
-                   "pick_slot_id":3,
-                   "unit_master_id":19712
-                },
-                {
-                   "pick_slot_id":4,
-                   "unit_master_id":21113
+                   "unit_master_id":16312
                 },
                 {
                    "pick_slot_id":5,
                    "unit_master_id":19314
-                },
-                {
-                   "pick_slot_id":1,
-                   "unit_master_id":15713
                 }
              ],
              "banned_slot_ids":[
-                1
+                5
              ],
              "leader_slot_id":4,
              "pre_ban_units":[
                 
              ]
           },
-          "opp_pick_info":{
-             "unit_list":[
-                {
-                   "pick_slot_id":1,
-                   "unit_master_id":20511
-                },
-                {
-                   "pick_slot_id":3,
-                   "unit_master_id":19614
-                },
-                {
-                   "pick_slot_id":4,
-                   "unit_master_id":14031
-                },
-                {
-                   "pick_slot_id":5,
-                   "unit_master_id":21511
-                },
-                {
-                   "pick_slot_id":2,
-                   "unit_master_id":21112
-                }
-             ],
-             "banned_slot_ids":[
-                2
-             ],
-             "leader_slot_id":1,
-             "pre_ban_units":[
-                
-             ]
-          },
           "rank":0,
           "opp_rank":0,
           "infocsv":"4.02.38",
           "proto_ver":1180,
           "battle_ver":54001,
           "group_id":0,
-          "date_add":"2020-12-26 02:05:20",
-          "battle_type":1,
-          "win_lose":2,
-          "kill_count":0,
-          "opp_kill_count":null,
-          "total_battle_units_count":8
-       },
-       {
-          "wizard_id":1252597,
-          "server_id":2,
-          "channel_uid":181484002,
-          "wizard_name":"オッセール",
-          "country":"JP",
-          "rtpvp_score":1906,
-          "rtpvp_rating_id":4002,
-          "slot_id":1,
-          "is_placement":0,
-          "opp_wizard_id":800970,
-          "opp_server_id":2,
-          "opp_channel_uid":141913747,
-          "opp_wizard_name":"HIDE〆",
-          "opp_country":"JP",
-          "opp_rtpvp_score":1703,
-          "opp_rtpvp_rating_id":3003,
-          "opp_slot_id":2,
-          "opp_is_placement":0,
-          "first_slot_id":2,
-          "replay_rid_ref":265830865,
-          "pick_info":{
-             "unit_list":[
-                {
-                   "pick_slot_id":1,
-                   "unit_master_id":21211
-                },
-                {
-                   "pick_slot_id":3,
-                   "unit_master_id":21413
-                },
-                {
-                   "pick_slot_id":4,
-                   "unit_master_id":22213
-                },
-                {
-                   "pick_slot_id":5,
-                   "unit_master_id":15712
-                },
-                {
-                   "pick_slot_id":2,
-                   "unit_master_id":21412
-                }
-             ],
-             "banned_slot_ids":[
-                2
-             ],
-             "leader_slot_id":1,
-             "pre_ban_units":[
-                
-             ]
-          },
-          "opp_pick_info":{
-             "unit_list":[
-                {
-                   "pick_slot_id":1,
-                   "unit_master_id":15713
-                },
-                {
-                   "pick_slot_id":2,
-                   "unit_master_id":20511
-                },
-                {
-                   "pick_slot_id":3,
-                   "unit_master_id":21112
-                },
-                {
-                   "pick_slot_id":5,
-                   "unit_master_id":19712
-                },
-                {
-                   "pick_slot_id":4,
-                   "unit_master_id":23713
-                }
-             ],
-             "banned_slot_ids":[
-                4
-             ],
-             "leader_slot_id":1,
-             "pre_ban_units":[
-                
-             ]
-          },
-          "rank":0,
-          "opp_rank":0,
-          "infocsv":"4.02.38",
-          "proto_ver":1180,
-          "battle_ver":54001,
-          "group_id":0,
-          "date_add":"2020-12-26 02:00:22",
-          "battle_type":1,
-          "win_lose":2,
-          "kill_count":1,
-          "opp_kill_count":null,
-          "total_battle_units_count":8
-       },
-       {
-          "wizard_id":1252597,
-          "server_id":2,
-          "channel_uid":181484002,
-          "wizard_name":"オッセール",
-          "country":"JP",
-          "rtpvp_score":1906,
-          "rtpvp_rating_id":4002,
-          "slot_id":1,
-          "is_placement":0,
-          "opp_wizard_id":800970,
-          "opp_server_id":2,
-          "opp_channel_uid":141913747,
-          "opp_wizard_name":"HIDE〆",
-          "opp_country":"JP",
-          "opp_rtpvp_score":1703,
-          "opp_rtpvp_rating_id":3003,
-          "opp_slot_id":2,
-          "opp_is_placement":0,
-          "first_slot_id":2,
-          "replay_rid_ref":265830172,
-          "pick_info":{
-             "unit_list":[
-                {
-                   "pick_slot_id":2,
-                   "unit_master_id":19314
-                },
-                {
-                   "pick_slot_id":3,
-                   "unit_master_id":23511
-                },
-                {
-                   "pick_slot_id":4,
-                   "unit_master_id":14712
-                },
-                {
-                   "pick_slot_id":5,
-                   "unit_master_id":18611
-                },
-                {
-                   "pick_slot_id":1,
-                   "unit_master_id":19114
-                }
-             ],
-             "banned_slot_ids":[
-                1
-             ],
-             "leader_slot_id":5,
-             "pre_ban_units":[
-                
-             ]
-          },
-          "opp_pick_info":{
-             "unit_list":[
-                {
-                   "pick_slot_id":1,
-                   "unit_master_id":15713
-                },
-                {
-                   "pick_slot_id":3,
-                   "unit_master_id":21112
-                },
-                {
-                   "pick_slot_id":4,
-                   "unit_master_id":19614
-                },
-                {
-                   "pick_slot_id":5,
-                   "unit_master_id":14031
-                },
-                {
-                   "pick_slot_id":2,
-                   "unit_master_id":20511
-                }
-             ],
-             "banned_slot_ids":[
-                2
-             ],
-             "leader_slot_id":1,
-             "pre_ban_units":[
-                
-             ]
-          },
-          "rank":0,
-          "opp_rank":0,
-          "infocsv":"4.02.38",
-          "proto_ver":1180,
-          "battle_ver":54001,
-          "group_id":0,
-          "date_add":"2020-12-26 01:56:42",
-          "battle_type":1,
-          "win_lose":2,
-          "kill_count":0,
-          "opp_kill_count":null,
-          "total_battle_units_count":8
-       },
-       {
-          "wizard_id":1252597,
-          "server_id":2,
-          "channel_uid":181484002,
-          "wizard_name":"オッセール",
-          "country":"JP",
-          "rtpvp_score":1906,
-          "rtpvp_rating_id":4002,
-          "slot_id":1,
-          "is_placement":0,
-          "opp_wizard_id":800970,
-          "opp_server_id":2,
-          "opp_channel_uid":141913747,
-          "opp_wizard_name":"HIDE〆",
-          "opp_country":"JP",
-          "opp_rtpvp_score":1703,
-          "opp_rtpvp_rating_id":3003,
-          "opp_slot_id":2,
-          "opp_is_placement":0,
-          "first_slot_id":2,
-          "replay_rid_ref":265829588,
-          "pick_info":{
-             "unit_list":[
-                {
-                   "pick_slot_id":1,
-                   "unit_master_id":19114
-                },
-                {
-                   "pick_slot_id":3,
-                   "unit_master_id":14712
-                },
-                {
-                   "pick_slot_id":4,
-                   "unit_master_id":21113
-                },
-                {
-                   "pick_slot_id":5,
-                   "unit_master_id":18611
-                },
-                {
-                   "pick_slot_id":2,
-                   "unit_master_id":19314
-                }
-             ],
-             "banned_slot_ids":[
-                2
-             ],
-             "leader_slot_id":1,
-             "pre_ban_units":[
-                
-             ]
-          },
-          "opp_pick_info":{
-             "unit_list":[
-                {
-                   "pick_slot_id":1,
-                   "unit_master_id":15713
-                },
-                {
-                   "pick_slot_id":2,
-                   "unit_master_id":19614
-                },
-                {
-                   "pick_slot_id":3,
-                   "unit_master_id":14031
-                },
-                {
-                   "pick_slot_id":5,
-                   "unit_master_id":16112
-                },
-                {
-                   "pick_slot_id":4,
-                   "unit_master_id":23713
-                }
-             ],
-             "banned_slot_ids":[
-                4
-             ],
-             "leader_slot_id":1,
-             "pre_ban_units":[
-                
-             ]
-          },
-          "rank":0,
-          "opp_rank":0,
-          "infocsv":"4.02.38",
-          "proto_ver":1180,
-          "battle_ver":54001,
-          "group_id":0,
-          "date_add":"2020-12-26 01:53:48",
-          "battle_type":1,
-          "win_lose":1,
-          "kill_count":0,
-          "opp_kill_count":null,
-          "total_battle_units_count":8
-       },
-       {
-          "wizard_id":1252597,
-          "server_id":2,
-          "channel_uid":181484002,
-          "wizard_name":"オッセール",
-          "country":"JP",
-          "rtpvp_score":1906,
-          "rtpvp_rating_id":4002,
-          "slot_id":1,
-          "is_placement":0,
-          "opp_wizard_id":800970,
-          "opp_server_id":2,
-          "opp_channel_uid":141913747,
-          "opp_wizard_name":"HIDE〆",
-          "opp_country":"JP",
-          "opp_rtpvp_score":1703,
-          "opp_rtpvp_rating_id":3003,
-          "opp_slot_id":2,
-          "opp_is_placement":0,
-          "first_slot_id":2,
-          "replay_rid_ref":265828546,
-          "pick_info":{
-             "unit_list":[
-                {
-                   "pick_slot_id":1,
-                   "unit_master_id":15713
-                },
-                {
-                   "pick_slot_id":2,
-                   "unit_master_id":19314
-                },
-                {
-                   "pick_slot_id":3,
-                   "unit_master_id":14712
-                },
-                {
-                   "pick_slot_id":4,
-                   "unit_master_id":21413
-                },
-                {
-                   "pick_slot_id":5,
-                   "unit_master_id":19611
-                }
-             ],
-             "banned_slot_ids":[
-                5
-             ],
-             "leader_slot_id":1,
-             "pre_ban_units":[
-                
-             ]
-          },
-          "opp_pick_info":{
-             "unit_list":[
-                {
-                   "pick_slot_id":1,
-                   "unit_master_id":19114
-                },
-                {
-                   "pick_slot_id":3,
-                   "unit_master_id":19614
-                },
-                {
-                   "pick_slot_id":4,
-                   "unit_master_id":16312
-                },
-                {
-                   "pick_slot_id":5,
-                   "unit_master_id":16112
-                },
-                {
-                   "pick_slot_id":2,
-                   "unit_master_id":14031
-                }
-             ],
-             "banned_slot_ids":[
-                2
-             ],
-             "leader_slot_id":1,
-             "pre_ban_units":[
-                
-             ]
-          },
-          "rank":0,
-          "opp_rank":0,
-          "infocsv":"4.02.38",
-          "proto_ver":1180,
-          "battle_ver":54001,
-          "group_id":0,
-          "date_add":"2020-12-26 01:48:30",
-          "battle_type":1,
-          "win_lose":1,
-          "kill_count":0,
-          "opp_kill_count":null,
-          "total_battle_units_count":8
-       },
-       {
-          "wizard_id":1252597,
-          "server_id":2,
-          "channel_uid":181484002,
-          "wizard_name":"オッセール",
-          "country":"JP",
-          "rtpvp_score":1906,
-          "rtpvp_rating_id":4002,
-          "slot_id":1,
-          "is_placement":0,
-          "opp_wizard_id":800970,
-          "opp_server_id":2,
-          "opp_channel_uid":141913747,
-          "opp_wizard_name":"HIDE〆",
-          "opp_country":"JP",
-          "opp_rtpvp_score":1703,
-          "opp_rtpvp_rating_id":3003,
-          "opp_slot_id":2,
-          "opp_is_placement":0,
-          "first_slot_id":2,
-          "replay_rid_ref":265827712,
-          "pick_info":{
-             "unit_list":[
-                {
-                   "pick_slot_id":1,
-                   "unit_master_id":15713
-                },
-                {
-                   "pick_slot_id":2,
-                   "unit_master_id":14712
-                },
-                {
-                   "pick_slot_id":3,
-                   "unit_master_id":19314
-                },
-                {
-                   "pick_slot_id":4,
-                   "unit_master_id":21413
-                },
-                {
-                   "pick_slot_id":5,
-                   "unit_master_id":19611
-                }
-             ],
-             "banned_slot_ids":[
-                5
-             ],
-             "leader_slot_id":1,
-             "pre_ban_units":[
-                
-             ]
-          },
-          "opp_pick_info":{
-             "unit_list":[
-                {
-                   "pick_slot_id":2,
-                   "unit_master_id":14031
-                },
-                {
-                   "pick_slot_id":3,
-                   "unit_master_id":19614
-                },
-                {
-                   "pick_slot_id":4,
-                   "unit_master_id":16312
-                },
-                {
-                   "pick_slot_id":5,
-                   "unit_master_id":16112
-                },
-                {
-                   "pick_slot_id":1,
-                   "unit_master_id":19114
-                }
-             ],
-             "banned_slot_ids":[
-                1
-             ],
-             "leader_slot_id":5,
-             "pre_ban_units":[
-                
-             ]
-          },
-          "rank":0,
-          "opp_rank":0,
-          "infocsv":"4.02.38",
-          "proto_ver":1180,
-          "battle_ver":54001,
-          "group_id":0,
-          "date_add":"2020-12-26 01:44:13",
-          "battle_type":1,
-          "win_lose":1,
-          "kill_count":0,
-          "opp_kill_count":null,
-          "total_battle_units_count":8
-       },
-       {
-          "wizard_id":1252597,
-          "server_id":2,
-          "channel_uid":181484002,
-          "wizard_name":"オッセール",
-          "country":"JP",
-          "rtpvp_score":1906,
-          "rtpvp_rating_id":4002,
-          "slot_id":1,
-          "is_placement":0,
-          "opp_wizard_id":800970,
-          "opp_server_id":2,
-          "opp_channel_uid":141913747,
-          "opp_wizard_name":"HIDE〆",
-          "opp_country":"JP",
-          "opp_rtpvp_score":1703,
-          "opp_rtpvp_rating_id":3003,
-          "opp_slot_id":2,
-          "opp_is_placement":0,
-          "first_slot_id":2,
-          "replay_rid_ref":265827385,
-          "pick_info":{
-             "unit_list":[
-                {
-                   "pick_slot_id":1,
-                   "unit_master_id":15713
-                },
-                {
-                   "pick_slot_id":2,
-                   "unit_master_id":14031
-                },
-                {
-                   "pick_slot_id":3,
-                   "unit_master_id":23511
-                },
-                {
-                   "pick_slot_id":4,
-                   "unit_master_id":10131
-                },
-                {
-                   "pick_slot_id":5,
-                   "unit_master_id":16312
-                }
-             ],
-             "banned_slot_ids":[
-                5
-             ],
-             "leader_slot_id":1,
-             "pre_ban_units":[
-                
-             ]
-          },
-          "opp_pick_info":{
-             "unit_list":[
-                {
-                   "pick_slot_id":1,
-                   "unit_master_id":19114
-                },
-                {
-                   "pick_slot_id":2,
-                   "unit_master_id":14712
-                },
-                {
-                   "pick_slot_id":3,
-                   "unit_master_id":19314
-                },
-                {
-                   "pick_slot_id":4,
-                   "unit_master_id":17913
-                },
-                {
-                   "pick_slot_id":5,
-                   "unit_master_id":21513
-                }
-             ],
-             "banned_slot_ids":[
-                5
-             ],
-             "leader_slot_id":1,
-             "pre_ban_units":[
-                
-             ]
-          },
-          "rank":0,
-          "opp_rank":0,
-          "infocsv":"4.02.38",
-          "proto_ver":1180,
-          "battle_ver":54001,
-          "group_id":0,
-          "date_add":"2020-12-26 01:42:32",
-          "battle_type":1,
-          "win_lose":2,
-          "kill_count":0,
-          "opp_kill_count":null,
-          "total_battle_units_count":8
-       },
-       {
-          "wizard_id":1252597,
-          "server_id":2,
-          "channel_uid":181484002,
-          "wizard_name":"オッセール",
-          "country":"JP",
-          "rtpvp_score":1906,
-          "rtpvp_rating_id":4002,
-          "slot_id":1,
-          "is_placement":0,
-          "opp_wizard_id":800970,
-          "opp_server_id":2,
-          "opp_channel_uid":141913747,
-          "opp_wizard_name":"HIDE〆",
-          "opp_country":"JP",
-          "opp_rtpvp_score":1703,
-          "opp_rtpvp_rating_id":3003,
-          "opp_slot_id":2,
-          "opp_is_placement":0,
-          "first_slot_id":2,
-          "replay_rid_ref":265826818,
-          "pick_info":{
-             "unit_list":[
-                {
-                   "pick_slot_id":1,
-                   "unit_master_id":19314
-                },
-                {
-                   "pick_slot_id":2,
-                   "unit_master_id":14712
-                },
-                {
-                   "pick_slot_id":3,
-                   "unit_master_id":21413
-                },
-                {
-                   "pick_slot_id":4,
-                   "unit_master_id":21513
-                },
-                {
-                   "pick_slot_id":5,
-                   "unit_master_id":10131
-                }
-             ],
-             "banned_slot_ids":[
-                5
-             ],
-             "leader_slot_id":1,
-             "pre_ban_units":[
-                
-             ]
-          },
-          "opp_pick_info":{
-             "unit_list":[
-                {
-                   "pick_slot_id":2,
-                   "unit_master_id":14031
-                },
-                {
-                   "pick_slot_id":3,
-                   "unit_master_id":15713
-                },
-                {
-                   "pick_slot_id":4,
-                   "unit_master_id":16312
-                },
-                {
-                   "pick_slot_id":5,
-                   "unit_master_id":19614
-                },
-                {
-                   "pick_slot_id":1,
-                   "unit_master_id":19114
-                }
-             ],
-             "banned_slot_ids":[
-                1
-             ],
-             "leader_slot_id":3,
-             "pre_ban_units":[
-                
-             ]
-          },
-          "rank":0,
-          "opp_rank":0,
-          "infocsv":"4.02.38",
-          "proto_ver":1180,
-          "battle_ver":54001,
-          "group_id":0,
-          "date_add":"2020-12-26 01:39:26",
-          "battle_type":1,
-          "win_lose":2,
-          "kill_count":0,
-          "opp_kill_count":null,
-          "total_battle_units_count":8
-       },
-       {
-          "wizard_id":1252597,
-          "server_id":2,
-          "channel_uid":181484002,
-          "wizard_name":"オッセール",
-          "country":"JP",
-          "rtpvp_score":1906,
-          "rtpvp_rating_id":4002,
-          "slot_id":1,
-          "is_placement":0,
-          "opp_wizard_id":800970,
-          "opp_server_id":2,
-          "opp_channel_uid":141913747,
-          "opp_wizard_name":"HIDE〆",
-          "opp_country":"JP",
-          "opp_rtpvp_score":1703,
-          "opp_rtpvp_rating_id":3003,
-          "opp_slot_id":2,
-          "opp_is_placement":0,
-          "first_slot_id":1,
-          "replay_rid_ref":265825940,
-          "pick_info":{
-             "unit_list":[
-                {
-                   "pick_slot_id":2,
-                   "unit_master_id":15713
-                },
-                {
-                   "pick_slot_id":3,
-                   "unit_master_id":13231
-                },
-                {
-                   "pick_slot_id":4,
-                   "unit_master_id":23511
-                },
-                {
-                   "pick_slot_id":5,
-                   "unit_master_id":20511
-                },
-                {
-                   "pick_slot_id":1,
-                   "unit_master_id":19114
-                }
-             ],
-             "banned_slot_ids":[
-                1
-             ],
-             "leader_slot_id":2,
-             "pre_ban_units":[
-                
-             ]
-          },
-          "opp_pick_info":{
-             "unit_list":[
-                {
-                   "pick_slot_id":1,
-                   "unit_master_id":19314
-                },
-                {
-                   "pick_slot_id":2,
-                   "unit_master_id":14712
-                },
-                {
-                   "pick_slot_id":3,
-                   "unit_master_id":19614
-                },
-                {
-                   "pick_slot_id":4,
-                   "unit_master_id":14031
-                },
-                {
-                   "pick_slot_id":5,
-                   "unit_master_id":23713
-                }
-             ],
-             "banned_slot_ids":[
-                5
-             ],
-             "leader_slot_id":1,
-             "pre_ban_units":[
-                
-             ]
-          },
-          "rank":0,
-          "opp_rank":0,
-          "infocsv":"4.02.38",
-          "proto_ver":1180,
-          "battle_ver":54001,
-          "group_id":0,
-          "date_add":"2020-12-26 01:34:43",
-          "battle_type":1,
-          "win_lose":1,
-          "kill_count":0,
-          "opp_kill_count":null,
-          "total_battle_units_count":8
-       },
-       {
-          "wizard_id":1252597,
-          "server_id":2,
-          "channel_uid":181484002,
-          "wizard_name":"オッセール",
-          "country":"JP",
-          "rtpvp_score":1906,
-          "rtpvp_rating_id":4002,
-          "slot_id":1,
-          "is_placement":0,
-          "opp_wizard_id":800970,
-          "opp_server_id":2,
-          "opp_channel_uid":141913747,
-          "opp_wizard_name":"HIDE〆",
-          "opp_country":"JP",
-          "opp_rtpvp_score":1703,
-          "opp_rtpvp_rating_id":3003,
-          "opp_slot_id":2,
-          "opp_is_placement":0,
-          "first_slot_id":1,
-          "replay_rid_ref":265825169,
-          "pick_info":{
-             "unit_list":[
-                {
-                   "pick_slot_id":1,
-                   "unit_master_id":19114
-                },
-                {
-                   "pick_slot_id":2,
-                   "unit_master_id":15713
-                },
-                {
-                   "pick_slot_id":3,
-                   "unit_master_id":23511
-                },
-                {
-                   "pick_slot_id":5,
-                   "unit_master_id":10131
-                },
-                {
-                   "pick_slot_id":4,
-                   "unit_master_id":16312
-                }
-             ],
-             "banned_slot_ids":[
-                4
-             ],
-             "leader_slot_id":2,
-             "pre_ban_units":[
-                
-             ]
-          },
-          "opp_pick_info":{
-             "unit_list":[
-                {
-                   "pick_slot_id":1,
-                   "unit_master_id":19314
-                },
-                {
-                   "pick_slot_id":3,
-                   "unit_master_id":21513
-                },
-                {
-                   "pick_slot_id":4,
-                   "unit_master_id":19614
-                },
-                {
-                   "pick_slot_id":5,
-                   "unit_master_id":21413
-                },
-                {
-                   "pick_slot_id":2,
-                   "unit_master_id":14712
-                }
-             ],
-             "banned_slot_ids":[
-                2
-             ],
-             "leader_slot_id":1,
-             "pre_ban_units":[
-                
-             ]
-          },
-          "rank":0,
-          "opp_rank":0,
-          "infocsv":"4.02.38",
-          "proto_ver":1180,
-          "battle_ver":54001,
-          "group_id":0,
-          "date_add":"2020-12-26 01:30:39",
-          "battle_type":1,
-          "win_lose":2,
-          "kill_count":0,
-          "opp_kill_count":null,
-          "total_battle_units_count":8
-       },
-       {
-          "wizard_id":1252597,
-          "server_id":2,
-          "channel_uid":181484002,
-          "wizard_name":"オッセール",
-          "country":"JP",
-          "rtpvp_score":1906,
-          "rtpvp_rating_id":4002,
-          "slot_id":1,
-          "is_placement":0,
-          "opp_wizard_id":13275,
-          "opp_server_id":2,
-          "opp_channel_uid":110335904,
-          "opp_wizard_name":"狂三。",
-          "opp_country":"JP",
-          "opp_rtpvp_score":1543,
-          "opp_rtpvp_rating_id":3001,
-          "opp_slot_id":2,
-          "opp_is_placement":0,
-          "first_slot_id":2,
-          "replay_rid_ref":265525189,
-          "pick_info":{
-             "unit_list":[
-                {
-                   "pick_slot_id":1,
-                   "unit_master_id":15713
-                },
-                {
-                   "pick_slot_id":2,
-                   "unit_master_id":20511
-                },
-                {
-                   "pick_slot_id":4,
-                   "unit_master_id":19712
-                },
-                {
-                   "pick_slot_id":5,
-                   "unit_master_id":21513
-                },
-                {
-                   "pick_slot_id":3,
-                   "unit_master_id":16613
-                }
-             ],
-             "banned_slot_ids":[
-                3
-             ],
-             "leader_slot_id":1,
-             "pre_ban_units":[
-                
-             ]
-          },
-          "opp_pick_info":{
-             "unit_list":[
-                {
-                   "pick_slot_id":1,
-                   "unit_master_id":20615
-                },
-                {
-                   "pick_slot_id":2,
-                   "unit_master_id":20611
-                },
-                {
-                   "pick_slot_id":3,
-                   "unit_master_id":11813
-                },
-                {
-                   "pick_slot_id":4,
-                   "unit_master_id":24912
-                },
-                {
-                   "pick_slot_id":5,
-                   "unit_master_id":21314
-                }
-             ],
-             "banned_slot_ids":[
-                5
-             ],
-             "leader_slot_id":3,
-             "pre_ban_units":[
-                
-             ]
-          },
-          "rank":0,
-          "opp_rank":0,
-          "infocsv":"4.02.38",
-          "proto_ver":1180,
-          "battle_ver":54001,
-          "group_id":16539,
-          "date_add":"2020-12-24 13:52:35",
-          "battle_type":5,
-          "win_lose":1,
-          "kill_count":0,
-          "opp_kill_count":null,
-          "total_battle_units_count":8
-       },
-       {
-          "wizard_id":1252597,
-          "server_id":2,
-          "channel_uid":181484002,
-          "wizard_name":"オッセール",
-          "country":"JP",
-          "rtpvp_score":1906,
-          "rtpvp_rating_id":4002,
-          "slot_id":1,
-          "is_placement":0,
-          "opp_wizard_id":5686390,
-          "opp_server_id":5,
-          "opp_channel_uid":199003293,
-          "opp_wizard_name":"o0Eiji0o",
-          "opp_country":"VN",
-          "opp_rtpvp_score":1190,
-          "opp_rtpvp_rating_id":2002,
-          "opp_slot_id":2,
-          "opp_is_placement":0,
-          "first_slot_id":1,
-          "replay_rid_ref":265525038,
-          "pick_info":{
-             "unit_list":[
-                {
-                   "pick_slot_id":1,
-                   "unit_master_id":15713
-                },
-                {
-                   "pick_slot_id":2,
-                   "unit_master_id":20511
-                },
-                {
-                   "pick_slot_id":4,
-                   "unit_master_id":19212
-                },
-                {
-                   "pick_slot_id":5,
-                   "unit_master_id":21113
-                },
-                {
-                   "pick_slot_id":3,
-                   "unit_master_id":19314
-                }
-             ],
-             "banned_slot_ids":[
-                3
-             ],
-             "leader_slot_id":5,
-             "pre_ban_units":[
-                
-             ]
-          },
-          "opp_pick_info":{
-             "unit_list":[
-                {
-                   "pick_slot_id":1,
-                   "unit_master_id":18612
-                },
-                {
-                   "pick_slot_id":2,
-                   "unit_master_id":14712
-                },
-                {
-                   "pick_slot_id":3,
-                   "unit_master_id":15712
-                },
-                {
-                   "pick_slot_id":4,
-                   "unit_master_id":16613
-                },
-                {
-                   "pick_slot_id":5,
-                   "unit_master_id":15715
-                }
-             ],
-             "banned_slot_ids":[
-                5
-             ],
-             "leader_slot_id":1,
-             "pre_ban_units":[
-                
-             ]
-          },
-          "rank":0,
-          "opp_rank":0,
-          "infocsv":"4.02.38",
-          "proto_ver":1180,
-          "battle_ver":54001,
-          "group_id":16539,
-          "date_add":"2020-12-24 13:51:21",
-          "battle_type":5,
+          "date_add":"2020-12-28 09:43:26",
+          "battle_type":6,
           "win_lose":1,
           "kill_count":4,
           "opp_kill_count":null,
           "total_battle_units_count":8
-       },
-       {
-          "wizard_id":1252597,
-          "server_id":2,
-          "channel_uid":181484002,
-          "wizard_name":"オッセール",
-          "country":"JP",
-          "rtpvp_score":1906,
-          "rtpvp_rating_id":4002,
-          "slot_id":1,
-          "is_placement":0,
-          "opp_wizard_id":5686390,
-          "opp_server_id":5,
-          "opp_channel_uid":199003293,
-          "opp_wizard_name":"o0Eiji0o",
-          "opp_country":"VN",
-          "opp_rtpvp_score":1190,
-          "opp_rtpvp_rating_id":2002,
-          "opp_slot_id":2,
-          "opp_is_placement":0,
-          "first_slot_id":1,
-          "replay_rid_ref":265524644,
-          "pick_info":{
-             "unit_list":[
-                {
-                   "pick_slot_id":1,
-                   "unit_master_id":15713
-                },
-                {
-                   "pick_slot_id":3,
-                   "unit_master_id":20511
-                },
-                {
-                   "pick_slot_id":4,
-                   "unit_master_id":19314
-                },
-                {
-                   "pick_slot_id":5,
-                   "unit_master_id":19114
-                },
-                {
-                   "pick_slot_id":2,
-                   "unit_master_id":19712
-                }
-             ],
-             "banned_slot_ids":[
-                2
-             ],
-             "leader_slot_id":1,
-             "pre_ban_units":[
-                
-             ]
-          },
-          "opp_pick_info":{
-             "unit_list":[
-                {
-                   "pick_slot_id":1,
-                   "unit_master_id":18612
-                },
-                {
-                   "pick_slot_id":3,
-                   "unit_master_id":16613
-                },
-                {
-                   "pick_slot_id":4,
-                   "unit_master_id":14712
-                },
-                {
-                   "pick_slot_id":5,
-                   "unit_master_id":15715
-                },
-                {
-                   "pick_slot_id":2,
-                   "unit_master_id":21113
-                }
-             ],
-             "banned_slot_ids":[
-                2
-             ],
-             "leader_slot_id":1,
-             "pre_ban_units":[
-                
-             ]
-          },
-          "rank":0,
-          "opp_rank":0,
-          "infocsv":"4.02.38",
-          "proto_ver":1180,
-          "battle_ver":54001,
-          "group_id":16539,
-          "date_add":"2020-12-24 13:48:30",
-          "battle_type":5,
-          "win_lose":1,
-          "kill_count":0,
-          "opp_kill_count":null,
-          "total_battle_units_count":8
-       },
-       {
-          "wizard_id":2249363,
-          "server_id":2,
-          "channel_uid":170631653,
-          "wizard_name":"kamechan♪",
-          "country":"GF",
-          "rtpvp_score":2104,
-          "rtpvp_rating_id":4003,
-          "slot_id":2,
-          "is_placement":0,
-          "opp_wizard_id":60517,
-          "opp_server_id":2,
-          "opp_channel_uid":115059242,
-          "opp_wizard_name":"たかとり◆",
-          "opp_country":"KR",
-          "opp_rtpvp_score":1834,
-          "opp_rtpvp_rating_id":4001,
-          "opp_slot_id":1,
-          "opp_is_placement":0,
-          "first_slot_id":2,
-          "replay_rid_ref":265385106,
-          "pick_info":{
-             "unit_list":[
-                {
-                   "pick_slot_id":2,
-                   "unit_master_id":21413
-                },
-                {
-                   "pick_slot_id":3,
-                   "unit_master_id":19314
-                },
-                {
-                   "pick_slot_id":4,
-                   "unit_master_id":19613
-                },
-                {
-                   "pick_slot_id":5,
-                   "unit_master_id":15031
-                },
-                {
-                   "pick_slot_id":1,
-                   "unit_master_id":15713
-                }
-             ],
-             "banned_slot_ids":[
-                1
-             ],
-             "leader_slot_id":3,
-             "pre_ban_units":[
-                
-             ]
-          },
-          "opp_pick_info":{
-             "unit_list":[
-                {
-                   "pick_slot_id":1,
-                   "unit_master_id":19114
-                },
-                {
-                   "pick_slot_id":2,
-                   "unit_master_id":14031
-                },
-                {
-                   "pick_slot_id":3,
-                   "unit_master_id":17913
-                },
-                {
-                   "pick_slot_id":4,
-                   "unit_master_id":23511
-                },
-                {
-                   "pick_slot_id":5,
-                   "unit_master_id":18414
-                }
-             ],
-             "banned_slot_ids":[
-                5
-             ],
-             "leader_slot_id":1,
-             "pre_ban_units":[
-                
-             ]
-          },
-          "rank":0,
-          "opp_rank":0,
-          "infocsv":"4.02.38",
-          "proto_ver":1180,
-          "battle_ver":54001,
-          "group_id":355570,
-          "date_add":"2020-12-24 00:11:29",
-          "battle_type":5,
-          "win_lose":2,
-          "kill_count":0,
-          "opp_kill_count":null,
-          "total_battle_units_count":8
        }
     ],
-    "replay_path":1,
-    "ts_val":1137137477,
-    "tvalue":1609060813,
-    "tvaluelocal":1608999613,
+    "replay_path":3,
+    "ts_val":1137061364,
+    "tvalue":1609116540,
+    "tvaluelocal":1609055340,
     "tzone":"America/Los_Angeles"
  }
