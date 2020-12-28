@@ -80,7 +80,6 @@ def load_previous() -> None:
     return
 
 def monster_choices(file: str) -> None:
-    # TODO: load_rids from text db/rids.txt
     global total_battles
     global replay_rids
     f = open(file).read()
