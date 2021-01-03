@@ -1,5 +1,6 @@
 from io import FileIO
 import os
+from math import ceil 
 
 from json import loads, dump ,load
 from pathlib import Path
@@ -22,7 +23,11 @@ def main() -> None:
     # init_monster_dict() # run ONLY the first time
     # load previous monster_dict from /db/data.json
     load_previous()
-    logs_file = "data/full_log.txt"
+    # TODO: make input file argument[0] from command 
+    # TODO: make output file argument[1] from command
+    # CHANGE THIS LINE FOR OTHER FILE PARSE
+    # logs_file = "data/full_log.txt"
+    logs_file = "data/full_log_6_0_mb.txt"
     monster_choices(logs_file)
     return
 
@@ -100,13 +105,18 @@ def monster_choices(file: str) -> None:
                     get_picks(battle['opp_pick_info'], opp_won_battle, opp_first_pick)
             global total_battles_duplicate
             total_battles_duplicate += 1
-    total_battles_so_far = 0
+    monsters_found_overall = 0
     for _, monster_values in monster_dict.items():
-        total_battles_so_far += monster_values["pick"]
-    monsters_not_found = sum(none_monsters_dict.values())
+        monsters_found_overall += monster_values["pick"]
+    monsters_not_found_overall = sum(none_monsters_dict.values())
+    monsters_overall = monsters_found_overall + monsters_not_found_overall
+    # adjust for 10 units per battle(on average)
+    total_battles_overall = ceil(monsters_overall / 10)
+    # fix pick-percentages baes on total battles since the beginning and not only for latest batch
+    fix_pick_perc(total_battles_overall)
     print("Total battles added = %d" % total_battles)
     print("Total battles parsed including duplicate = %d" % total_battles_duplicate)
-    print("Total not found %d out of %d monsters" % (monsters_not_found, total_battles_so_far + monsters_not_found))
+    print("Total not found %d out of %d monsters" % (monsters_not_found_overall, monsters_overall))
     with open('db/data.json', 'w') as outfile:
         dump(monster_dict, outfile, indent=4)
     with open('db/not_found.json', 'w') as outfile:
@@ -114,6 +124,8 @@ def monster_choices(file: str) -> None:
     with open('db/rids.txt', 'w') as filehandle:
         for listitem in replay_rids:
             filehandle.write('%d\n' % listitem)
+    # DEBUG: print seara info
+    # print(monster_dict["Seara"])
     return
 
 def get_picks(battle: dict, won_battle: bool, picks_first: bool) -> None:
@@ -134,7 +146,7 @@ def battle_loop(unit_list: dict, won_battle: bool, picks_first: bool) -> None:
             monster_name = str(monster_name)
             monster_dict_base = monster_dict[monster_name]
             monster_dict_base['pick'] += 1
-            monster_dict[monster_name]['pick-perc'] = monster_dict[monster_name]['pick'] / total_battles * 100
+            # monster_dict[monster_name]['pick-perc'] = monster_dict[monster_name]['pick'] / total_battles * 100
             if won_battle:
                 monster_dict[monster_name]['win'] += 1
             monster_dict[monster_name]['win-perc'] = monster_dict[monster_name]['win'] / monster_dict[monster_name]['pick'] * 100
@@ -179,6 +191,10 @@ def banned(unit_list: dict, banned_slot: int) -> None:
 def monster_matcher(id: int) -> str:
     res = next((key for key in corresp_dict if corresp_dict[key] == str(id)), None) 
     return res
+
+def fix_pick_perc(num_battles):
+    for monster_name in monster_dict:
+        monster_dict[monster_name]['pick-perc'] = monster_dict[monster_name]['pick'] / num_battles * 100
 
 if __name__ == "__main__":
     main()
