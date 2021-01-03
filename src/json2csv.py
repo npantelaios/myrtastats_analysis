@@ -6,7 +6,6 @@ import sys, getopt
 import glob
 import csv
 import json 
-import csv 
 import pandas as pd
 from xlsxwriter.workbook import Workbook
 
@@ -39,6 +38,9 @@ def main(argv: list) -> None:
 
     distinguish_file_type(file_type)
 
+    if file_type == "b":
+        in_file = in_file + sorted(os.listdir(in_file))[-1]
+        out_file = in_file.split('.')[0] + ".csv"
     json_2_df(in_file, out_file, file_type)
     if file_type == "a":
         add_to_start_of_file(out_file, 'monster_name')

@@ -2,13 +2,14 @@ import os
 import sys, getopt
 
 from json import loads, dump
+from datetime import datetime
 
 def main(argv: list) -> None:
     os.chdir("./..")
     in_file = "data/full_log_6_0_mb.txt"
-    # out_file = "db/top100_season15_normal.json" #"data/full_log_6_0_mb.txt" ENTRY: 4
-    # out_file = "db/top100_season15_sl.json" # "data/full_log_6_0_mb.txt" ENTRY: 1-3, 5-8
-    out_file = "db/top100.json"   
+    # out_file = "db_top/top100_season15_normal.json" #"data/full_log_6_0_mb.txt" ENTRY: 4
+    # out_file = "db_top/top100_season15_sl.json" # "data/full_log_6_0_mb.txt" ENTRY: 1-3, 5-8
+    out_file = "db_top/"   
     try:
       opts, _ = getopt.getopt(argv,"hi:o:",["ifile=","ofile="])
     except getopt.GetoptError:
@@ -25,6 +26,8 @@ def main(argv: list) -> None:
     print('Input file is: ', in_file)
     print('Output file is: ', out_file)
 
+    ts = datetime.now()
+    out_file += "top100_" + str(ts.year) + '_' + str(ts.month) + '_' + str(ts.day) + '_' + str(ts.hour) + '_' + str(ts.minute) + '_' + str(ts.second) + ".json"
     top100_grab(in_file, out_file)
 
     print("top100 analysis: Completed\n")

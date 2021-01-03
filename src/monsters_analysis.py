@@ -17,8 +17,6 @@ replay_rids = []
 
 def main(argv: list) -> None:
     os.chdir("./..")
-    # TODO: make input file argument[0] from command 
-    # TODO: make output file argument[1] from command
     # CHANGE THIS LINE FOR OTHER FILE PARSE
     # logs_file = "data/full_log.txt"
     in_file = "data/full_log_6_0_mb.txt"
