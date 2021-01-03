@@ -1,6 +1,7 @@
 from io import FileIO
 import os
 from math import ceil 
+import sys, getopt
 
 from json import loads, dump ,load
 from pathlib import Path
@@ -14,21 +15,44 @@ total_battles = 0
 total_battles_duplicate = 0
 replay_rids = []
 
-def main() -> None:
+def main(argv: list) -> None:
     os.chdir("./..")
+    # TODO: make input file argument[0] from command 
+    # TODO: make output file argument[1] from command
+    # CHANGE THIS LINE FOR OTHER FILE PARSE
+    # logs_file = "data/full_log.txt"
+    in_file = "data/full_log_6_0_mb.txt"
+    io_found = "db/data.json"
+    io_not_found = "db/not_found.json"
+    io_rids = "db/rids.txt"
+    try:
+      opts, _ = getopt.getopt(argv, "hi:a:b:c:")
+    except getopt.GetoptError:
+        print('monsters_analysis.py -i <inputfile> -a <found.json> -b <not_found.json> -c <rids.txt>')
+        sys.exit(2)
+    for opt, arg in opts:
+        if opt == '-h':
+            print('monsters_analysis.py -i <inputfile> -a <found.json> -b <not_found.json> -c <rids.txt>')
+            sys.exit()
+        elif opt in ("-i", "--ifile"):
+            in_file = arg
+        elif opt in ("-a"):
+            io_found = arg
+        elif opt in ("-b"):
+            io_not_found = arg
+        elif opt in ("-c"):
+            io_rids = arg                    
+    print('Input file is: ', in_file)
+
     # load monster-monster_id correspondence 
     mapping_file = "mapping/mapping.txt"    
     make_correspondence(mapping_file)
     # initialize monster_dict with zeros(0)
     # init_monster_dict() # run ONLY the first time
     # load previous monster_dict from /db/data.json
-    load_previous()
-    # TODO: make input file argument[0] from command 
-    # TODO: make output file argument[1] from command
-    # CHANGE THIS LINE FOR OTHER FILE PARSE
-    # logs_file = "data/full_log.txt"
-    logs_file = "data/full_log_6_0_mb.txt"
-    monster_choices(logs_file)
+    load_previous(io_found, io_not_found, io_rids)
+    monster_choices(in_file)
+    write_to_output(io_found, io_not_found, io_rids)
     return
 
 def make_correspondence(file: str) -> None:
@@ -70,15 +94,15 @@ def init_monster_dict() -> None:
         monster_dict[key] = init_stats.copy()
     return
 
-def load_previous() -> None:
+def load_previous(io_found: str, io_not_found: str, io_rids: str) -> None:
     global monster_dict
     global none_monsters_dict
     global replay_rids
-    with open('db/data.json') as f:
+    with open(io_found) as f:
         monster_dict = load(f)
-    with open('db/not_found.json') as f:
+    with open(io_not_found) as f:
         none_monsters_dict = load(f)
-    with open('db/rids.txt') as f:
+    with open(io_rids) as f:
         rids = f.read().splitlines()
     for rid in rids:
         replay_rids.append(int(rid))
@@ -89,7 +113,7 @@ def monster_choices(file: str) -> None:
     global replay_rids
     f = open(file).read()
     split_phrase = "API Command: getRankerRtpvpReplayList"
-    for each in f.split(split_phrase)[18:]:
+    for each in f.split(split_phrase)[1:]:
         each = each.split("Response:")[1]
         each = each.split("API Command:")[0]
         json_each = loads(each)
@@ -116,16 +140,7 @@ def monster_choices(file: str) -> None:
     fix_pick_perc(total_battles_overall)
     print("Total battles added = %d" % total_battles)
     print("Total battles parsed including duplicate = %d" % total_battles_duplicate)
-    print("Total not found %d out of %d monsters" % (monsters_not_found_overall, monsters_overall))
-    with open('db/data.json', 'w') as outfile:
-        dump(monster_dict, outfile, indent=4)
-    with open('db/not_found.json', 'w') as outfile:
-        dump(none_monsters_dict, outfile, indent=4)
-    with open('db/rids.txt', 'w') as filehandle:
-        for listitem in replay_rids:
-            filehandle.write('%d\n' % listitem)
-    # DEBUG: print seara info
-    # print(monster_dict["Seara"])
+    print("Total not found %d out of %d monsters\n" % (monsters_not_found_overall, monsters_overall))
     return
 
 def get_picks(battle: dict, won_battle: bool, picks_first: bool) -> None:
@@ -196,5 +211,16 @@ def fix_pick_perc(num_battles):
     for monster_name in monster_dict:
         monster_dict[monster_name]['pick-perc'] = monster_dict[monster_name]['pick'] / num_battles * 100
 
+def write_to_output(io_found: str, io_not_found: str, io_rids: str) -> None:
+    with open(io_found, 'w') as outfile:
+        dump(monster_dict, outfile, indent=4)
+    with open(io_not_found, 'w') as outfile:
+        dump(none_monsters_dict, outfile, indent=4)
+    with open(io_rids, 'w') as filehandle:
+        for listitem in replay_rids:
+            filehandle.write('%d\n' % listitem)
+    # DEBUG: print seara info
+    # print(monster_dict["Seara"])
+
 if __name__ == "__main__":
-    main()
+    main(sys.argv[1:])
