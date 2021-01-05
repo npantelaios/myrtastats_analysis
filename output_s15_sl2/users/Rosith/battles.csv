@@ -1,0 +1,16 @@
+battle_#,win_loss,p1,p2,p3,p4,p5,first,last,leader,banned,opp_p1,opp_p2,opp_p3,opp_p4,opp_p5,opp_first,opp_last,opp_leader,opp_banned,date_added
+0,True,Okeanos,Ragdoll,Fran,NF_24011,Seara,None,NF_24011,NF_24011,Seara,Vigor,Verdehile,Triana,Eshir,Cheongpung,Vigor,None,Vigor,Cheongpung,2021-01-05 07:54:25
+1,True,Seara,Ragdoll,Fran,NF_24011,Okeanos,Seara,None,Seara,Okeanos,Vigor,Verdehile,Cheongpung,Shimitae,Gemini,None,Shimitae,Shimitae,Gemini,2021-01-05 07:46:41
+2,True,Okeanos,Fran,Ragdoll,Vanessa,Triana,Okeanos,None,Vanessa,Triana,Molly,Velajuel,MoLong,Icares,Rica,None,Rica,MoLong,Rica,2021-01-05 07:42:22
+3,True,Okeanos,Fran,Daphnis,Praha,Seara,None,Praha,Okeanos,Seara,Molly,Velajuel,XingZhe,MeiHouWang,Juno,Molly,None,XingZhe,Juno,2021-01-05 07:34:57
+4,True,Seara,Okeanos,Verdehile,Ragdoll,NF_21513,None,NF_21513,Seara,NF_21513,Han,Chiwu,Bering,Poseidon,Asima,Han,None,Chiwu,Asima,2021-01-05 07:31:04
+5,False,Okeanos,Fran,Praha,Triana,Ethna,Okeanos,None,Okeanos,Ethna,Seara,ShiHou,Jager,Molly,Juno,None,Molly,Seara,Juno,2021-01-05 07:28:42
+6,True,Fran,Ragdoll,Vigor,Seara,Sian,None,Sian,Seara,Sian,Molly,Okeanos,Ganymede,Artamiel,XingZhe,Molly,None,Artamiel,XingZhe,2021-01-05 07:21:51
+7,True,Okeanos,Seara,Fran,NF_23513,Chiwu,None,NF_23513,Seara,Chiwu,Vanessa,Ganymede,Ethna,Illiana,Velajuel,Vanessa,None,Vanessa,Velajuel,2021-01-05 07:18:30
+8,False,Seara,Fran,Vanessa,Vigor,Okeanos,Seara,None,Vanessa,Okeanos,Hathor,Yeonhong,Loren,NF_21513,Chiwu,None,NF_21513,Yeonhong,Chiwu,2021-01-05 07:15:36
+9,True,Seara,Fran,Vigor,Triana,Okeanos,None,Triana,Seara,Okeanos,Molly,Vanessa,Ragdoll,Praha,Daphnis,Molly,None,Vanessa,Daphnis,2021-01-05 07:11:50
+10,True,Vanessa,Ragdoll,Daphnis,Juno,Leo,None,Juno,Vanessa,Leo,Bastet,Tablo,Jamire,Okeanos,Miho,Bastet,None,Tablo,Miho,2021-01-05 07:02:16
+11,False,Fran,Okeanos,Vigor,Ragdoll,Vanessa,None,Ragdoll,Fran,Vanessa,Seara,NF_23512,Chiwu,NF_23513,Giana,Seara,None,Chiwu,Giana,2021-01-05 06:59:13
+12,True,Okeanos,Fran,Juno,Ragdoll,NF_24011,None,Ragdoll,Fran,NF_24011,Seara,Verdehile,Draco,Trinity,Eludia,Seara,None,Trinity,Eludia,2021-01-05 06:54:02
+13,True,Seara,Fran,NF_24011,Triana,Okeanos,None,Triana,NF_24011,Okeanos,Chiwu,Daphnis,Ethna,Hathor,NF_23511,Chiwu,None,Chiwu,NF_23511,2021-01-05 06:51:09
+14,True,Fran,Okeanos,Triana,Vigor,Praha,None,Vigor,Fran,Praha,Seara,NF_23511,Juno,Racuni,Ethna,Seara,None,Seara,Ethna,2021-01-05 06:42:48

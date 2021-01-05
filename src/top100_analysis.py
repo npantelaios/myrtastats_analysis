@@ -23,14 +23,15 @@ def main(argv: list) -> None:
             in_file = arg
         elif opt in ("-o", "--ofile"):
             out_file = arg
-    print('Input file is: ', in_file)
-    print('Output file is: ', out_file)
+    # print('Input file is: ', in_file)
+    # print('Output file is: ', out_file)
 
     ts = datetime.now()
     out_file += "top100_" + str(ts.year) + '_' + str(ts.month) + '_' + str(ts.day) + '_' + str(ts.hour) + '_' + str(ts.minute) + '_' + str(ts.second) + ".json"
     top100_grab(in_file, out_file)
 
-    print("top100 analysis: Completed\n")
+    print("Top100 analysis: Completed")
+    print("--------------------")                
 
 def top100_grab(in_file: str, out_file: str) -> None:
     f = open(in_file).read()

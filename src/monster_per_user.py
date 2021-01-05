@@ -3,44 +3,48 @@ import sys, getopt
 
 from json import loads, dump
 import csv
-import datetime 
+import pandas as pd
 
 
 def main(argv: list) -> None:
     # move to parent directory to have access to /db/ folder
     os.chdir("./..") 
-    in_file = "users/"
-    out_file = "users/"
-    csv_top100 = "db_top/"
+    in_file = "output_s15_sl2/users/"
     try:
-      opts, _ = getopt.getopt(argv,"hi:o:c:",["ifile=","ofile="])
+      opts, _ = getopt.getopt(argv,"hi:",["ifile="])
     except getopt.GetoptError:
-        print('monsters_per_user.py -i <inputfile> -o <outputfile> -c <csv_top100>')
+        print('monsters_per_user.py -i <inputfile>')
         sys.exit(2)
     for opt, arg in opts:
         if opt == '-h':
-            print('monsters_per_user.py -i <inputfile> -o <outputfile> -c <csv_top100>')
+            print('monsters_per_user.py -i <inputfile>')
             sys.exit()
         elif opt in ("-i", "--ifile"):
             in_file = arg
-        elif opt in ("-o", "--ofile"):
-            out_file = arg
-        elif opt in ("-c"):
-            csv_top100 = arg
-    print('Input file is: ', in_file)
-    print('Output file is: ', out_file)
+    # print('Input file is: ', in_file)
+    # print('Output file is: ', out_file)
 
     # get latest top 100 csv file
-    parse_battles_csvs(in_file, out_file)
+    parse_battles_csvs(in_file)
+    #convert to csv
+
+    for f in os.listdir(in_file):
+        json_in = in_file+f+"/monsters.json"
+        csv_out = in_file+f+"/monsters.csv"
+        if os.path.exists(json_in):
+            json_2_df(json_in, csv_out)
+
+    print("Each user battles: Completed")
+    print("--------------------")
     return 
 
 #   0,         1,   2, 3, 4, 5, 6,   7,   8,   9,     10,    11,    12,    13,    14,    15,    16,        17,      18,        19,        20
 # battle_#,win_loss,p1,p2,p3,p4,p5,first,last,leader,banned,opp_p1,opp_p2,opp_p3,opp_p4,opp_p5,opp_first,opp_last,opp_leader,opp_banned,date_added
-def parse_battles_csvs(in_file: str, out_file: str) -> None:
+def parse_battles_csvs(initial_dir: str) -> None:
     num_battles = 0
-    for user_dir in os.listdir(in_file):
+    for user_dir in os.listdir(initial_dir):
         monster_dict = {}
-        battle_file = in_file + user_dir + '/' + "battles.csv"
+        battle_file = initial_dir + user_dir + '/' + "battles.csv"
         if not os.path.exists(battle_file):
             continue
         f = open(battle_file, 'rt', encoding='utf8')
@@ -117,7 +121,7 @@ def parse_battles_csvs(in_file: str, out_file: str) -> None:
                 monster_dict[key]["opp_5p-win-perc"] = monster_dict[key]["opp_5p-win"] / monster_dict[key]["opp_last"] * 100
         # TODO: delete all NF_* keys from monster_dict
         f.close()
-        json_file = out_file + user_dir + '/' + "battles.json"
+        json_file = initial_dir + user_dir + '/' + "monsters.json"
         with open(json_file, 'w') as outfile:
             dump(monster_dict, outfile, indent=4)
     return 
@@ -162,32 +166,27 @@ def set_default_dictionary() -> dict:
     return default_dict.copy()
 
 
-def json_2_df(in_file: str, out_file: str, file_type: str) -> None:
+def json_2_df(in_file: str, out_file: str) -> None:
     with open(in_file) as json_file: 
         df = pd.read_json(json_file)
-    if(file_type == "a"):
-        df = df.T.astype({
-            "pick": int, 
-            "win": int, 
-            "leader": int, 
-            "first": int, 
-            "last": int, 
-            "banned": int, 
-            "1p-win": int, 
-            "5p-win": int,
-            })
-    elif file_type == "b":
-        df = df.astype({
-            "server_id": int, 
-            "rtpvp_score": int, 
-            "win_count": int, 
-            "lose_count": int, 
-            "draw_count": int, 
-            "rank": int, 
-            "total_battles": int, 
-            })
-    elif file_type == "c":
-        df = df.T.astype(          )
+    df = df.T.astype({
+        "pick": int, 
+        "win": int, 
+        "leader": int, 
+        "first": int, 
+        "last": int, 
+        "banned": int, 
+        "1p-win": int, 
+        "5p-win": int,
+        "opp_pick": int, 
+        "opp_win": int, 
+        "opp_leader": int, 
+        "opp_first": int, 
+        "opp_last": int, 
+        "opp_banned": int, 
+        "opp_1p-win": int, 
+        "opp_5p-win": int,        
+        })
     df.to_csv(out_file)
     return
 

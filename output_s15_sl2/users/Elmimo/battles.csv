@@ -1,0 +1,16 @@
+battle_#,win_loss,p1,p2,p3,p4,p5,first,last,leader,banned,opp_p1,opp_p2,opp_p3,opp_p4,opp_p5,opp_first,opp_last,opp_leader,opp_banned,date_added
+0,True,NF_13231,Okeanos,Ragdoll,Jager,NF_21511,NF_13231,None,Okeanos,NF_21511,Seara,Hathor,Vigor,Molly,Fran,None,Molly,Seara,Fran,2021-01-05 04:37:33
+1,False,Fran,Okeanos,NF_23513,NF_13231,Ragdoll,None,NF_13231,Okeanos,Ragdoll,Vigor,Seara,Leo,NF_21511,Giana,Vigor,None,Leo,Giana,2021-01-05 04:33:17
+2,True,Fran,NF_23513,Jager,Harmonia,Okeanos,Fran,None,Jager,Okeanos,NF_22213,NF_22215,Molly,Laika,MoLong,None,Laika,Laika,MoLong,2021-01-05 04:30:08
+3,True,Fran,Ragdoll,Jager,NF_13231,Leo,Fran,None,Jager,Leo,Okeanos,Seara,Bolverk,Julianne,Bastet,None,Julianne,Seara,Bastet,2021-01-05 04:23:20
+4,True,Fran,Okeanos,Vanessa,NF_23513,Juno,None,Juno,Vanessa,Juno,Bastet,Velajuel,Nephthys,Odin,Tiana,Bastet,None,Nephthys,Tiana,2021-01-05 04:18:07
+5,True,Fran,Okeanos,NF_22213,NF_23513,Ragdoll,None,NF_23513,Fran,Ragdoll,Yeonhong,Ganymede,Elenoa,Velajuel,Daphnis,Daphnis,None,Elenoa,Daphnis,2021-01-05 04:14:34
+6,True,NF_13231,Okeanos,NF_23513,Jager,Ragdoll,None,Jager,Okeanos,Ragdoll,Loren,Vigor,Verdehile,MoLong,Fran,Fran,None,MoLong,Fran,2021-01-05 04:09:23
+7,False,Fran,Okeanos,NF_22213,Triana,NF_23513,Fran,None,Okeanos,NF_23513,Molly,MoLong,Jager,Daphnis,Nephthys,None,Nephthys,MoLong,Nephthys,2021-01-05 04:06:33
+8,True,Okeanos,NF_13231,Ragdoll,Vanessa,NF_23513,None,NF_23513,Vanessa,NF_23513,Cheongpung,Daphnis,Vigor,Josephine,Fran,Fran,None,Josephine,Fran,2021-01-05 03:59:28
+9,True,Fran,Jager,NF_23513,Tesarion,Okeanos,None,Tesarion,Tesarion,Okeanos,Molly,Ragdoll,Celia,Leona,Velajuel,Molly,None,Celia,Velajuel,2021-01-05 03:56:52
+10,True,Ragdoll,Jager,NF_22213,Vanessa,Fran,None,Vanessa,Vanessa,Fran,Molly,NF_23513,Lydia,Anavel,Daphnis,Molly,None,Lydia,Daphnis,2021-01-05 03:52:49
+11,False,Fran,Ragdoll,NF_21511,NF_23513,Tesarion,Fran,None,Fran,Tesarion,Okeanos,Praha,XingZhe,FengYan,Ethna,None,FengYan,Praha,Ethna,2021-01-05 03:49:04
+12,False,Fran,Ragdoll,Jager,NF_22213,Okeanos,None,NF_22213,Jager,Okeanos,Vivachel,TianLang,Josephine,NF_23115,Giana,Giana,None,NF_23115,Giana,2021-01-05 03:44:32
+13,False,Okeanos,Fran,Leo,Juno,Ragdoll,Okeanos,None,Juno,Ragdoll,Chiwu,Nephthys,Poseidon,Lushen,Bastet,None,Lushen,Chiwu,Bastet,2021-01-05 03:41:35
+14,True,Fran,Jager,Ragdoll,Akroma,Leo,Fran,None,Akroma,Leo,Okeanos,Ganymede,NF_23513,Cheongpung,Vigor,None,Vigor,Ganymede,Vigor,2021-01-05 03:39:44

@@ -1,0 +1,16 @@
+battle_#,win_loss,p1,p2,p3,p4,p5,first,last,leader,banned,opp_p1,opp_p2,opp_p3,opp_p4,opp_p5,opp_first,opp_last,opp_leader,opp_banned,date_added
+0,True,Han,Cheongpung,Zeratu,Nephthys,Giana,Giana,None,Nephthys,Giana,Vanessa,Molly,NF_24011,NF_23511,NF_22215,None,NF_23511,Vanessa,NF_22215,2021-01-04 21:44:59
+1,True,Molly,Seara,TianLang,Akroma,Tetra,Molly,None,Akroma,Tetra,Giana,Ragdoll,NF_22215,Nephthys,Jager,None,Jager,Nephthys,Jager,2021-01-04 21:18:33
+2,True,Han,Cheongpung,Molly,Akroma,Giana,None,Akroma,Akroma,Giana,Okeanos,Bastet,Chiwu,Poseidon,Shimitae,Okeanos,None,Chiwu,Shimitae,2021-01-04 20:53:51
+3,True,Giana,Han,Zeratu,Ganymede,Nephthys,Giana,None,Ganymede,Nephthys,Cheongpung,Tetra,NF_13231,Miho,Okeanos,None,Miho,Cheongpung,Okeanos,2021-01-04 20:46:22
+4,True,Giana,Han,Zeratu,Leona,Nephthys,Giana,None,Han,Nephthys,Okeanos,Cheongpung,Molly,Vigor,Tetra,None,Vigor,Okeanos,Tetra,2021-01-04 20:41:15
+5,True,Giana,Molly,TianLang,Artamiel,NF_22213,Giana,None,Artamiel,NF_22213,Ragdoll,Anavel,Leo,Laika,Fran,None,Laika,Leo,Fran,2021-01-04 20:36:15
+6,False,TianLang,Seara,Nephthys,Ganymede,Giana,None,Ganymede,Nephthys,Giana,Ragdoll,Molly,Cheongpung,Okeanos,Velajuel,Ragdoll,None,Okeanos,Velajuel,2021-01-04 20:32:41
+7,True,Han,Nephthys,Ganymede,NF_22215,Giana,Giana,None,Nephthys,Giana,Seara,Okeanos,QitianDasheng,NF_24011,Cheongpung,None,NF_24011,QitianDasheng,Cheongpung,2021-01-04 20:27:21
+8,False,Giana,Okeanos,NF_22215,Akroma,Molly,Giana,None,Okeanos,Molly,Cheongpung,Nephthys,Han,NF_23511,Bering,None,NF_23511,Nephthys,Bering,2021-01-04 20:23:42
+9,True,Han,Cheongpung,Nephthys,Woonsa,Giana,None,Woonsa,Nephthys,Giana,Seara,Fran,NF_23511,Vigor,Verdehile,Seara,None,Seara,Verdehile,2021-01-04 19:50:14
+10,True,Giana,Artamiel,NF_22213,Triana,Leo,None,Triana,Artamiel,Leo,Kahli,Gemini,NF_24414,Vanessa,Shimitae,Shimitae,None,Vanessa,Shimitae,2021-01-04 19:47:33
+11,True,Giana,Han,TianLang,Artamiel,Cheongpung,None,Artamiel,Artamiel,Cheongpung,Velajuel,Verdehile,Jager,Triana,Hathor,Hathor,None,Velajuel,Hathor,2021-01-04 19:42:31
+12,True,Giana,Nephthys,Cheongpung,NF_22215,Han,Giana,None,Nephthys,Han,Bastet,Chiwu,Sian,Juno,Okeanos,None,Juno,Chiwu,Okeanos,2021-01-04 19:37:30
+13,True,Giana,Han,Akroma,Molly,Leona,None,Leona,Han,Leona,Seara,Okeanos,Hathor,Miho,Tetra,Seara,None,Seara,Tetra,2021-01-04 19:33:25
+14,True,Giana,Artamiel,NF_22213,Triana,Leo,None,Triana,Artamiel,Leo,Shimitae,NF_24414,Gemini,Miho,Kahli,Shimitae,None,Shimitae,Kahli,2021-01-04 19:30:54

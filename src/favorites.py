@@ -30,8 +30,8 @@ def main(argv: list) -> None:
             out_file = arg
         elif opt in ("-c"):
             csv_top100 = arg
-    print('Input file is: ', in_file)
-    print('Output file is: ', out_file)
+    # print('Input file is: ', in_file)
+    # print('Output file is: ', out_file)
 
     # get latest top 100 csv file
     csv_top100 = get_latest_top100_csv(csv_top100)
@@ -42,7 +42,6 @@ def main(argv: list) -> None:
     make_correspondence(mapping_file)
     # parse file
     parse_file(in_file, out_file, csv_top100)
-    # TODO: convert to .xlsx
     return 
 
 def get_latest_top100_csv(directory: str) -> str:
@@ -191,9 +190,11 @@ def parse_file(in_file: str, out_file: str, csv_top100: str) -> None:
                     write.writerow(battle_info)
             else:
                 duplicate_battles += 1
+    print("For each favorite USER")
     print("Total duplicate battles: %d" % duplicate_battles)
     print("Total battles added: %d" % battles_added)
-    print("Added replays: Completed\n")
+    print("Added replays: Completed")
+    print("--------------------")                
 
 def create_columns() -> list:
     list_names = [

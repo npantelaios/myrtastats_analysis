@@ -1,0 +1,16 @@
+battle_#,win_loss,p1,p2,p3,p4,p5,first,last,leader,banned,opp_p1,opp_p2,opp_p3,opp_p4,opp_p5,opp_first,opp_last,opp_leader,opp_banned,date_added
+0,True,Okeanos,Han,Giana,Triana,Leo,Okeanos,None,Han,Leo,Seara,NF_23511,NF_23513,Raki,Chiwu,None,Raki,Seara,Chiwu,2021-01-05 09:22:14
+1,True,Okeanos,Han,NF_24011,Rica,Giana,Okeanos,None,NF_24011,Giana,Seara,Ragdoll,Chiwu,Ganymede,Hathor,None,Ganymede,Chiwu,Hathor,2021-01-05 09:17:26
+2,False,Giana,Chiwu,Han,Rica,Okeanos,Okeanos,None,Chiwu,Okeanos,Seara,NF_22212,Verdehile,NF_23513,Tiana,None,NF_23513,Seara,Tiana,2021-01-05 09:13:23
+3,True,Okeanos,Giana,Han,NF_23513,Ganymede,None,Ganymede,Okeanos,Ganymede,Seara,Juno,Vigor,XingZhe,Molly,Seara,None,Seara,Molly,2021-01-05 09:10:09
+4,False,Seara,Giana,Han,NF_23513,Fran,None,NF_23513,Seara,Fran,XingZhe,Molly,Jager,Rica,Ragdoll,XingZhe,None,XingZhe,Ragdoll,2021-01-05 09:07:19
+5,False,Okeanos,Giana,Han,Ganymede,NF_23513,Okeanos,None,Ganymede,NF_23513,Ragdoll,Seara,Molly,Jager,Fran,None,Jager,Seara,Fran,2021-01-05 09:02:42
+6,True,Okeanos,Giana,Han,NF_23513,Molly,None,Molly,Okeanos,Molly,NF_23511,Juno,Triana,Verdehile,Seara,Seara,None,Juno,Seara,2021-01-05 08:58:45
+7,True,Okeanos,Giana,NF_23513,Triana,Han,Okeanos,None,Okeanos,Han,Seara,NF_23511,Anavel,Verdehile,Juno,None,Verdehile,Seara,Juno,2021-01-05 08:53:56
+8,True,Okeanos,Fran,Giana,Han,Seara,None,Han,Okeanos,Seara,Molly,XingZhe,Velajuel,Tetra,Akroma,Molly,None,XingZhe,Akroma,2021-01-05 07:27:45
+9,True,Molly,Giana,Seara,Vigor,Velajuel,None,Velajuel,Seara,Velajuel,Fran,Ragdoll,Ganymede,Rica,Okeanos,Fran,None,Fran,Okeanos,2021-01-05 07:17:41
+10,True,Okeanos,Fran,Giana,Seara,Ganymede,None,Seara,Okeanos,Ganymede,Molly,Ragdoll,Velajuel,Artamiel,NF_21511,Molly,None,Artamiel,NF_21511,2021-01-05 07:14:04
+11,False,Fran,Han,NF_24011,NF_23513,Giana,None,NF_23513,NF_24011,Giana,Seara,NF_23511,Chiwu,Vanessa,Okeanos,Seara,None,Vanessa,Okeanos,2021-01-05 07:09:47
+12,True,Okeanos,Giana,NF_24011,Leo,Han,None,Leo,Okeanos,Han,Chiwu,NF_23513,Psamathe,Fran,Seara,Seara,None,Psamathe,Seara,2021-01-05 07:04:35
+13,True,Okeanos,Fran,Han,Ganymede,Giana,None,Ganymede,Ganymede,Giana,Seara,NF_23513,Molly,Jager,Daphnis,Seara,None,Seara,Daphnis,2021-01-05 06:59:34
+14,True,Okeanos,Han,Ganymede,NF_23513,Giana,Okeanos,None,Ganymede,Giana,Fran,Seara,Molly,Velajuel,Juno,None,Velajuel,Seara,Juno,2021-01-05 06:55:35

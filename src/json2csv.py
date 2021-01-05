@@ -33,8 +33,8 @@ def main(argv: list) -> None:
             out_file = arg
         elif opt in ("-t", "--type"):
             file_type = arg
-    print('Input file is: ', in_file)
-    print('Output file is: ', out_file)
+    # print('Input file is: ', in_file)
+    # print('Output file is: ', out_file)
 
     distinguish_file_type(file_type)
 
@@ -48,7 +48,8 @@ def main(argv: list) -> None:
         add_to_start_of_file(out_file, '#')
     csv_2_xlsx(out_file)
 
-    print(".json to .csv and to .xlsx : Completed\n")
+    print("Conversion from .json to .csv and to .xlsx : Completed")
+    print("--------------------")                
 
 def distinguish_file_type(file_type: str):
     global int_columns, float_columns

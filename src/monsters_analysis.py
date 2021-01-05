@@ -40,15 +40,17 @@ def main(argv: list) -> None:
             io_not_found = arg
         elif opt in ("-c"):
             io_rids = arg                    
-    print('Input file is: ', in_file)
+    # print('Input file is: ', in_file)
 
     # load monster-monster_id correspondence 
     mapping_file = "mapping/mapping.txt"    
     make_correspondence(mapping_file)
     # initialize monster_dict with zeros(0)
-    # init_monster_dict() # run ONLY the first time
+    if not os.path.exists(io_found):
+        init_monster_dict() # run ONLY the first time
     # load previous monster_dict from /db/data.json
-    load_previous(io_found, io_not_found, io_rids)
+    else:
+        load_previous(io_found, io_not_found, io_rids)
     monster_choices(in_file)
     write_to_output(io_found, io_not_found, io_rids)
     return
@@ -138,7 +140,8 @@ def monster_choices(file: str) -> None:
     fix_pick_perc(total_battles_overall)
     print("Total battles added = %d" % total_battles)
     print("Total battles parsed including duplicate = %d" % total_battles_duplicate)
-    print("Total not found %d out of %d monsters\n" % (monsters_not_found_overall, monsters_overall))
+    print("Total not found %d out of %d monsters" % (monsters_not_found_overall, monsters_overall))
+    print("--------------------")
     return
 
 def get_picks(battle: dict, won_battle: bool, picks_first: bool) -> None:
