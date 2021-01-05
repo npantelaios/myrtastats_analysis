@@ -39,16 +39,20 @@ def main(argv: list) -> None:
     distinguish_file_type(file_type)
 
     if file_type == "b":
-        in_file = in_file + sorted(os.listdir(in_file))[-1]
+        in_files = sorted(os.listdir(in_file), reverse=True)
+        for f in in_files:
+            if f.endswith(".json"):
+                in_file = in_file + f
+                break
         out_file = in_file.split('.')[0] + ".csv"
     json_2_df(in_file, out_file, file_type)
     if file_type == "a":
         add_to_start_of_file(out_file, 'monster_name')
     elif file_type == "b":
         add_to_start_of_file(out_file, '#')
-    csv_2_xlsx(out_file)
+    # csv_2_xlsx(out_file)
 
-    print("Conversion from .json to .csv and to .xlsx : Completed")
+    print("Conversion from .json to .csv ((NOT ONLINE) and to .xlsx) : Completed")
     print("--------------------")                
 
 def distinguish_file_type(file_type: str):
@@ -64,7 +68,7 @@ def distinguish_file_type(file_type: str):
         float_columns = [] 
 
 def json_2_df(in_file: str, out_file: str, file_type: str) -> None:
-    with open(in_file) as json_file: 
+    with open(in_file) as json_file:
         df = pd.read_json(json_file)
     if(file_type == "a"):
         df = df.T.astype({

@@ -66,7 +66,8 @@ def make_correspondence(file: str) -> None:
             continue
         id = each.split(":")[0]
         monster = each.split(":")[1].translate({ord(i): None for i in ', \'\"'})
-        corresp_dict[monster] = id
+        if monster not in corresp_dict.keys(): 
+            corresp_dict[monster] = id
     return
 
 def init_monster_dict() -> None:
@@ -120,6 +121,8 @@ def monster_choices(file: str) -> None:
         for battle in json_each['ranker_replay_list']: 
             rid = battle['replay_rid_ref']
             opp_first_pick = bool(battle['first_slot_id'] - 1)
+            if battle['slot_id'] == 2:
+                opp_first_pick = not opp_first_pick
             if rid not in replay_rids:
                 replay_rids.append(rid)
                 opp_won_battle = bool(battle['win_lose'] -1)

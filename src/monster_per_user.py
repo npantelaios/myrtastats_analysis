@@ -1,7 +1,7 @@
 import os 
 import sys, getopt
 
-from json import loads, dump
+from json import load, dump
 import csv
 import pandas as pd
 
@@ -27,14 +27,14 @@ def main(argv: list) -> None:
     # get latest top 100 csv file
     parse_battles_csvs(in_file)
     #convert to csv
-
     for f in os.listdir(in_file):
         json_in = in_file+f+"/monsters.json"
         csv_out = in_file+f+"/monsters.csv"
         if os.path.exists(json_in):
             json_2_df(json_in, csv_out)
+            add_to_start_of_file(csv_out, 'monster_name')
 
-    print("Each user battles: Completed")
+    print("Each favorite user monsters: Completed")
     print("--------------------")
     return 
 
@@ -42,8 +42,14 @@ def main(argv: list) -> None:
 # battle_#,win_loss,p1,p2,p3,p4,p5,first,last,leader,banned,opp_p1,opp_p2,opp_p3,opp_p4,opp_p5,opp_first,opp_last,opp_leader,opp_banned,date_added
 def parse_battles_csvs(initial_dir: str) -> None:
     num_battles = 0
+    starting_line = 0
     for user_dir in os.listdir(initial_dir):
         monster_dict = {}
+        new_battle_added = False
+        prev_json_file = initial_dir + user_dir + "/monsters.json"
+        if os.path.exists(prev_json_file):
+            monster_dict = load_previous(prev_json_file, monster_dict)
+            starting_line = int(sum([value["pick"] for _,value in monster_dict.items()])/5)
         battle_file = initial_dir + user_dir + '/' + "battles.csv"
         if not os.path.exists(battle_file):
             continue
@@ -52,6 +58,9 @@ def parse_battles_csvs(initial_dir: str) -> None:
         for r, row in enumerate(reader):
             if r == 0:
                 continue
+            if r <= starting_line:
+                continue
+            new_battle_added = True
             user_won = row[1]
             # user
             for _, col in enumerate(row[2:7]):
@@ -93,13 +102,15 @@ def parse_battles_csvs(initial_dir: str) -> None:
             monster_dict[row[18]]["opp_leader"] += 1
             monster_dict[row[19]]["opp_banned"] += 1
             num_battles = r
+        if not new_battle_added:
+            continue
         # user - perc
         for key in monster_dict:
-            monster_dict[key]["pick_perc"] = monster_dict[key]["pick"] / num_battles * 100
+            monster_dict[key]["pick-perc"] = int(monster_dict[key]["pick"]) / num_battles * 100
             if monster_dict[key]["pick"] > 0:            
-                monster_dict[key]["win_perc"] = monster_dict[key]["win"] / monster_dict[key]["pick"] * 100
-                monster_dict[key]["leader_perc"] = monster_dict[key]["leader"] / monster_dict[key]["pick"] * 100
-                monster_dict[key]["banned_perc"] = monster_dict[key]["banned"] / monster_dict[key]["pick"] * 100
+                monster_dict[key]["win-perc"] = monster_dict[key]["win"] / monster_dict[key]["pick"] * 100
+                monster_dict[key]["leader-perc"] = monster_dict[key]["leader"] / monster_dict[key]["pick"] * 100
+                monster_dict[key]["banned-perc"] = monster_dict[key]["banned"] / monster_dict[key]["pick"] * 100
                 monster_dict[key]["first-perc"] = monster_dict[key]["first"] / monster_dict[key]["pick"] * 100
                 monster_dict[key]["last-perc"] = monster_dict[key]["last"] / monster_dict[key]["pick"] * 100
             if monster_dict[key]["first"] > 0:
@@ -108,11 +119,11 @@ def parse_battles_csvs(initial_dir: str) -> None:
                 monster_dict[key]["5p-win-perc"] = monster_dict[key]["5p-win"] / monster_dict[key]["last"] * 100
         # opponent - perc
         for key in monster_dict:
-            monster_dict[key]["opp_pick_perc"] = monster_dict[key]["opp_pick"] / num_battles * 100
+            monster_dict[key]["opp_pick-perc"] = monster_dict[key]["opp_pick"] / num_battles * 100
             if monster_dict[key]["opp_pick"] > 0:
-                monster_dict[key]["opp_win_perc"] = monster_dict[key]["opp_win"] / monster_dict[key]["opp_pick"] * 100
-                monster_dict[key]["opp_leader_perc"] = monster_dict[key]["opp_leader"] / monster_dict[key]["opp_pick"] * 100
-                monster_dict[key]["opp_banned_perc"] = monster_dict[key]["opp_banned"] / monster_dict[key]["opp_pick"] * 100
+                monster_dict[key]["opp_win-perc"] = monster_dict[key]["opp_win"] / monster_dict[key]["opp_pick"] * 100
+                monster_dict[key]["opp_leader-perc"] = monster_dict[key]["opp_leader"] / monster_dict[key]["opp_pick"] * 100
+                monster_dict[key]["opp_banned-perc"] = monster_dict[key]["opp_banned"] / monster_dict[key]["opp_pick"] * 100
                 monster_dict[key]["opp_first-perc"] = monster_dict[key]["opp_first"] / monster_dict[key]["opp_pick"] * 100
                 monster_dict[key]["opp_last-perc"] = monster_dict[key]["opp_last"] / monster_dict[key]["opp_pick"] * 100
             if monster_dict[key]["opp_first"] > 0:
@@ -166,8 +177,8 @@ def set_default_dictionary() -> dict:
     return default_dict.copy()
 
 
-def json_2_df(in_file: str, out_file: str) -> None:
-    with open(in_file) as json_file: 
+def json_2_df(json_f: str, out_file: str) -> None:
+    with open(json_f) as json_file: 
         df = pd.read_json(json_file)
     df = df.T.astype({
         "pick": int, 
@@ -189,6 +200,17 @@ def json_2_df(in_file: str, out_file: str) -> None:
         })
     df.to_csv(out_file)
     return
+
+def add_to_start_of_file(filename, added_part):
+    with open(filename, 'r+') as f:
+        content = f.read()
+        f.seek(0, 0)
+        f.write(added_part + content)
+
+def load_previous(io_found: str, monster_dict: dict) -> dict:
+    with open(io_found) as f:
+        monster_dict = load(f)
+    return monster_dict
 
 if __name__ == "__main__":
     main(sys.argv[1:])

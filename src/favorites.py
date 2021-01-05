@@ -61,7 +61,8 @@ def make_correspondence(file: str) -> None:
             continue
         id = each.split(":")[0]
         monster = each.split(":")[1].translate({ord(i): None for i in ', \'\"'})
-        corresp_dict[monster] = id
+        if monster not in corresp_dict.keys(): 
+            corresp_dict[monster] = id
     return
 
 def parse_file(in_file: str, out_file: str, csv_top100: str) -> None:
@@ -78,6 +79,13 @@ def parse_file(in_file: str, out_file: str, csv_top100: str) -> None:
         if json_each["replay_list"] == []:
             continue
         name = json_each["replay_list"][0]["wizard_name"]
+        if name in ["Faintmemοry",
+                    "Howtoplay༢",
+                    "伝説のジェダイ",
+                    "海贼༒卡罗特",
+                    "砖头硬邦邦",
+                    "kamechan♪"]:
+            name = name_conversion(name)
         folder_name = out_file + name + '/'
         # create directory (if doesnt exist)
         if not os.path.exists(folder_name):
@@ -116,6 +124,8 @@ def parse_file(in_file: str, out_file: str, csv_top100: str) -> None:
             battle_info.append(battle_cnt)
             opp_won_battle = bool(battle['win_lose'] -1)
             opp_first_pick = bool(battle['first_slot_id'] - 1)
+            if battle['slot_id'] == 2:
+                opp_first_pick = not opp_first_pick
             m1 = ""
             m5 = ""
             l = ""
@@ -176,6 +186,8 @@ def parse_file(in_file: str, out_file: str, csv_top100: str) -> None:
             battle_info.append(opp_l)
             battle_info.append(opp_b)
             battle_info.append(battle["date_add"])
+            battle_info.append(battle["wizard_name"])
+            battle_info.append(battle["opp_wizard_name"])
             battle_exists = False
             with open(battle_file, 'r') as f:
                 all_lines = f.read().splitlines()
@@ -190,7 +202,7 @@ def parse_file(in_file: str, out_file: str, csv_top100: str) -> None:
                     write.writerow(battle_info)
             else:
                 duplicate_battles += 1
-    print("For each favorite USER")
+    print("For all favorite USERS")
     print("Total duplicate battles: %d" % duplicate_battles)
     print("Total battles added: %d" % battles_added)
     print("Added replays: Completed")
@@ -219,6 +231,8 @@ def create_columns() -> list:
         "opp_leader",
         "opp_banned",
         "date_added",
+        "player",
+        "opponent",
     ]
     return list_names
 
@@ -241,6 +255,17 @@ def create_dir(folder_name):
 def monster_matcher(id: int) -> str:
     res = next((key for key in corresp_dict if corresp_dict[key] == str(id)), None) 
     return res
+
+def name_conversion(name: str) -> str:
+    switcher = {
+            "Faintmemοry": "Faintmemory",
+            "Howtoplay༢": "Howtoplay2",
+            "伝説のジェダイ": "SmileyChinese",
+            "海贼༒卡罗特": "CrossChinese",
+            "砖头硬邦邦": "ChineseBB",
+            "kamechan♪": "kamechan",
+    }
+    return switcher.get(name)
 
 if __name__ == "__main__":
     main(sys.argv[1:])

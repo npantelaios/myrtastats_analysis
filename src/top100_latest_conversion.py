@@ -25,7 +25,7 @@ def main(argv: list) -> None:
 def rename_latest_top100_file(top100_folder: str) -> None:
     latest_top100_file = sorted(os.listdir(top100_folder), reverse=True)
     for f in latest_top100_file:
-        if f.endswith(".csv"):
+        if (f.endswith(".csv")) & (not f.endswith("top100.csv")):
             latest_top100_file = top100_folder + f
     dst = latest_top100_file.split('top100_')[0] + "top100.csv"
     copyfile(latest_top100_file, dst)

@@ -1,16 +1,17 @@
-battle_#,win_loss,p1,p2,p3,p4,p5,first,last,leader,banned,opp_p1,opp_p2,opp_p3,opp_p4,opp_p5,opp_first,opp_last,opp_leader,opp_banned,date_added
-0,True,Okeanos,Ganymede,Vigor,Velajuel,Chiwu,None,Velajuel,Ganymede,Chiwu,Hathor,Fran,Juno,NF_23513,Rica,Hathor,None,Hathor,Rica,2021-01-05 09:59:47
-1,True,Okeanos,NF_23513,Ganymede,Daphnis,TianLang,None,Daphnis,Ganymede,TianLang,Vigor,NF_21513,Juno,Fran,Verdehile,Vigor,None,Fran,Verdehile,2021-01-05 09:56:28
-2,True,Okeanos,Ganymede,NF_23513,MoLong,Vigor,None,MoLong,Ganymede,Vigor,Fran,Jager,MeiHouWang,Molly,Ragdoll,Fran,None,Fran,Ragdoll,2021-01-05 09:48:17
-3,True,Okeanos,Seara,Ganymede,NF_23513,TianLang,Okeanos,None,Seara,TianLang,Giana,Yeonhong,Verdehile,Velajuel,Hathor,None,Velajuel,Yeonhong,Hathor,2021-01-05 09:45:22
-4,False,Okeanos,Seara,Chiwu,NF_21513,NF_23513,Okeanos,None,Seara,NF_23513,Giana,Ganymede,NF_24011,Yeonhong,Hathor,None,Yeonhong,NF_24011,Hathor,2021-01-05 09:42:49
-5,True,Okeanos,NF_24011,NF_23513,Verdehile,Anavel,None,Verdehile,NF_24011,Anavel,Seara,Chiwu,Rica,ShiHou,Giana,Seara,None,Seara,Giana,2021-01-05 04:44:55
-6,True,Fran,Vanessa,Ganymede,NF_24011,Okeanos,Okeanos,None,Vanessa,Okeanos,Seara,Juno,NF_23513,NF_24012,Praha,None,NF_24012,Seara,Praha,2021-01-05 04:34:07
-7,True,Fran,NF_24011,NF_23513,TianLang,Seara,Seara,None,NF_24011,Seara,Okeanos,Praha,NF_23511,XingZhe,Leo,None,XingZhe,XingZhe,Leo,2021-01-05 03:59:15
-8,True,Seara,Fran,NF_23513,MeiHouWang,NF_24011,None,MeiHouWang,Seara,NF_24011,Okeanos,Cheongpung,Velajuel,Molly,Giana,Okeanos,None,Okeanos,Giana,2021-01-05 03:51:23
-9,True,Seara,NF_23513,NF_24011,Ethna,Fran,None,Ethna,NF_24011,Fran,Okeanos,Cheongpung,Molly,Leona,Giana,Okeanos,None,Okeanos,Giana,2021-01-05 03:49:24
-10,True,Ganymede,Chiwu,Vigor,NF_21513,Okeanos,None,NF_21513,Chiwu,Okeanos,Fran,Juno,NF_24011,NF_23513,Seara,Seara,None,NF_24011,Seara,2021-01-05 03:46:33
-11,False,Seara,Fran,NF_24011,Hathor,Velajuel,None,Velajuel,Seara,Velajuel,Okeanos,Cheongpung,Nicki,Asima,Giana,Okeanos,None,Asima,Giana,2021-01-05 03:44:07
-12,True,Okeanos,NF_23513,Ganymede,Velajuel,Fran,None,Velajuel,Ganymede,Fran,Vanessa,Triana,Anavel,Akroma,Juno,Vanessa,None,Vanessa,Juno,2021-01-05 03:42:23
-13,False,Okeanos,Verdehile,Sian,Rica,NF_24011,None,Rica,Okeanos,NF_24011,Nephthys,Woonsa,Han,Artamiel,Velajuel,Nephthys,None,Nephthys,Velajuel,2021-01-05 03:38:36
-14,True,Okeanos,Ganymede,Chiwu,NF_24011,TianLang,None,TianLang,Chiwu,TianLang,Seara,Velajuel,Daphnis,Yeonhong,Verdehile,Seara,None,Seara,Verdehile,2021-01-05 00:54:38
+battle_#,win_loss,p1,p2,p3,p4,p5,first,last,leader,banned,opp_p1,opp_p2,opp_p3,opp_p4,opp_p5,opp_first,opp_last,opp_leader,opp_banned,date_added,player,opponent
+0,True,Okeanos,Ganymede,Vigor,Velajuel,Chiwu,None,Velajuel,Ganymede,Chiwu,Hathor,Fran,Juno,Savannah,Rica,Hathor,None,Hathor,Rica,2021-01-05 09:59:47,PinkRoid~,Tetsuø
+1,True,Okeanos,Savannah,Ganymede,Daphnis,TianLang,Okeanos,None,Ganymede,TianLang,Vigor,Diana,Juno,Fran,Verdehile,None,Verdehile,Fran,Verdehile,2021-01-05 09:56:28,PinkRoid~,えれま
+2,True,Okeanos,Ganymede,Savannah,MoLong,Vigor,Okeanos,None,Ganymede,Vigor,Fran,Jager,MeiHouWang,Molly,Ragdoll,None,Ragdoll,Fran,Ragdoll,2021-01-05 09:48:17,PinkRoid~,MiranღNoah
+3,True,Okeanos,Seara,Ganymede,Savannah,TianLang,None,TianLang,Seara,TianLang,Giana,Yeonhong,Verdehile,Velajuel,Hathor,Giana,None,Yeonhong,Hathor,2021-01-05 09:45:22,PinkRoid~,YєoɴHonG-187
+4,False,Okeanos,Seara,Chiwu,Diana,Savannah,None,Diana,Seara,Savannah,Giana,Ganymede,WaterRYU,Yeonhong,Hathor,Giana,None,WaterRYU,Hathor,2021-01-05 09:42:49,PinkRoid~,YєoɴHonG-187
+5,True,Okeanos,WaterRYU,Savannah,Verdehile,Anavel,Okeanos,None,WaterRYU,Anavel,Seara,Chiwu,Rica,ShiHou,Giana,None,ShiHou,Seara,Giana,2021-01-05 04:44:55,PinkRoid~,Seiishizo
+6,True,Fran,Vanessa,Ganymede,WaterRYU,Okeanos,None,WaterRYU,Vanessa,Okeanos,Seara,Juno,Savannah,FireRYU,Praha,Seara,None,Seara,Praha,2021-01-05 04:34:07,PinkRoid~,Viilipytty
+7,True,Fran,WaterRYU,Savannah,TianLang,Seara,None,TianLang,WaterRYU,Seara,Okeanos,Praha,Barbara,XingZhe,Leo,Okeanos,None,XingZhe,Leo,2021-01-05 03:59:15,PinkRoid~,Viilipytty
+8,True,Seara,Fran,Savannah,MeiHouWang,WaterRYU,None,MeiHouWang,Seara,WaterRYU,Okeanos,Cheongpung,Velajuel,Molly,Giana,Okeanos,None,Okeanos,Giana,2021-01-05 03:51:23,PinkRoid~,⚕⚕至尊寶⚕⚕
+9,True,Seara,Savannah,WaterRYU,Ethna,Fran,None,Ethna,WaterRYU,Fran,Okeanos,Cheongpung,Molly,Leona,Giana,Okeanos,None,Okeanos,Giana,2021-01-05 03:49:24,PinkRoid~,⚕⚕至尊寶⚕⚕
+10,True,Ganymede,Chiwu,Vigor,Diana,Okeanos,None,Diana,Chiwu,Okeanos,Fran,Juno,WaterRYU,Savannah,Seara,Seara,None,WaterRYU,Seara,2021-01-05 03:46:33,PinkRoid~,ObeyMin
+11,False,Seara,Fran,WaterRYU,Hathor,Velajuel,None,Velajuel,Seara,Velajuel,Okeanos,Cheongpung,Nicki,Asima,Giana,Okeanos,None,Asima,Giana,2021-01-05 03:44:07,PinkRoid~,大V威
+12,True,Okeanos,Savannah,Ganymede,Velajuel,Fran,None,Velajuel,Ganymede,Fran,Vanessa,Triana,Anavel,Akroma,Juno,Vanessa,None,Vanessa,Juno,2021-01-05 03:42:23,PinkRoid~,Łivert
+13,False,Okeanos,Verdehile,Sian,Rica,WaterRYU,Okeanos,None,Okeanos,WaterRYU,Nephthys,Woonsa,Han,Artamiel,Velajuel,None,Velajuel,Nephthys,Velajuel,2021-01-05 03:38:36,PinkRoid~,PRO༊
+14,True,Okeanos,Ganymede,Chiwu,WaterRYU,TianLang,None,TianLang,Chiwu,TianLang,Seara,Velajuel,Daphnis,Yeonhong,Verdehile,Seara,None,Seara,Verdehile,2021-01-05 00:54:38,PinkRoid~,L.烽火戏诸侯
+15,True,Okeanos,Ganymede,Vigor,Savannah,TianLang,None,Savannah,Ganymede,TianLang,Molly,Ragdoll,Fran,XingZhe,Elucia,Molly,None,Fran,Elucia,2021-01-05 10:20:38,PinkRoid~,Ryuji@
