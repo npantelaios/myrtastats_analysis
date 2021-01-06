@@ -1,0 +1,16 @@
+battle_#,win_loss,p1,p2,p3,p4,p5,first,last,leader,banned,opp_p1,opp_p2,opp_p3,opp_p4,opp_p5,opp_first,opp_last,opp_leader,opp_banned,date_added,player,opponent
+0,True,Okeanos,Cheongpung,Wolyung,Vigor,Pater,None,Pater,Wolyung,Pater,Seara,Barbara,Masha,Rica,Chiwu,Seara,None,Seara,Chiwu,2021-01-06 10:48:44,Taniss,아리셉트
+1,True,Okeanos,Cheongpung,Wolyung,Vigor,Han,None,Han,Wolyung,Han,Verdehile,Juno,Tetra,Triana,Seara,Seara,None,Juno,Seara,2021-01-06 10:44:34,Taniss,딸기야이랴❤
+2,True,Okeanos,Cheongpung,Wolyung,Vigor,Tesarion,None,Tesarion,Wolyung,Tesarion,Seara,Moore/WaterRYU1,Ragdoll,Jultan,Velajuel,Seara,None,Seara,Velajuel,2021-01-06 10:39:42,Taniss,蓮♡3rd
+3,False,Han,Cheongpung,Pater,Juno,Wolyung,Han,None,Han,Wolyung,Okeanos,Seara,Rica,Savannah,Chiwu,None,Savannah,Seara,Chiwu,2021-01-06 10:35:49,Taniss,Ex|Shizzy
+4,True,Okeanos,Cheongpung,Wolyung,Pater,Verdehile,None,Pater,Wolyung,Verdehile,Chiwu,QitianDasheng,Psamathe,Savannah,Giana,Chiwu,None,Psamathe,Giana,2021-01-06 10:29:58,Taniss,#Maximus
+5,True,Okeanos,Cheongpung,Han,Pater,Wolyung,Okeanos,None,Han,Wolyung,Seara,Fran,Verdehile,Eshir,Barbara,None,Eshir,Seara,Barbara,2021-01-06 10:10:03,Taniss,Faintmemory
+6,False,Okeanos,Cheongpung,Vigor,Daphnis,Wolyung,Okeanos,None,Okeanos,Wolyung,Seara,Barbara,Fran,Verdehile,Eshir,None,Eshir,Seara,Eshir,2021-01-06 10:07:06,Taniss,Faintmemory
+7,True,Cheongpung,Vigor,Wolyung,Pater,Rica,None,Rica,Wolyung,Rica,Moore/WaterRYU,Seara,TianLang,Diana,Okeanos,Okeanos,None,Seara,Okeanos,2021-01-06 10:02:41,Taniss,俏皮可爱小尾巴
+8,True,Okeanos,Cheongpung,Pater,Juno,Wolyung,None,Juno,Okeanos,Wolyung,Seara,Giana,Nephthys,Triton,Han,Seara,None,Seara,Han,2021-01-06 09:59:35,Taniss,HeavensRoyalty
+9,True,Okeanos,Cheongpung,Pater,Verdehile,Wolyung,None,Verdehile,Okeanos,Wolyung,Seara,Savannah,Chiwu,Daphnis,Barbara,Seara,None,Chiwu,Barbara,2021-01-06 09:56:31,Taniss,jerryチュウタ
+10,True,Okeanos,Cheongpung,Pater,Han,Wolyung,None,Han,Han,Wolyung,Seara,Barbara,Masha,Ganymede,Chiwu,Seara,None,Seara,Chiwu,2021-01-06 09:49:07,Taniss,HeavensRoyalty
+11,True,Okeanos,Wolyung,Pater,Verdehile,Cheongpung,None,Verdehile,Wolyung,Cheongpung,Ganymede,Elenoa,Chiwu,Nephthys,ShiHou,Ganymede,None,Nephthys,ShiHou,2021-01-06 09:41:42,Taniss,|♤|mRoyal
+12,False,Okeanos,Vigor,ShiHou,Velajuel,Cheongpung,Okeanos,None,Okeanos,Cheongpung,Seara,Eleanor,Daphnis,Praha,Ethna,None,Praha,Seara,Ethna,2021-01-06 09:35:12,Taniss,Bor@m
+13,True,Okeanos,Cheongpung,Wolyung,Vigor,Tesarion,None,Tesarion,Wolyung,Tesarion,Molly,Ragdoll,Akroma,XingZhe,Fran,Molly,None,Akroma,Fran,2021-01-06 09:27:25,Taniss,빛암마켓
+14,False,Okeanos,Cheongpung,Vigor,Daphnis,Wolyung,Okeanos,None,Okeanos,Wolyung,Seara,Barbara,Juno,Yeonhong,Masha,None,Yeonhong,Seara,Masha,2021-01-06 09:20:36,Taniss,TopaV

@@ -42,8 +42,8 @@ def main(argv: list) -> None:
 # battle_#,win_loss,p1,p2,p3,p4,p5,first,last,leader,banned,opp_p1,opp_p2,opp_p3,opp_p4,opp_p5,opp_first,opp_last,opp_leader,opp_banned,date_added
 def parse_battles_csvs(initial_dir: str) -> None:
     num_battles = 0
-    starting_line = 0
     for user_dir in os.listdir(initial_dir):
+        starting_line = 0
         monster_dict = {}
         new_battle_added = False
         prev_json_file = initial_dir + user_dir + "/monsters.json"
@@ -130,7 +130,6 @@ def parse_battles_csvs(initial_dir: str) -> None:
                 monster_dict[key]["opp_1p-win-perc"] = monster_dict[key]["opp_1p-win"] / monster_dict[key]["opp_first"] * 100
             if monster_dict[key]["opp_last"] > 0:
                 monster_dict[key]["opp_5p-win-perc"] = monster_dict[key]["opp_5p-win"] / monster_dict[key]["opp_last"] * 100
-        # TODO: delete all NF_* keys from monster_dict
         f.close()
         json_file = initial_dir + user_dir + '/' + "monsters.json"
         monster_dict = round_floats(monster_dict)
@@ -234,7 +233,7 @@ def round_floats(monster_dict: dict) -> dict:
         ]
     for each in monster_dict:
         for field in fields:
-            monster_dict[each][field] = "{:.1f}".format(monster_dict[each][field])
+            monster_dict[each][field] = "{:.1f}".format(float(monster_dict[each][field]))
         # extra: add monster_name instead of enemy
         monster_dict[each]["monster"] = each
     return monster_dict

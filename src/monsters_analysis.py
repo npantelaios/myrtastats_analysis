@@ -114,12 +114,20 @@ def monster_choices(file: str) -> None:
     global total_battles
     global replay_rids
     f = open(file).read()
-    split_phrase = "API Command: getRankerRtpvpReplayList"
-    for each in f.split(split_phrase)[1:]:
+    split_phrase1 = "API Command: getRankerRtpvpReplayList"
+    splits1 = f.split(split_phrase1)[1:]
+    split_phrase2 = "API Command: getRtpvpReplayList"
+    splits2 = f.split(split_phrase2)[1:]
+    splits = splits1 + splits2
+    for each in splits:
         each = each.split("Response:")[1]
         each = each.split("API Command:")[0]
         json_each = loads(each)
-        for battle in json_each['ranker_replay_list']: 
+        if 'ranker_replay_list' in json_each.keys():
+            replay_list = json_each['ranker_replay_list']
+        elif 'replay_list' in json_each.keys():
+            replay_list = json_each['replay_list']
+        for battle in replay_list: 
             rid = battle['replay_rid_ref']
             opp_first_pick = bool(battle['first_slot_id'] - 1)
             if battle['slot_id'] == 2:
@@ -240,7 +248,7 @@ def round_floats() -> None:
         ]
     for each in monster_dict:
         for field in fields:
-            monster_dict[each][field] = "{:.1f}".format(monster_dict[each][field])
-    
+            monster_dict[each][field] = "{:.1f}".format(float(monster_dict[each][field]))
+
 if __name__ == "__main__":
     main(sys.argv[1:])

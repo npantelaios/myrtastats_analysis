@@ -1,0 +1,20 @@
+battle_#,win_loss,p1,p2,p3,p4,p5,first,last,leader,banned,opp_p1,opp_p2,opp_p3,opp_p4,opp_p5,opp_first,opp_last,opp_leader,opp_banned,date_added,player,opponent
+0,True,Han,Cheongpung,Zeratu,Nephthys,Giana,None,Nephthys,Nephthys,Giana,Vanessa,Molly,Moore/WaterRYU1,Barbara,Pater,Vanessa,None,Vanessa,Pater,2021-01-04 21:44:59,Howtoplay༢,°쥬리
+1,True,Molly,Seara,TianLang,Akroma,Tetra,None,Tetra,Akroma,Tetra,Giana,Ragdoll,Pater,Nephthys,Jager,Giana,None,Nephthys,Jager,2021-01-04 21:18:33,Howtoplay༢,杰咪爸
+2,True,Han,Cheongpung,Molly,Akroma,Giana,Giana,None,Akroma,Giana,Okeanos,Bastet,Chiwu,Poseidon,Shimitae,None,Poseidon,Chiwu,Shimitae,2021-01-04 20:53:51,Howtoplay༢,Icedcoyote
+3,True,Giana,Han,Zeratu,Ganymede,Nephthys,Giana,None,Ganymede,Nephthys,Cheongpung,Tetra,Lulu,Miho,Okeanos,None,Miho,Cheongpung,Okeanos,2021-01-04 20:46:22,Howtoplay༢,⚕⚕至尊寶⚕⚕
+4,True,Giana,Han,Zeratu,Leona,Nephthys,Giana,None,Han,Nephthys,Okeanos,Cheongpung,Molly,Vigor,Tetra,None,Vigor,Okeanos,Tetra,2021-01-04 20:41:15,Howtoplay༢,⚕⚕至尊寶⚕⚕
+5,True,Giana,Molly,TianLang,Artamiel,Taranys,Giana,None,Artamiel,Taranys,Ragdoll,Anavel,Leo,Laika,Fran,None,Laika,Leo,Fran,2021-01-04 20:36:15,Howtoplay༢,绿色心情12333
+6,False,TianLang,Seara,Nephthys,Ganymede,Giana,Giana,None,Nephthys,Giana,Ragdoll,Molly,Cheongpung,Okeanos,Velajuel,None,Velajuel,Okeanos,Velajuel,2021-01-04 20:32:41,Howtoplay༢,冥神GOD
+7,True,Han,Nephthys,Ganymede,Pater,Giana,None,Pater,Nephthys,Giana,Seara,Okeanos,QitianDasheng,Moore/WaterRYU1,Cheongpung,Seara,None,QitianDasheng,Cheongpung,2021-01-04 20:27:21,Howtoplay༢,TurnKing
+8,False,Giana,Okeanos,Pater,Akroma,Molly,None,Akroma,Okeanos,Molly,Cheongpung,Nephthys,Han,Barbara,Bering,Cheongpung,None,Nephthys,Bering,2021-01-04 20:23:42,Howtoplay༢,삞싥뭃
+9,True,Han,Cheongpung,Nephthys,Woonsa,Giana,Giana,None,Nephthys,Giana,Seara,Fran,Barbara,Vigor,Verdehile,None,Verdehile,Seara,Verdehile,2021-01-04 19:50:14,Howtoplay༢,꧁Kakaroto꧂
+10,True,Giana,Artamiel,Taranys,Triana,Leo,Giana,None,Artamiel,Leo,Kahli,Gemini,Leah/LightCHUN-LI1,Vanessa,Shimitae,None,Vanessa,Vanessa,Shimitae,2021-01-04 19:47:33,Howtoplay༢,≪QuaÐR๏ll≫
+11,True,Giana,Han,TianLang,Artamiel,Cheongpung,Giana,None,Artamiel,Cheongpung,Velajuel,Verdehile,Jager,Triana,Hathor,None,Triana,Velajuel,Hathor,2021-01-04 19:42:31,Howtoplay༢,ƘƱN
+12,True,Giana,Nephthys,Cheongpung,Pater,Han,None,Pater,Nephthys,Han,Bastet,Chiwu,Sian,Juno,Okeanos,Bastet,None,Chiwu,Okeanos,2021-01-04 19:37:30,Howtoplay༢,shinaps
+13,True,Giana,Han,Akroma,Molly,Leona,None,Leona,Han,Leona,Seara,Okeanos,Hathor,Miho,Tetra,Seara,None,Seara,Tetra,2021-01-04 19:33:25,Howtoplay༢,꧁Kakaroto꧂
+14,True,Giana,Artamiel,Taranys,Triana,Leo,Giana,None,Artamiel,Leo,Shimitae,Leah/LightCHUN-LI1,Gemini,Miho,Kahli,None,Miho,Shimitae,Kahli,2021-01-04 19:30:54,Howtoplay༢,≪QuaÐR๏ll≫
+15,True,Giana,Molly,Pater,Artamiel,Leo,None,Leo,Artamiel,Leo,Seara,Okeanos,Barbara,Cheongpung,Fran,Seara,None,Seara,Fran,2021-01-05 16:38:15,Howtoplay༢,Krom`z
+16,True,Han,Verdehile,Leo,Juno,Giana,None,Juno,Juno,Giana,Okeanos,Cheongpung,Bellenus,Rica,Chiwu,Okeanos,None,Okeanos,Chiwu,2021-01-05 15:29:17,Howtoplay༢,Icedcoyote
+17,True,Giana,Han,Cheongpung,Seara,Pater,None,Seara,Seara,Pater,Nephthys,Molly,Artamiel,Okeanos,Woonsa,Nephthys,None,Nephthys,Woonsa,2021-01-05 15:24:40,Howtoplay༢,PRO༊
+18,True,Giana,Han,Zeratu,Pater,Seara,Giana,None,Han,Seara,Nephthys,TianLang,Artamiel,XingZhe,Molly,None,XingZhe,XingZhe,Molly,2021-01-05 14:57:02,Howtoplay༢,/喵喵/

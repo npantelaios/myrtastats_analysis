@@ -922,6 +922,7 @@
 24015: 'Vancliffe/DarkRYU1',
 
 241: 'Bernadotte/KEN1',
+24112: 'Bernadotte/KEN',
 
 242: 'M. BISON',
 24211: 'Borgnine/WaterM. BISON1',
@@ -973,7 +974,7 @@
 24912: 'Berenice/FireCHUN-LI',
 24913: 'Cordelia/WindCHUN-LI',
 24914: 'Leah/LightCHUN-LI',
-2415: 'Vereesa/DarkCHUN-LI',
+24915: 'Vereesa/DarkCHUN-LI',
 
 15105: 'Devilmon',
 14314: 'Rainbowmon',

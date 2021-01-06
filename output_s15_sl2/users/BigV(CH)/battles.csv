@@ -1,0 +1,16 @@
+battle_#,win_loss,p1,p2,p3,p4,p5,first,last,leader,banned,opp_p1,opp_p2,opp_p3,opp_p4,opp_p5,opp_first,opp_last,opp_leader,opp_banned,date_added,player,opponent
+0,True,Seara,Cheongpung,Giana,Asima,Nicki,Seara,None,Seara,Nicki,Ganymede,Juno,Verdehile,Triton,Okeanos,None,Triton,Ganymede,Okeanos,2021-01-06 07:26:05,大V威,TopaV
+1,True,Okeanos,Moore/WaterRYU,Akroma,Juno,Molly,None,Juno,Moore/WaterRYU,Molly,Chiwu,QitianDasheng,Giana,Icares,MoLong,Chiwu,None,Chiwu,MoLong,2021-01-06 07:21:14,大V威,#Maximus
+2,False,Okeanos,Ganymede,Nicki,Giana,Asima,None,Asima,Ganymede,Asima,Barbara,Masha,Eshir,Juno,Seara,Seara,None,Juno,Seara,2021-01-06 07:19:04,大V威,TopaV
+3,True,Moore/WaterRYU,Molly,Akroma,Juno,Okeanos,None,Juno,Moore/WaterRYU,Okeanos,Chiwu,Giana,QitianDasheng,Icares,MoLong,Chiwu,None,Chiwu,MoLong,2021-01-06 06:41:03,大V威,#Maximus
+4,True,Seara,Giana,Nicki,Molly,Asima,None,Asima,Seara,Asima,Okeanos,Yeonhong,Vanessa,Ganymede,Cheongpung,Okeanos,None,Vanessa,Cheongpung,2021-01-06 06:38:04,大V威,Duhstin
+5,False,Okeanos,Moore/WaterRYU,Leo,Molly,Seara,Seara,None,Moore/WaterRYU,Seara,Hathor,Chiwu,Barbara,Verdehile,Cheongpung,None,Verdehile,Chiwu,Cheongpung,2021-01-06 06:32:04,大V威,Evan_Beast
+6,False,Seara,Giana,Cheongpung,Nicki,Leo,None,Leo,Seara,Leo,Savannah,Moore/WaterRYU1,Chiwu,Ganymede,Okeanos,Okeanos,None,Chiwu,Okeanos,2021-01-06 06:26:18,大V威,PinkRoid~
+7,True,Seara,Nicki,Asima,Cheongpung,Giana,Seara,None,Seara,Giana,Ganymede,Okeanos,Molly,Juno,Velajuel,None,Juno,Ganymede,Velajuel,2021-01-06 06:23:54,大V威,༺BR༄Leo༻
+8,True,Giana,Cheongpung,Nicki,Asima,Seara,None,Asima,Giana,Seara,Verdehile,Tetra,Fran,Juno,Okeanos,Okeanos,None,Fran,Okeanos,2021-01-06 06:19:31,大V威,Chewiesz
+9,True,Okeanos,Cheongpung,Giana,Nicki,Asima,None,Asima,Giana,Asima,Seara,Verdehile,Juno,MeiHouWang,Fran,Seara,None,Seara,Fran,2021-01-06 06:13:25,大V威,Chewiesz
+10,False,XingZhe,Molly,Leo,Giana,Akroma,None,Akroma,XingZhe,Akroma,Bastet,Charlotte,Gemini,Zaiross,Lushen,Bastet,None,Gemini,Lushen,2021-01-06 06:11:19,大V威,Dede76
+11,True,Okeanos,Cheongpung,Giana,Nicki,Asima,None,Asima,Giana,Asima,MoLong,Leo,Veromos,Tetra,Verdehile,MoLong,None,MoLong,Verdehile,2021-01-06 06:06:58,大V威,[AK]GamwTonDia
+12,False,Okeanos,Molly,Juno,XingZhe,Leo,None,XingZhe,XingZhe,Leo,Wolyung,Nicki,Bernard,Julie,Lushen,Wolyung,None,Wolyung,Lushen,2021-01-06 06:04:13,大V威,SheisouTV
+13,True,Seara,Giana,Valantis,Molly,Psamathe,None,Molly,Seara,Psamathe,Bastet,Garo,Draco,Shimitae,Lushen,Bastet,None,Garo,Lushen,2021-01-06 05:58:37,大V威,FatEru
+14,False,Seara,Giana,Nicki,Valantis,Leo,None,Leo,Seara,Leo,Wolyung,Okeanos,Shimitae,Bernard,Lushen,Wolyung,None,Wolyung,Lushen,2021-01-06 05:55:57,大V威,SheisouTV

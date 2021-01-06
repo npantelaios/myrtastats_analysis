@@ -1,0 +1,16 @@
+battle_#,win_loss,p1,p2,p3,p4,p5,first,last,leader,banned,opp_p1,opp_p2,opp_p3,opp_p4,opp_p5,opp_first,opp_last,opp_leader,opp_banned,date_added,player,opponent
+0,False,Bastet,Shimitae,Poseidon,Trinity,Woonsa,Bastet,None,Trinity,Woonsa,Seara,Okeanos,Eshir,Cheongpung,Leo,None,Leo,Seara,Leo,2021-01-06 09:46:07,KĪRĪN_,Faintmemory
+1,True,Bastet,Shimitae,Poseidon,Trinity,Woonsa,Bastet,None,Trinity,Woonsa,Okeanos,Cheongpung,Psamathe,Tablo,Ethna,None,Ethna,Psamathe,Ethna,2021-01-06 09:44:01,KĪRĪN_,R4ider~
+2,True,Bastet,Shimitae,Woonsa,Lushen,Okeanos,None,Lushen,Shimitae,Okeanos,Seara,Fran,Masha,Rica,Verdehile,Seara,None,Seara,Verdehile,2021-01-06 07:15:02,KĪRĪN_,_Dr.Nalga_
+3,False,Seara,Ethna,Masha,Daphnis,Bastet,None,Daphnis,Seara,Bastet,Vanessa,Diana,Yeonhong,Rica,Okeanos,Okeanos,None,Vanessa,Okeanos,2021-01-06 07:12:55,KĪRĪN_,TopaV
+4,False,Shimitae,Woonsa,Poseidon,Trinity,Bastet,None,Trinity,Trinity,Bastet,Okeanos,Vanessa,Moore/WaterRYU,Hathor,Leo,Okeanos,None,Vanessa,Leo,2021-01-06 07:07:17,KĪRĪN_,fallenwizard
+5,True,Shimitae,Bastet,Poseidon,Cheongpung,Woonsa,None,Cheongpung,Shimitae,Woonsa,Okeanos,TianLang,Fran,Barbara,Vanessa,Okeanos,None,Fran,Vanessa,2021-01-06 07:00:20,KĪRĪN_,♧Mr.Bean♤
+6,True,Bastet,Okeanos,Woonsa,Poseidon,Shimitae,None,Poseidon,Okeanos,Shimitae,Seara,Juno,Velajuel,Masha,Vanessa,Seara,None,Seara,Vanessa,2021-01-06 06:58:31,KĪRĪN_,dragalion
+7,False,Bastet,Cheongpung,Shimitae,Woonsa,Bellenus,None,Bellenus,Shimitae,Bellenus,Okeanos,Vanessa,Seara,Verdehile,Leo,Okeanos,None,Vanessa,Leo,2021-01-06 06:53:28,KĪRĪN_,TopaV
+8,False,Bastet,Seara,Vanessa,Woonsa,Cheongpung,None,Woonsa,Vanessa,Cheongpung,Okeanos,Savannah,Rica,Chiwu,Moore/WaterRYU1,Okeanos,None,Chiwu,Moore/WaterRYU1,2021-01-06 06:05:26,KĪRĪN_,PinkRoid~
+9,False,Shimitae,Psamathe,Ethna,Cheongpung,Bastet,None,Cheongpung,Psamathe,Bastet,Okeanos,Moore/WaterRYU1,Savannah,Hathor,Vanessa,Okeanos,None,Moore/WaterRYU1,Vanessa,2021-01-06 06:02:36,KĪRĪN_,PinkRoid~
+10,True,Bastet,Shimitae,Okeanos,Woonsa,Trinity,Bastet,None,Shimitae,Trinity,Seara,Giana,Valantis,Wolyung,Psamathe,None,Wolyung,Wolyung,Psamathe,2021-01-06 05:54:18,KĪRĪN_,大V威
+11,True,Bastet,Okeanos,Cheongpung,Tesarion,Daphnis,None,Daphnis,Okeanos,Daphnis,Vanessa,TianLang,Ragdoll,Nephthys,Woosa,Vanessa,None,Vanessa,Woosa,2021-01-05 18:25:39,KĪRĪN_,Mr.VSR`
+12,True,Bastet,Cheongpung,Okeanos,Masha,Daphnis,Bastet,None,Okeanos,Daphnis,TianLang,Ragdoll,Jager,Molly,Fran,None,Molly,Jager,Fran,2021-01-05 18:20:11,KĪRĪN_,Mr.VSR`
+13,True,Bastet,Okeanos,Daphnis,Miho,Cheongpung,Bastet,None,Okeanos,Cheongpung,Artamiel,Jager,Illiana,Barbara,Nephthys,None,Barbara,Artamiel,Nephthys,2021-01-05 18:15:31,KĪRĪN_,아칸-
+14,True,Shimitae,Okeanos,Trinity,Woonsa,Bastet,Bastet,None,Trinity,Bastet,Chiwu,Ganymede,Vanessa,Barbara,Moore/WaterRYU1,None,Moore/WaterRYU1,Vanessa,Moore/WaterRYU1,2021-01-05 16:58:23,KĪRĪN_,Krom`z

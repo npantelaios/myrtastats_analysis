@@ -79,19 +79,31 @@ def parse_file(in_file: str, out_file: str, csv_top100: str) -> None:
         if json_each["replay_list"] == []:
             continue
         name = json_each["replay_list"][0]["wizard_name"]
+        old_name = name
         if name in ["Faintmemοry",
                     "Howtoplay༢",
                     "伝説のジェダイ",
                     "海贼༒卡罗特",
                     "砖头硬邦邦",
-                    "kamechan♪"]:
+                    "kamechan♪",
+                    "°빛대",
+                    "大V威",
+                    "#Maximus",
+                    "삞싥뭃",
+                    "杰咪爸",
+                    "아리셉트",
+                    "KĪRĪN_",
+                    "바니횽",
+                    "PRO༊",
+                    "°빛대",
+                    ]:
             name = name_conversion(name)
         folder_name = out_file + name + '/'
         # create directory (if doesnt exist)
         if not os.path.exists(folder_name):
             os.makedirs(folder_name)
         # check top100.csv to see if users exists on top100
-        first_row, player_row = check_user_top100(name, csv_top100)
+        first_row, player_row = check_user_top100(old_name, csv_top100)
         if not player_row:
             continue
         first_row.append("timestamp")
@@ -260,10 +272,19 @@ def name_conversion(name: str) -> str:
     switcher = {
             "Faintmemοry": "Faintmemory",
             "Howtoplay༢": "Howtoplay2",
-            "伝説のジェダイ": "SmileyChinese",
-            "海贼༒卡罗特": "CrossChinese",
-            "砖头硬邦邦": "ChineseBB",
+            "伝説のジェダイ": "LegendaryJedi(JP)",
+            "海贼༒卡罗特": "PirateCarrot(CH)",
+            "砖头硬邦邦": "HardBrick(CH)",
             "kamechan♪": "kamechan",
+            "°빛대": "LightZone(KR)",
+            "大V威": "BigV(CH)",
+            "#Maximus": "Maximus",
+            "삞싥뭃": "Shit(KR)",
+            "杰咪爸": "JamieDad",
+            "아리셉트": "Aricept",
+            "KĪRĪN_": "Kirin",
+            "PRO༊": "PRO",
+            "바니횽": "BarneyHoop(KR)",
     }
     return switcher.get(name)
 
