@@ -1,6 +1,6 @@
 battle_#,win_loss,p1,p2,p3,p4,p5,first,last,leader,banned,opp_p1,opp_p2,opp_p3,opp_p4,opp_p5,opp_first,opp_last,opp_leader,opp_banned,date_added,player,opponent
-0,True,Okeanos,Ragdoll,Fran,WaterRYU,Seara,Seara,None,WaterRYU,Seara,Vigor,Verdehile,Triana,Eshir,Cheongpung,None,Eshir,Vigor,Cheongpung,2021-01-05 07:54:25,Rosith,BigglebunZ
-1,True,Seara,Ragdoll,Fran,WaterRYU,Okeanos,None,WaterRYU,Seara,Okeanos,Vigor,Verdehile,Cheongpung,Shimitae,Gemini,Vigor,None,Shimitae,Gemini,2021-01-05 07:46:41,Rosith,BigglebunZ
+0,True,Okeanos,Ragdoll,Fran,Moore/WaterRYU1,Seara,Seara,None,Moore/WaterRYU1,Seara,Vigor,Verdehile,Triana,Eshir,Cheongpung,None,Eshir,Vigor,Cheongpung,2021-01-05 07:54:25,Rosith,BigglebunZ
+1,True,Seara,Ragdoll,Fran,Moore/WaterRYU1,Okeanos,None,Moore/WaterRYU1,Seara,Okeanos,Vigor,Verdehile,Cheongpung,Shimitae,Gemini,Vigor,None,Shimitae,Gemini,2021-01-05 07:46:41,Rosith,BigglebunZ
 2,True,Okeanos,Fran,Ragdoll,Vanessa,Triana,Okeanos,None,Vanessa,Triana,Molly,Velajuel,MoLong,Icares,Rica,None,Rica,MoLong,Rica,2021-01-05 07:42:22,Rosith,我想六哥了
 3,True,Okeanos,Fran,Daphnis,Praha,Seara,None,Praha,Okeanos,Seara,Molly,Velajuel,XingZhe,MeiHouWang,Juno,Molly,None,XingZhe,Juno,2021-01-05 07:34:57,Rosith,我想六哥了
 4,True,Seara,Okeanos,Verdehile,Ragdoll,Diana,None,Diana,Seara,Diana,Han,Chiwu,Bering,Poseidon,Asima,Han,None,Chiwu,Asima,2021-01-05 07:31:04,Rosith,墨池青
@@ -11,6 +11,11 @@ battle_#,win_loss,p1,p2,p3,p4,p5,first,last,leader,banned,opp_p1,opp_p2,opp_p3,o
 9,True,Seara,Fran,Vigor,Triana,Okeanos,None,Triana,Seara,Okeanos,Molly,Vanessa,Ragdoll,Praha,Daphnis,Molly,None,Vanessa,Daphnis,2021-01-05 07:11:50,Rosith,ocordon
 10,True,Vanessa,Ragdoll,Daphnis,Juno,Leo,None,Juno,Vanessa,Leo,Bastet,Tablo,Jamire,Okeanos,Miho,Bastet,None,Tablo,Miho,2021-01-05 07:02:16,Rosith,venry
 11,False,Fran,Okeanos,Vigor,Ragdoll,Vanessa,None,Ragdoll,Fran,Vanessa,Seara,Masha,Chiwu,Savannah,Giana,Seara,None,Chiwu,Giana,2021-01-05 06:59:13,Rosith,OTPit
-12,True,Okeanos,Fran,Juno,Ragdoll,WaterRYU,Okeanos,None,Fran,WaterRYU,Seara,Verdehile,Draco,Trinity,Eludia,None,Trinity,Trinity,Eludia,2021-01-05 06:54:02,Rosith,召喚士トミィ
-13,True,Seara,Fran,WaterRYU,Triana,Okeanos,Okeanos,None,WaterRYU,Okeanos,Chiwu,Daphnis,Ethna,Hathor,Barbara,None,Hathor,Chiwu,Barbara,2021-01-05 06:51:09,Rosith,imSpires
+12,True,Okeanos,Fran,Juno,Ragdoll,Moore/WaterRYU1,Okeanos,None,Fran,Moore/WaterRYU1,Seara,Verdehile,Draco,Trinity,Eludia,None,Trinity,Trinity,Eludia,2021-01-05 06:54:02,Rosith,召喚士トミィ
+13,True,Seara,Fran,Moore/WaterRYU1,Triana,Okeanos,Okeanos,None,Moore/WaterRYU1,Okeanos,Chiwu,Daphnis,Ethna,Hathor,Barbara,None,Hathor,Chiwu,Barbara,2021-01-05 06:51:09,Rosith,imSpires
 14,True,Fran,Okeanos,Triana,Vigor,Praha,None,Vigor,Fran,Praha,Seara,Barbara,Juno,Racuni,Ethna,Seara,None,Seara,Ethna,2021-01-05 06:42:48,Rosith,ElBastardo
+15,True,Fran,Ragdoll,FengYan,Savannah,Chiwu,Chiwu,None,Fran,Chiwu,Okeanos,Cheongpung,Psamathe,Masha,Woonsa,None,Masha,Psamathe,Woonsa,2021-01-06 03:59:37,Rosith,krigr
+16,True,Okeanos,Ragdoll,Seara,Eleanor,Moore/WaterRYU1,Okeanos,None,Seara,Moore/WaterRYU1,Cheongpung,Psamathe,Masha,Ganymede,Chiwu,None,Ganymede,Psamathe,Chiwu,2021-01-06 03:56:48,Rosith,krigr
+17,False,Okeanos,Chiwu,Ragdoll,Diana,Savannah,Okeanos,None,Chiwu,Savannah,Seara,Nicki,Moore/WaterRYU,Asima,Giana,None,Asima,Seara,Giana,2021-01-06 03:52:38,Rosith,大V威
+18,True,Fran,Savannah,Ragdoll,Chiwu,Okeanos,Okeanos,None,Chiwu,Okeanos,Moore/WaterRYU1,Seara,Velajuel,Verdehile,Hathor,None,Verdehile,Seara,Hathor,2021-01-06 06:16:03,Rosith,PinkRoid~
+19,True,Okeanos,Seara,Savannah,Chiwu,Moore/WaterRYU1,None,Moore/WaterRYU1,Chiwu,Moore/WaterRYU1,Hathor,Loren,Yeonhong,Barbara,Aschubel,Aschubel,None,Barbara,Aschubel,2021-01-06 04:12:02,Rosith,人之初.性本善

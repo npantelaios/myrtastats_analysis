@@ -52,6 +52,7 @@ def main(argv: list) -> None:
     else:
         load_previous(io_found, io_not_found, io_rids)
     monster_choices(in_file)
+    round_floats()
     write_to_output(io_found, io_not_found, io_rids)
     return
 
@@ -226,5 +227,20 @@ def write_to_output(io_found: str, io_not_found: str, io_rids: str) -> None:
     # DEBUG: print seara info
     # print(monster_dict["Seara"])
 
+def round_floats() -> None:
+    fields = [
+        "pick-perc",
+        "win-perc",
+        "leader-perc",
+        "first-perc",
+        "last-perc",
+        "banned-perc",
+        "1p-win-perc",
+        "5p-win-perc",
+        ]
+    for each in monster_dict:
+        for field in fields:
+            monster_dict[each][field] = "{:.1f}".format(monster_dict[each][field])
+    
 if __name__ == "__main__":
     main(sys.argv[1:])

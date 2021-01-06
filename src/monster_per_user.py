@@ -61,7 +61,7 @@ def parse_battles_csvs(initial_dir: str) -> None:
             if r <= starting_line:
                 continue
             new_battle_added = True
-            user_won = row[1]
+            user_won = True if (row[1]=="True") else False
             # user
             for _, col in enumerate(row[2:7]):
                 if not (col in monster_dict):
@@ -133,6 +133,7 @@ def parse_battles_csvs(initial_dir: str) -> None:
         # TODO: delete all NF_* keys from monster_dict
         f.close()
         json_file = initial_dir + user_dir + '/' + "monsters.json"
+        monster_dict = round_floats(monster_dict)
         with open(json_file, 'w') as outfile:
             dump(monster_dict, outfile, indent=4)
     return 
@@ -156,7 +157,7 @@ def set_default_dictionary() -> dict:
         "5p-win": 0,
         "5p-win-perc": 0,
         "user": "<--",
-        "enemy": "-->",
+        "monster": "",
         "opp_pick": 0,
         "opp_pick-perc": 0,
         "opp_win": 0,
@@ -210,6 +211,32 @@ def add_to_start_of_file(filename, added_part):
 def load_previous(io_found: str, monster_dict: dict) -> dict:
     with open(io_found) as f:
         monster_dict = load(f)
+    return monster_dict
+
+def round_floats(monster_dict: dict) -> dict:
+    fields = [
+        "pick-perc",
+        "win-perc",
+        "leader-perc",
+        "banned-perc",
+        "first-perc",
+        "last-perc",
+        "1p-win-perc",
+        "5p-win-perc",
+        "opp_pick-perc",
+        "opp_win-perc",
+        "opp_leader-perc",
+        "opp_banned-perc",
+        "opp_first-perc",
+        "opp_last-perc",
+        "opp_1p-win-perc",
+        "opp_5p-win-perc",
+        ]
+    for each in monster_dict:
+        for field in fields:
+            monster_dict[each][field] = "{:.1f}".format(monster_dict[each][field])
+        # extra: add monster_name instead of enemy
+        monster_dict[each]["monster"] = each
     return monster_dict
 
 if __name__ == "__main__":

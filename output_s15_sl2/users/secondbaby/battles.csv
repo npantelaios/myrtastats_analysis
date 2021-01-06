@@ -1,0 +1,26 @@
+battle_#,win_loss,p1,p2,p3,p4,p5,first,last,leader,banned,opp_p1,opp_p2,opp_p3,opp_p4,opp_p5,opp_first,opp_last,opp_leader,opp_banned,date_added,player,opponent
+0,False,Ragdoll,Giana,MoLong,Bolverk,Nephthys,Ragdoll,None,MoLong,Nephthys,Savannah,Seara,Eleanor,Josephine,Tetra,None,Josephine,Seara,Tetra,2021-01-04 18:38:32,secondbaby,X_W_Hunter
+1,True,Ragdoll,Vigor,Savannah,Cheongpung,Giana,None,Cheongpung,Cheongpung,Giana,Seara,Narsha,Tetra,Fran,Daphnis,Seara,None,Seara,Daphnis,2021-01-04 18:32:43,secondbaby,X_W_Hunter
+2,True,Vigor,Ragdoll,Masha,Okeanos,Giana,Giana,None,Okeanos,Giana,Velajuel,Molly,XingZhe,Juno,FengYan,None,FengYan,XingZhe,FengYan,2021-01-04 18:28:17,secondbaby,魔灵王归来
+3,True,Molly,Giana,Icares,Vigor,MoLong,None,Vigor,Giana,MoLong,Jager,Fran,Okeanos,Tetra,Ragdoll,Ragdoll,None,Fran,Ragdoll,2021-01-04 18:24:34,secondbaby,Mr.VSR`
+4,True,Giana,Molly,Icares,Vigor,MoLong,None,Vigor,Giana,MoLong,Jager,Fran,Tetra,Okeanos,Ragdoll,Ragdoll,None,Okeanos,Ragdoll,2021-01-04 18:20:42,secondbaby,Mr.VSR`
+5,True,Giana,Ragdoll,Nephthys,Chiwu,Velajuel,None,Velajuel,Nephthys,Velajuel,Seara,Vigor,Okeanos,Rica,Verdehile,Seara,None,Seara,Verdehile,2021-01-04 18:17:23,secondbaby,규규구구비둘기
+6,True,Giana,Ragdoll,Nephthys,Molly,Leo,None,Molly,Nephthys,Leo,Seara,Savannah,Moore/WaterRYU,Nyx,Bastet,Seara,None,Nyx,Bastet,2021-01-04 18:15:24,secondbaby,<DR>MiniCooper
+7,True,Molly,Giana,Cheongpung,Savannah,Nephthys,None,Savannah,Giana,Nephthys,Fran,Jager,Seara,Tetra,Verdehile,Fran,None,Seara,Verdehile,2021-01-05 16:06:05,secondbaby,♀雨你无瓜
+8,True,Molly,Giana,Cheongpung,Moore/WaterRYU,Nephthys,Molly,None,Moore/WaterRYU,Nephthys,Fran,Chiwu,Barbara,Savannah,Ragdoll,None,Savannah,Chiwu,Ragdoll,2021-01-05 16:01:31,secondbaby,G-Fam✨
+9,True,Giana,Nephthys,Ragdoll,Molly,Masha,Giana,None,Nephthys,Masha,Okeanos,Chiwu,Juno,Chacha,Savannah,None,Chacha,Chiwu,Savannah,2021-01-05 15:57:40,secondbaby,血继网罗
+10,False,Ragdoll,Cheongpung,Okeanos,Ganymede,Nephthys,Ragdoll,None,Ganymede,Nephthys,Giana,Molly,Jager,TianLang,Pater,None,Pater,Jager,Pater,2021-01-05 15:54:03,secondbaby,杰咪爸
+11,True,Ragdoll,Giana,Chiwu,Okeanos,Nephthys,None,Okeanos,Chiwu,Nephthys,Wedjat,Velajuel,Taranys,Rica,Artamiel,Wedjat,None,Wedjat,Artamiel,2021-01-05 15:50:43,secondbaby,༺❀JOKER❀༻
+12,True,Giana,Molly,MoLong,Icares,Bolverk,None,Icares,MoLong,Bolverk,Fran,Amelia,Jager,Vigor,Herteit,Fran,None,Jager,Herteit,2021-01-05 15:47:23,secondbaby,╰❥₷ɦ¡ท♚
+13,True,Ragdoll,Nephthys,Cheongpung,Savannah,Giana,None,Savannah,Nephthys,Giana,Fran,Molly,Jager,Tetra,Juno,Fran,None,Jager,Juno,2021-01-05 15:45:28,secondbaby,╰❥₷ɦ¡ท♚
+14,False,Ragdoll,Giana,Velajuel,Rica,Moore/WaterRYU,None,Rica,Velajuel,Moore/WaterRYU,Nephthys,Han,Molly,Artamiel,Woonsa,Nephthys,None,Nephthys,Woonsa,2021-01-05 15:40:48,secondbaby,PRO༊
+15,True,Ragdoll,Cheongpung,Nephthys,Moore/WaterRYU,Giana,Ragdoll,None,Nephthys,Giana,Fran,Vigor,Okeanos,Ethna,Chiwu,None,Ethna,Okeanos,Chiwu,2021-01-05 15:36:51,secondbaby,Sw@grid
+16,True,Ragdoll,Molly,XingZhe,Velajuel,Giana,None,Velajuel,XingZhe,Giana,Seara,Amelia,Ethna,Yeonhong,Tesarion,Seara,None,Seara,Tesarion,2021-01-05 15:34:09,secondbaby,BostonCreamPie
+17,True,Nephthys,Ragdoll,Hathor,Ganymede,Giana,Giana,None,Nephthys,Giana,Seara,Molly,Elucia,Verdehile,Amelia,None,Amelia,Seara,Amelia,2021-01-05 15:31:30,secondbaby,BostonCreamPie
+18,True,Giana,Ragdoll,Nephthys,Molly,Leo,None,Leo,Nephthys,Leo,Woonsa,Ganymede,Valantis,Poseidon,Seara,Seara,None,Ganymede,Seara,2021-01-05 15:28:11,secondbaby,一文字汁父
+19,True,Giana,Ragdoll,Savannah,Moore/WaterRYU,Nephthys,Giana,None,Moore/WaterRYU,Nephthys,Seara,Fran,TianLang,Tablo,Barbara,None,Tablo,Seara,Barbara,2021-01-05 23:02:24,secondbaby,1piss
+20,True,Ragdoll,Giana,Molly,Cheongpung,Nephthys,None,Cheongpung,Giana,Nephthys,Fran,Seara,Yeonhong,MoLong,Juno,Fran,None,Seara,Juno,2021-01-05 22:52:49,secondbaby,豆豆不吃豆1989
+21,True,Ragdoll,Molly,Giana,Juno,Nephthys,None,Juno,Giana,Nephthys,Okeanos,Fran,Savannah,Velajuel,Seara,Okeanos,None,Okeanos,Seara,2021-01-05 22:50:21,secondbaby,우주✿
+22,False,Moore/WaterRYU,Nephthys,Giana,Masha,Cheongpung,None,Masha,Nephthys,Cheongpung,Okeanos,Savannah,Fran,Diana,Vanessa,Okeanos,None,Fran,Vanessa,2021-01-05 22:46:09,secondbaby,PinkRoid~
+23,False,Okeanos,Nephthys,Cheongpung,Savannah,Giana,Okeanos,None,Nephthys,Giana,Seara,Fran,Hathor,Rica,Moore/WaterRYU1,None,Rica,Seara,Moore/WaterRYU1,2021-01-05 22:39:00,secondbaby,PinkRoid~
+24,True,Giana,Ragdoll,Cheongpung,Savannah,Nephthys,Giana,None,Giana,Nephthys,Seara,Jager,Molly,TianLang,Pater,None,Pater,Jager,Pater,2021-01-05 21:36:14,secondbaby,杰咪爸

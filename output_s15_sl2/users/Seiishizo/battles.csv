@@ -1,7 +1,7 @@
 battle_#,win_loss,p1,p2,p3,p4,p5,first,last,leader,banned,opp_p1,opp_p2,opp_p3,opp_p4,opp_p5,opp_first,opp_last,opp_leader,opp_banned,date_added,player,opponent
 0,True,Okeanos,Fran,Vanessa,Rica,Giana,None,Rica,Vanessa,Giana,Seara,Ganymede,Jager,Yeonhong,Molly,Seara,None,Seara,Molly,2021-01-05 04:53:04,Seiishizo,红颜丶醉迷离
-1,True,Okeanos,Chiwu,Savannah,Psamathe,Giana,None,Psamathe,Psamathe,Giana,Praha,Shan,FireRYU,Eshir,Seara,Seara,None,Praha,Seara,2021-01-05 04:49:06,Seiishizo,Viilipytty
-2,False,Seara,Chiwu,Rica,ShiHou,Giana,None,ShiHou,Seara,Giana,Okeanos,WaterRYU,Savannah,Verdehile,Anavel,Okeanos,None,WaterRYU,Anavel,2021-01-05 04:44:55,Seiishizo,PinkRoid~
+1,True,Okeanos,Chiwu,Savannah,Psamathe,Giana,None,Psamathe,Psamathe,Giana,Praha,Shan,Douglas/FireRYU1,Eshir,Seara,Seara,None,Praha,Seara,2021-01-05 04:49:06,Seiishizo,Viilipytty
+2,False,Seara,Chiwu,Rica,ShiHou,Giana,None,ShiHou,Seara,Giana,Okeanos,Moore/WaterRYU1,Savannah,Verdehile,Anavel,Okeanos,None,Moore/WaterRYU1,Anavel,2021-01-05 04:44:55,Seiishizo,PinkRoid~
 3,True,Okeanos,Giana,Vanessa,XingZhe,Rica,None,Rica,Vanessa,Rica,Seara,Eshir,Barbara,Shimitae,Praha,Seara,None,Seara,Praha,2021-01-05 04:42:53,Seiishizo,Viilipytty
 4,True,Seara,Okeanos,Praha,ShiHou,Giana,None,ShiHou,Seara,Giana,Fran,Velajuel,Vanessa,Hathor,Ragdoll,Fran,None,Vanessa,Ragdoll,2021-01-05 04:36:44,Seiishizo,Fenrir♂
 5,True,Vigor,Seara,Leo,Amelia,Giana,None,Amelia,Leo,Giana,Fran,Okeanos,Savannah,Lulu,Ragdoll,Fran,None,Okeanos,Ragdoll,2021-01-05 04:33:17,Seiishizo,Elmimo
@@ -14,12 +14,23 @@ battle_#,win_loss,p1,p2,p3,p4,p5,first,last,leader,banned,opp_p1,opp_p2,opp_p3,o
 12,True,Okeanos,Giana,Fran,Praha,Seara,Okeanos,None,Fran,Seara,Molly,Velajuel,Celia,Leona,Ragdoll,None,Leona,Celia,Ragdoll,2021-01-05 03:50:20,Seiishizo,JUN☆★
 13,True,Okeanos,Seara,Triton,Psamathe,Giana,Okeanos,None,Psamathe,Giana,Nephthys,Bellenus,Poseidon,Ganymede,Chiwu,None,Ganymede,Nephthys,Chiwu,2021-01-05 03:46:16,Seiishizo,kimjοngillest
 14,True,Okeanos,Seara,Ganymede,Savannah,Chiwu,Okeanos,None,Seara,Chiwu,Giana,Hathor,Psamathe,Nephthys,Woonsa,None,Nephthys,Psamathe,Woonsa,2021-01-05 03:42:01,Seiishizo,포미.
-15,True,Giana,Chiwu,Vanessa,Ganymede,Savannah,Giana,None,Vanessa,Savannah,Seara,Okeanos,Cheongpung,Tetra,Moore,None,Tetra,Seara,Moore,2021-01-05 15:21:25,Seiishizo,HONG_KFC
+15,True,Giana,Chiwu,Vanessa,Ganymede,Savannah,Giana,None,Vanessa,Savannah,Seara,Okeanos,Cheongpung,Tetra,Moore/WaterRYU,None,Tetra,Seara,Moore/WaterRYU,2021-01-05 15:21:25,Seiishizo,HONG_KFC
 16,True,Okeanos,Chiwu,Savannah,Masha,Giana,None,Masha,Chiwu,Giana,Nephthys,Han,Molly,Verdehile,Woonsa,Nephthys,None,Nephthys,Woonsa,2021-01-05 15:13:41,Seiishizo,PRO༊
-17,False,Chiwu,Giana,Savannah,Vanessa,Okeanos,Okeanos,None,Vanessa,Okeanos,Daphnis,Ethna,Jamire,Lisa,WaterRYU,None,Lisa,Jamire,WaterRYU,2021-01-05 15:10:04,Seiishizo,JinYao
+17,False,Chiwu,Giana,Savannah,Vanessa,Okeanos,Okeanos,None,Vanessa,Okeanos,Daphnis,Ethna,Jamire,Lisa,Moore/WaterRYU1,None,Lisa,Jamire,Moore/WaterRYU1,2021-01-05 15:10:04,Seiishizo,JinYao
 18,True,Okeanos,Giana,Savannah,Ganymede,Vanessa,Okeanos,None,Giana,Vanessa,Seara,Bastet,Cheongpung,Chiwu,Lushen,None,Lushen,Seara,Lushen,2021-01-05 15:04:44,Seiishizo,Icedcoyote
 19,True,Seara,Ganymede,Savannah,Giana,XingZhe,None,XingZhe,Seara,XingZhe,Chiwu,Cheongpung,Bastet,Psamathe,Okeanos,Okeanos,None,Psamathe,Okeanos,2021-01-05 15:00:33,Seiishizo,Icedcoyote
 20,True,Okeanos,Giana,Seara,Savannah,Vigor,Okeanos,None,Seara,Vigor,Fran,Jager,Molly,MeiHouWang,Ragdoll,None,MeiHouWang,Fran,Ragdoll,2021-01-05 14:45:30,Seiishizo,MiranღNoah
-21,True,Giana,Chiwu,XingZhe,Diana,Seara,Giana,None,Chiwu,Seara,Ganymede,WaterRYU,Barbara,Antares,Okeanos,None,Antares,WaterRYU,Okeanos,2021-01-05 14:21:58,Seiishizo,삞묦돓
+21,True,Giana,Chiwu,XingZhe,Diana,Seara,Giana,None,Chiwu,Seara,Ganymede,Moore/WaterRYU1,Barbara,Antares,Okeanos,None,Antares,Moore/WaterRYU1,Okeanos,2021-01-05 14:21:58,Seiishizo,삞묦돓
 22,True,Seara,Okeanos,Giana,Praha,Fran,None,Praha,Seara,Fran,Juno,Pater,Vanessa,Velajuel,Molly,Molly,None,Vanessa,Molly,2021-01-05 14:16:04,Seiishizo,Ꮤ﹏椛落✿知秋
 23,False,Seara,Giana,Vanessa,XingZhe,Triton,None,XingZhe,Vanessa,Triton,Chiwu,Cheongpung,Tablo,Barbara,Okeanos,Okeanos,None,Chiwu,Okeanos,2021-01-05 14:11:18,Seiishizo,サキ2
+24,True,Okeanos,Giana,Leo,Vanessa,Juno,None,Juno,Vanessa,Juno,Savannah,Yeonhong,Velajuel,Rica,Seara,Seara,None,Yeonhong,Seara,2021-01-06 04:04:40,Seiishizo,おがさわら
+25,False,Vanessa,Savannah,Rica,Sian,Giana,Giana,None,Vanessa,Giana,Seara,Okeanos,Molly,Asima,Leo,None,Asima,Seara,Leo,2021-01-06 04:01:31,Seiishizo,大V威
+26,False,Giana,Okeanos,Seara,Chiwu,Eshir,None,Eshir,Chiwu,Eshir,Cheongpung,Han,Nephthys,Barbara,Moore/WaterRYU1,Moore/WaterRYU1,None,Nephthys,Moore/WaterRYU1,2021-01-06 03:58:32,Seiishizo,삞싥뭃
+27,True,Giana,Vanessa,Chiwu,Ganymede,Savannah,Giana,None,Vanessa,Savannah,Okeanos,Seara,Molly,Juno,Leo,None,Juno,Seara,Leo,2021-01-06 05:36:43,Seiishizo,大V威
+28,True,Seara,Savannah,Vanessa,Juno,Giana,None,Juno,Vanessa,Giana,Chiwu,Fran,Rica,Velajuel,Okeanos,Okeanos,None,Chiwu,Okeanos,2021-01-06 04:50:58,Seiishizo,PinkRoid~
+29,True,Fran,Seara,Savannah,Diana,Giana,Fran,None,Seara,Giana,Vigor,Okeanos,Lulu,Daphnis,Ragdoll,None,Daphnis,Daphnis,Ragdoll,2021-01-06 04:37:58,Seiishizo,Elmimo
+30,True,Giana,Okeanos,Savannah,Seara,Chiwu,None,Seara,Seara,Chiwu,Nephthys,Han,Cheongpung,Velajuel,Woonsa,Nephthys,None,Nephthys,Woonsa,2021-01-06 04:35:12,Seiishizo,PRO༊
+31,True,Okeanos,Vanessa,Savannah,XingZhe,Giana,Giana,None,Vanessa,Giana,Chiwu,Seara,Josephine,Barbara,MeiHouWang,None,MeiHouWang,Chiwu,MeiHouWang,2021-01-06 04:32:02,Seiishizo,o2loveo
+32,True,Seara,Okeanos,Vigor,Triana,Giana,None,Triana,Seara,Giana,Fran,Jager,Lulu,Savannah,Ragdoll,Fran,None,Fran,Ragdoll,2021-01-06 04:17:18,Seiishizo,Elmimo
+33,True,Seara,Ganymede,Chiwu,Antares,Giana,None,Antares,Chiwu,Giana,Moore/WaterRYU1,Savannah,Cheongpung,Verdehile,Okeanos,Okeanos,None,Moore/WaterRYU1,Okeanos,2021-01-06 04:11:10,Seiishizo,ThatAapje~
+34,False,Seara,Savannah,Chiwu,Giana,Antares,None,Antares,Seara,Antares,Ganymede,Moore/WaterRYU1,Vanessa,Verdehile,Okeanos,Okeanos,None,Vanessa,Okeanos,2021-01-06 04:07:52,Seiishizo,PinkRoid~

@@ -1,6 +1,6 @@
 battle_#,win_loss,p1,p2,p3,p4,p5,first,last,leader,banned,opp_p1,opp_p2,opp_p3,opp_p4,opp_p5,opp_first,opp_last,opp_leader,opp_banned,date_added,player,opponent
 0,True,Okeanos,Han,Giana,Triana,Leo,Okeanos,None,Han,Leo,Seara,Barbara,Savannah,Raki,Chiwu,None,Raki,Seara,Chiwu,2021-01-05 09:22:14,Ex|Shizzy,Harunek
-1,True,Okeanos,Han,WaterRYU,Rica,Giana,Okeanos,None,WaterRYU,Giana,Seara,Ragdoll,Chiwu,Ganymede,Hathor,None,Ganymede,Chiwu,Hathor,2021-01-05 09:17:26,Ex|Shizzy,渣男锡纸烫®
+1,True,Okeanos,Han,Moore/WaterRYU1,Rica,Giana,Okeanos,None,Moore/WaterRYU1,Giana,Seara,Ragdoll,Chiwu,Ganymede,Hathor,None,Ganymede,Chiwu,Hathor,2021-01-05 09:17:26,Ex|Shizzy,渣男锡纸烫®
 2,False,Giana,Chiwu,Han,Rica,Okeanos,None,Rica,Chiwu,Okeanos,Seara,Bellenus,Verdehile,Savannah,Tiana,Seara,None,Seara,Tiana,2021-01-05 09:13:23,Ex|Shizzy,TreNasty
 3,True,Okeanos,Giana,Han,Savannah,Ganymede,None,Ganymede,Okeanos,Ganymede,Seara,Juno,Vigor,XingZhe,Molly,Seara,None,Seara,Molly,2021-01-05 09:10:09,Ex|Shizzy,HardLog
 4,False,Seara,Giana,Han,Savannah,Fran,Fran,None,Seara,Fran,XingZhe,Molly,Jager,Rica,Ragdoll,None,Rica,XingZhe,Ragdoll,2021-01-05 09:07:19,Ex|Shizzy,MiranღNoah
@@ -10,7 +10,20 @@ battle_#,win_loss,p1,p2,p3,p4,p5,first,last,leader,banned,opp_p1,opp_p2,opp_p3,o
 8,True,Okeanos,Fran,Giana,Han,Seara,None,Han,Okeanos,Seara,Molly,XingZhe,Velajuel,Tetra,Akroma,Molly,None,XingZhe,Akroma,2021-01-05 07:27:45,Ex|Shizzy,我想六哥了
 9,True,Molly,Giana,Seara,Vigor,Velajuel,None,Velajuel,Seara,Velajuel,Fran,Ragdoll,Ganymede,Rica,Okeanos,Fran,None,Fran,Okeanos,2021-01-05 07:17:41,Ex|Shizzy,o0从麟开始0o
 10,True,Okeanos,Fran,Giana,Seara,Ganymede,None,Seara,Okeanos,Ganymede,Molly,Ragdoll,Velajuel,Artamiel,Amelia,Molly,None,Artamiel,Amelia,2021-01-05 07:14:04,Ex|Shizzy,o0从麟开始0o
-11,False,Fran,Han,WaterRYU,Savannah,Giana,Fran,None,WaterRYU,Giana,Seara,Barbara,Chiwu,Vanessa,Okeanos,None,Vanessa,Vanessa,Okeanos,2021-01-05 07:09:47,Ex|Shizzy,☆étoile☆
-12,True,Okeanos,Giana,WaterRYU,Leo,Han,None,Leo,Okeanos,Han,Chiwu,Savannah,Psamathe,Fran,Seara,Seara,None,Psamathe,Seara,2021-01-05 07:04:35,Ex|Shizzy,Raxxaz~
+11,False,Fran,Han,Moore/WaterRYU1,Savannah,Giana,Fran,None,Moore/WaterRYU1,Giana,Seara,Barbara,Chiwu,Vanessa,Okeanos,None,Vanessa,Vanessa,Okeanos,2021-01-05 07:09:47,Ex|Shizzy,☆étoile☆
+12,True,Okeanos,Giana,Moore/WaterRYU1,Leo,Han,None,Leo,Okeanos,Han,Chiwu,Savannah,Psamathe,Fran,Seara,Seara,None,Psamathe,Seara,2021-01-05 07:04:35,Ex|Shizzy,Raxxaz~
 13,True,Okeanos,Fran,Han,Ganymede,Giana,None,Ganymede,Ganymede,Giana,Seara,Savannah,Molly,Jager,Daphnis,Seara,None,Seara,Daphnis,2021-01-05 06:59:34,Ex|Shizzy,VanessaPlease~
 14,True,Okeanos,Han,Ganymede,Savannah,Giana,Okeanos,None,Ganymede,Giana,Fran,Seara,Molly,Velajuel,Juno,None,Velajuel,Seara,Juno,2021-01-05 06:55:35,Ex|Shizzy,VanessaPlease~
+15,True,Giana,Fran,Han,Moore/WaterRYU1,Verdehile,Giana,None,Moore/WaterRYU1,Verdehile,Seara,Chiwu,Cheongpung,Tetra,Okeanos,None,Tetra,Seara,Okeanos,2021-01-06 00:04:00,Ex|Shizzy,海贼༒卡罗特
+16,True,Okeanos,Giana,Ganymede,Rica,Fran,Fran,None,Ganymede,Fran,Seara,Vigor,Masha,Verdehile,Tetra,None,Tetra,Seara,Tetra,2021-01-05 23:56:45,Ex|Shizzy,Shaja⛵
+17,True,Okeanos,Seara,Han,Giana,Fran,Okeanos,None,Seara,Fran,MeiHouWang,Juno,XingZhe,Pater,Molly,None,Pater,XingZhe,Molly,2021-01-05 23:53:51,Ex|Shizzy,航爷变戏法
+18,True,Fran,Seara,Giana,Okeanos,Han,None,Han,Seara,Han,Molly,Velajuel,Tetra,Juno,XingZhe,Molly,None,Velajuel,XingZhe,2021-01-05 23:50:50,Ex|Shizzy,✎﹏ղấლ‿✶
+19,True,Seara,Okeanos,Han,Moore/WaterRYU1,Giana,None,Moore/WaterRYU1,Moore/WaterRYU1,Giana,Masha,Vigor,Vanessa,Verdehile,Fran,Fran,None,Vanessa,Fran,2021-01-05 23:45:50,Ex|Shizzy,Shaja⛵
+20,True,Okeanos,Giana,Fran,Seara,Odin,Okeanos,None,Seara,Odin,Amelia,Josephine,Vivachel,Triana,Artamiel,None,Triana,Vivachel,Artamiel,2021-01-05 23:41:00,Ex|Shizzy,JaoYinGz
+21,True,Seara,Okeanos,Han,Savannah,Giana,None,Savannah,Seara,Giana,MoLong,Diana,Tetra,Abellio,Woosa,MoLong,None,MoLong,Woosa,2021-01-05 23:36:42,Ex|Shizzy,飘撇七逃狼
+22,True,Seara,Giana,Han,Anavel,Fran,None,Anavel,Seara,Fran,Okeanos,Vanessa,Josephine,Triana,QitianDasheng,Okeanos,None,Vanessa,QitianDasheng,2021-01-05 23:33:29,Ex|Shizzy,蒋顾恒
+23,False,Okeanos,Giana,Han,Ganymede,Savannah,None,Savannah,Ganymede,Savannah,MeiHouWang,Molly,Barbara,Josephine,Seara,Seara,None,MeiHouWang,Seara,2021-01-05 23:28:53,Ex|Shizzy,ジロケンH♡
+24,True,Seara,Han,Chiwu,Savannah,Giana,None,Savannah,Seara,Giana,Okeanos,SonZhangLao,Ethna,Juno,Akroma,Okeanos,None,SonZhangLao,Akroma,2021-01-05 23:24:49,Ex|Shizzy,ELDEAU
+25,False,Seara,Okeanos,Chiwu,Han,Ganymede,None,Ganymede,Seara,Ganymede,Fran,Jager,Artamiel,Molly,Giana,Giana,None,Jager,Giana,2021-01-05 23:22:04,Ex|Shizzy,서빈마마
+26,True,Okeanos,Seara,Moore/WaterRYU1,Han,Giana,Okeanos,None,Moore/WaterRYU1,Giana,MoLong,Savannah,Jager,Daphnis,Josephine,None,Josephine,MoLong,Josephine,2021-01-06 08:43:25,Ex|Shizzy,❁Hanasan❁
+27,True,Seara,Giana,Han,Rica,Moore/WaterRYU1,None,Rica,Seara,Moore/WaterRYU1,Okeanos,Ganymede,Savannah,Verdehile,Chiwu,Okeanos,None,Ganymede,Chiwu,2021-01-06 09:04:35,Ex|Shizzy,俏皮可爱小尾巴
