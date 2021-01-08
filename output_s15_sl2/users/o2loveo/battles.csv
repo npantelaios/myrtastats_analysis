@@ -1,2 +1,20 @@
 battle_#,win_loss,p1,p2,p3,p4,p5,first,last,leader,banned,opp_p1,opp_p2,opp_p3,opp_p4,opp_p5,opp_first,opp_last,opp_leader,opp_banned,date_added,player,opponent
 0,True,Seara,Giana,Chiwu,Okeanos,Leo,Seara,None,Chiwu,Leo,Fran,Savannah,Yeonhong,Verdehile,Moore/WaterRYU1,None,Verdehile,Yeonhong,Moore/WaterRYU1,2021-01-06 04:34:43,o2loveo,おがさわら
+1,True,Giana,Triana,Juno,Taranys,Beelzebub,Giana,None,Juno,Beelzebub,Seara,Barbara,Nephthys,Masha,Okeanos,None,Masha,Nephthys,Okeanos,2021-01-07 04:31:20,o2loveo,我怎么这么好看
+2,True,Giana,Fran,Juno,Praha,Seara,Seara,None,Fran,Seara,Barbara,Okeanos,Bastet,Valantis,Daphnis,None,Daphnis,Okeanos,Daphnis,2021-01-07 06:58:46,o2loveo,Welcha
+3,True,Giana,Lulu,Vigor,Julianne,Seara,None,Julianne,Giana,Seara,Okeanos,Juno,Molly,MeiHouWang,Tetra,Okeanos,None,Okeanos,Tetra,2021-01-07 06:55:50,o2loveo,Chewiesz
+4,False,Seara,Chiwu,Vigor,Julianne,Giana,Seara,None,Chiwu,Giana,Fran,Vanessa,TianLang,Triton,Okeanos,None,Triton,Vanessa,Okeanos,2021-01-08 04:05:25,o2loveo,Enlist
+5,True,Okeanos,Moore/WaterRYU1,Woonsa,Hathor,Seara,Seara,None,Moore/WaterRYU1,Seara,Giana,Barbara,Fran,Juno,Chiwu,None,Juno,Fran,Chiwu,2021-01-08 04:00:28,o2loveo,Nick-Laurac
+6,True,Seara,TianLang,Vivachel,Beelzebub,Giana,None,Beelzebub,Beelzebub,Giana,Fran,Ragdoll,Leo,Velajuel,Molly,Fran,None,Velajuel,Molly,2021-01-08 03:48:48,o2loveo,あらʕʘ‿ʘʔ
+7,False,Seara,Vivachel,Giana,Vigor,Beelzebub,Seara,None,Vivachel,Beelzebub,Vanessa,Pater,Molly,Josephine,Sekhmet,None,Sekhmet,Vanessa,Sekhmet,2021-01-08 03:45:53,o2loveo,イヤキチばばあ
+8,True,Seara,Vivachel,Hathor,Oberon,Giana,Seara,None,Oberon,Giana,Jager,Artamiel,Cheongpung,Taranys,Molly,None,Taranys,Artamiel,Molly,2021-01-08 03:40:47,o2loveo,킹덕.
+9,False,Seara,Chiwu,Giana,Hathor,Ganymede,Seara,None,Chiwu,Ganymede,Cheongpung,Moore/WaterRYU1,Tyron,Triton,Okeanos,None,Triton,Moore/WaterRYU1,Okeanos,2021-01-08 03:34:15,o2loveo,BloodyKlaw
+10,True,Seara,Moore/WaterRYU1,Josephine,Molly,Giana,Seara,None,Seara,Giana,Chiwu,ShiHou,Masha,Vigor,Hathor,None,Vigor,Chiwu,Hathor,2021-01-08 03:30:39,o2loveo,PseudoWoodo
+11,True,Moore/WaterRYU1,Chiwu,TianLang,Beelzebub,Giana,Giana,None,Chiwu,Giana,Seara,Yeonhong,Han,Bering,Okeanos,None,Bering,Han,Okeanos,2021-01-08 03:25:33,o2loveo,เฮียทัช
+12,False,Seara,Giana,Leo,Juno,Moore/WaterRYU1,Seara,None,Seara,Moore/WaterRYU1,Okeanos,Chiwu,Cheongpung,Vanessa,Savannah,None,Vanessa,Vanessa,Savannah,2021-01-08 03:21:45,o2loveo,Krom`z
+13,True,Seara,Giana,Fran,Beelzebub,Okeanos,None,Beelzebub,Beelzebub,Okeanos,XingZhe,Alexandra,Juno,Racuni,Molly,Molly,None,XingZhe,Molly,2021-01-08 03:18:01,o2loveo,.Namaste.
+14,True,Giana,Molly,Leo,XingZhe,Okeanos,None,XingZhe,XingZhe,Okeanos,Seara,Barbara,Cheongpung,Ethna,Daphnis,Seara,None,Ethna,Daphnis,2021-01-08 03:13:01,o2loveo,-L.I.P.E-
+15,False,Chiwu,Okeanos,Giana,Julianne,TianLang,None,Julianne,Chiwu,TianLang,Seara,Moore/WaterRYU1,Cheongpung,Vanessa,Barbara,Seara,None,Vanessa,Barbara,2021-01-08 03:09:07,o2loveo,Krom`z
+16,False,Giana,Josephine,Juno,Praha,Seara,Seara,None,Giana,Seara,Okeanos,Fran,Chiwu,Molly,TianLang,None,Molly,Okeanos,TianLang,2021-01-08 03:05:19,o2loveo,Enlist
+17,True,Vivachel,TianLang,Miho,Beelzebub,Giana,None,Beelzebub,Beelzebub,Giana,Fran,Jager,Ragdoll,Vigor,Tesarion,Fran,None,Jager,Tesarion,2021-01-08 02:58:46,o2loveo,Elmimo
+18,True,Fran,Giana,Josephine,Vivachel,Beelzebub,Fran,None,Vivachel,Beelzebub,Vigor,Okeanos,Ragdoll,Jager,Tetra,None,Tetra,Okeanos,Tetra,2021-01-08 02:55:55,o2loveo,Elmimo

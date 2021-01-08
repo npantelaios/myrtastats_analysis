@@ -1,0 +1,31 @@
+battle_#,win_loss,p1,p2,p3,p4,p5,first,last,leader,banned,opp_p1,opp_p2,opp_p3,opp_p4,opp_p5,opp_first,opp_last,opp_leader,opp_banned,date_added,player,opponent
+0,False,Artamiel,Fran,Verdehile,Juno,Okeanos,Okeanos,None,Artamiel,Okeanos,Seara,Chiwu,Cheongpung,TianLang,Jager,None,Jager,Seara,Jager,2021-01-07 02:12:31,Acn0vа,Sαℓтүℍ2σ
+1,False,Seara,Fran,Artamiel,Illiana,Han,None,Han,Artamiel,Han,Okeanos,Savannah,Bastet,Covenant,Giana,Okeanos,None,Okeanos,Giana,2021-01-07 02:08:34,Acn0vа,OTPit
+2,False,Okeanos,Fran,Han,Illiana,Artamiel,Okeanos,None,Fran,Artamiel,Seara,Ganymede,Chiwu,Chris,Cheongpung,None,Chris,Seara,Cheongpung,2021-01-07 01:58:20,Acn0vа,UT.10
+3,True,Okeanos,Ganymede,Rica,Perna,Chiwu,Okeanos,None,Ganymede,Chiwu,Seara,Giana,Vanessa,XingZhe,Amelia,None,Amelia,Vanessa,Amelia,2021-01-07 01:47:46,Acn0vа,Seiishizo
+4,False,Seara,Chiwu,Barbara,Ganymede,Okeanos,None,Ganymede,Seara,Okeanos,Han,Moore/WaterRYU1,Triana,Savannah,Giana,Han,None,Moore/WaterRYU1,Giana,2021-01-07 01:44:58,Acn0vа,Ex|Shizzy
+5,True,Fran,Vigor,Artamiel,Han,Illiana,None,Han,Artamiel,Illiana,Okeanos,Seara,Molly,Oberon,Giana,Okeanos,None,Seara,Giana,2021-01-07 01:39:25,Acn0vа,ZeroCai2020
+6,True,Triana,MoLong,Bolverk,Perna,Artamiel,None,Perna,MoLong,Artamiel,Seara,Fran,Masha,Beelzebub,Ethna,Seara,None,Seara,Ethna,2021-01-07 01:34:53,Acn0vа,hopsteph
+7,True,Seara,Fran,Barbara,Ganymede,Chiwu,None,Ganymede,Seara,Chiwu,Okeanos,Savannah,Daphnis,Praha,Verdehile,Okeanos,None,Okeanos,Verdehile,2021-01-07 01:28:57,Acn0vа,IksDee
+8,False,Okeanos,Illiana,Juno,Triana,Artamiel,Okeanos,None,Okeanos,Artamiel,Seara,Masha,Ethna,Tablo,Fran,None,Tablo,Seara,Fran,2021-01-07 01:24:35,Acn0vа,hopsteph
+9,False,Okeanos,Fran,Artamiel,Barbara,Han,None,Barbara,Fran,Han,Juno,Molly,Jager,Daphnis,Seara,Seara,None,Jager,Seara,2021-01-07 01:20:09,Acn0vа,VanessaPlease~
+10,True,Okeanos,Artamiel,Illiana,Han,Triana,Okeanos,None,Artamiel,Triana,Seara,Fran,Raki,Vigor,Barbara,None,Vigor,Seara,Barbara,2021-01-07 01:13:29,Acn0vа,1piss
+11,True,Fran,Okeanos,Han,Juno,Artamiel,None,Juno,Fran,Artamiel,Seara,Moore/WaterRYU1,Valantis,Ganymede,Bael,Seara,None,Seara,Bael,2021-01-07 01:07:29,Acn0vа,Pinis~
+12,True,Fran,Vigor,Han,Artamiel,Seara,None,Artamiel,Fran,Seara,Okeanos,Bolverk,Ethna,Shan,Praha,Okeanos,None,Ethna,Praha,2021-01-07 00:37:59,Acn0vа,Viilipytty
+13,True,Artamiel,Triana,Leo,Verdehile,Vigor,Artamiel,None,Leo,Vigor,Bastet,Shimitae,Gemini,Tesarion,Okeanos,None,Tesarion,Shimitae,Okeanos,2021-01-07 00:23:51,Acn0vа,ssjwarrior
+14,True,Fran,Vigor,Juno,Artamiel,Verdehile,None,Verdehile,Artamiel,Verdehile,Chiwu,Ganymede,Ethna,Savannah,Okeanos,Okeanos,None,Chiwu,Okeanos,2021-01-07 00:18:22,Acn0vа,Yumekui~Pica
+15,False,Artamiel,Juno,XingZhe,Nigong,Triana,None,Nigong,Artamiel,Triana,Velajuel,Imesety,Odin,Bulldozer,Bastet,Bastet,None,Velajuel,Bastet,2021-01-08 03:33:02,Acn0vа,ellipsio
+16,False,Seara,Artamiel,Han,Okeanos,Fran,None,Okeanos,Seara,Fran,Vigor,Velajuel,XingZhe,Molly,Ragdoll,Ragdoll,None,XingZhe,Ragdoll,2021-01-08 03:28:12,Acn0vа,Pythagoreas
+17,False,Okeanos,Artamiel,Han,Vigor,Illiana,Okeanos,None,Han,Illiana,Fran,Seara,Akia,XingZhe,Molly,None,XingZhe,Seara,Molly,2021-01-08 03:06:06,Acn0vа,츠브
+18,False,Okeanos,Seara,Ganymede,Hathor,Vigor,Okeanos,None,Seara,Vigor,Fran,Molly,Artamiel,Juno,Velajuel,None,Juno,Artamiel,Velajuel,2021-01-08 03:01:53,Acn0vа, 아리 
+19,False,Seara,Barbara,Artamiel,Illiana,Okeanos,Okeanos,None,Seara,Okeanos,Anavel,Fran,Verdehile,Odin,Leo,None,Odin,Fran,Leo,2021-01-08 02:56:02,Acn0vа,LkMen
+20,False,Triana,Seara,Fran,Okeanos,Artamiel,None,Okeanos,Seara,Artamiel,Miho,Leo,Lucifer,Lushen,Bastet,Bastet,None,Lucifer,Bastet,2021-01-08 02:51:23,Acn0vа,チンクロ率400%
+21,False,Vigor,Fran,Artamiel,Juno,Verdehile,None,Verdehile,Artamiel,Verdehile,Okeanos,Seara,Bastet,Cheongpung,Daphnis,Okeanos,None,Seara,Daphnis,2021-01-08 02:47:54,Acn0vа,Icedcoyote
+22,True,Okeanos,Artamiel,Fran,Triana,Han,Okeanos,None,Fran,Han,Seara,Bastet,Loren,Barbara,Daphnis,None,Daphnis,Seara,Daphnis,2021-01-08 02:45:00,Acn0vа,riuichi
+23,True,Okeanos,Fran,Ganymede,Hathor,Chiwu,None,Hathor,Fran,Chiwu,Giana,Loren,Barbara,Cheongpung,Seara,Seara,None,Giana,Seara,2021-01-08 00:23:52,Acn0vа,༒༄Itachi༻༒
+24,True,Seara,Okeanos,Chiwu,Barbara,Ganymede,None,Ganymede,Seara,Ganymede,MoLong,Harmonia,Icares,Racuni,Leo,MoLong,None,MoLong,Leo,2021-01-08 00:21:10,Acn0vа,TORNADOTHOMY
+25,True,Seara,Okeanos,Barbara,Hathor,Ganymede,None,Hathor,Seara,Ganymede,Taranys,Ragdoll,MoLong,Thrain,Velajuel,Taranys,None,MoLong,Velajuel,2021-01-08 00:18:09,Acn0vа,KTM''
+26,False,Seara,Vigor,Artamiel,Han,Okeanos,Okeanos,None,Seara,Okeanos,MoLong,Velajuel,Taranys,XingZhe,Ragdoll,None,XingZhe,MoLong,Ragdoll,2021-01-08 00:11:35,Acn0vа,KTM''
+27,False,Okeanos,Seara,Barbara,Han,Fran,Okeanos,None,Seara,Fran,MoLong,Lulu,Diana,Bellenus,Molly,None,Bellenus,MoLong,Molly,2021-01-08 00:04:17,Acn0vа,章鱼.f寻
+28,False,Okeanos,Fran,Illiana,Leo,Seara,Okeanos,None,Fran,Seara,Chiwu,Ganymede,Barbara,Verdehile,Hathor,None,Verdehile,Ganymede,Hathor,2021-01-07 23:59:00,Acn0vа,슈퍼인조인간
+29,True,Okeanos,Fran,Artamiel,Triana,Illiana,None,Triana,Artamiel,Illiana,Seara,Chiwu,Giana,Ganymede,Bellenus,Seara,None,Chiwu,Bellenus,2021-01-07 23:52:23,Acn0vа,SgtSlaughter

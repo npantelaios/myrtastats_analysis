@@ -105,7 +105,7 @@ def parse_file(in_file: str, out_file: str, csv_top100: str) -> None:
         # check top100.csv to see if users exists on top100
         first_row, player_row = check_user_top100(old_name, csv_top100)
         if not player_row:
-            continue
+            player_row = [0,1000,"GR","greeksteeler",100,0,0,0,0,0,0]
         first_row.append("timestamp")
         player_row.append(datetime.datetime.now())  
         # if exists add on "general.csv" the line + timestamp

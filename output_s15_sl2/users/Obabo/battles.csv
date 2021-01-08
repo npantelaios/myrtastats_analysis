@@ -1,0 +1,16 @@
+battle_#,win_loss,p1,p2,p3,p4,p5,first,last,leader,banned,opp_p1,opp_p2,opp_p3,opp_p4,opp_p5,opp_first,opp_last,opp_leader,opp_banned,date_added,player,opponent
+0,True,Fran,Triana,Han,Okeanos,Vigor,Vigor,None,Fran,Vigor,Diana,Loren,Masha,Konamiya,Velajuel,None,Konamiya,Loren,Velajuel,2021-01-03 16:17:12,Obabo,リトルキング
+1,False,Triana,Fran,Okeanos,Eshir,Han,None,Han,Fran,Han,Vigor,Verdehile,Pater,Velajuel,Loren,Vigor,None,Velajuel,Loren,2021-01-03 16:13:02,Obabo,リトルキング
+2,True,Vigor,Verdehile,Molly,Taranys,Triana,Triana,None,Verdehile,Triana,Fran,Barbara,Daphnis,Eshir,Loren,None,Eshir,Daphnis,Loren,2021-01-03 16:08:22,Obabo,荒ぶるZEET
+3,True,Triana,Fran,Elucia,Han,Okeanos,None,Han,Fran,Okeanos,Vigor,Seara,Chacha,Ophilia,Juno,Vigor,None,Seara,Juno,2021-01-03 16:02:56,Obabo,Sir☆Leafy
+4,True,Triana,Vigor,Bering,Icares,Han,None,Icares,Icares,Han,Fran,Seara,Loren,Ethna,Verdehile,Fran,None,Seara,Verdehile,2021-01-03 15:58:57,Obabo,折原临也
+5,True,Triana,Fran,Okeanos,Elucia,Han,None,Han,Okeanos,Han,Vigor,Verdehile,XingZhe,Vivachel,Lulu,Vigor,None,Vivachel,Lulu,2021-01-03 15:53:49,Obabo,爆菊※牛佬
+6,True,Triana,Elucia,Verdehile,Molly,Seara,Triana,None,Elucia,Seara,Fran,Vigor,Shushu,MoLong,Odin,None,MoLong,MoLong,Odin,2021-01-03 15:06:05,Obabo,한글날
+7,True,Triana,Fran,Vigor,Taranys,Okeanos,None,Taranys,Fran,Okeanos,Seara,Eshir,Konamiya,Daphnis,Ethna,Seara,None,Seara,Ethna,2021-01-03 14:56:27,Obabo,チンタイ
+8,True,Triana,Vigor,Fran,Taranys,Okeanos,Triana,None,Fran,Okeanos,Seara,Eshir,Konamiya,Daphnis,Ethna,None,Ethna,Seara,Ethna,2021-01-03 14:51:43,Obabo,チンタイ
+9,True,Vigor,Verdehile,Molly,Han,Bering,Vigor,None,Han,Bering,Triana,Fran,Loren,Tesarion,Seara,None,Tesarion,Tesarion,Seara,2021-01-02 12:51:05,Obabo,월드스타!
+10,True,Fran,Triana,Eshir,Okeanos,Diana,None,Diana,Fran,Diana,Vigor,Shushu,Praha,Valantis,Seara,Vigor,None,Praha,Seara,2021-01-02 06:11:30,Obabo,Kawa_der_Kappa
+11,True,Vigor,Triana,Fran,Juno,Masha,Vigor,None,Juno,Masha,Wolyung,Verdehile,Cheongpung,Bernard,Raoq,None,Raoq,Wolyung,Raoq,2021-01-02 06:04:55,Obabo,Taniss
+12,False,Vigor,Fran,Triana,Okeanos,Leo,None,Leo,Fran,Leo,Miho,Shimitae,Amduat,Kahli,Gemini,Miho,None,Shimitae,Gemini,2021-01-02 05:59:58,Obabo,Ban.[D]
+13,True,Vigor,Triana,Fran,Molly,Han,Vigor,None,Fran,Han,Lulu,Ragdoll,Okeanos,Chacha,Seara,None,Chacha,Okeanos,Seara,2021-01-02 05:57:48,Obabo,Sh3perd.
+14,True,Vigor,Okeanos,Molly,Bering,Verdehile,Vigor,None,Okeanos,Verdehile,Fran,Triana,Elucia,Odin,Herteit,None,Herteit,Fran,Herteit,2021-01-02 05:51:54,Obabo,HW|FloRida1990

@@ -1,0 +1,16 @@
+battle_#,win_loss,p1,p2,p3,p4,p5,first,last,leader,banned,opp_p1,opp_p2,opp_p3,opp_p4,opp_p5,opp_first,opp_last,opp_leader,opp_banned,date_added,player,opponent
+0,True,Fran,Verdehile,Triana,Mina,Daphnis,None,Mina,Fran,Daphnis,Seara,Loren,Vigor,Jager,Hwadam,Seara,None,Seara,Hwadam,2021-01-03 01:56:17,kamechan♪,@Ken汰
+1,True,Seara,Verdehile,Daphnis,Mina,Loren,None,Mina,Seara,Loren,Fran,Molly,Vigor,Jager,Ragdoll,Fran,None,Fran,Ragdoll,2021-01-03 01:50:38,kamechan♪,陈不闪
+2,True,Loren,Verdehile,Daphnis,Mina,Seara,None,Mina,Daphnis,Seara,Fran,Dusky,Herteit,Vigor,Odin,Fran,None,Fran,Odin,2021-01-03 01:44:39,kamechan♪,がるがる@
+3,False,Seara,Loren,Verdehile,Molly,Triana,Seara,None,Seara,Triana,Fran,Okeanos,Eshir,Barbara,Sian,None,Sian,Fran,Sian,2021-01-03 01:41:18,kamechan♪,Fenrir♂
+4,True,Seara,Fran,Verdehile,Loren,Daphnis,None,Daphnis,Seara,Daphnis,Lulu,Ethna,Velajuel,Vigor,Okeanos,Okeanos,None,Velajuel,Okeanos,2021-01-03 01:37:07,kamechan♪,海贼༒雨点
+5,True,Loren,Verdehile,Daphnis,Mina,Seara,None,Mina,Daphnis,Seara,Fran,Lulu,Masha,ShiHou,Okeanos,Fran,None,Fran,Okeanos,2021-01-03 01:34:42,kamechan♪,赛赛陪我去爬山
+6,True,Seara,Vigor,Triana,Miho,Leo,None,Leo,Seara,Leo,Bastet,Tablo,Taru,Jamire,Lushen,Bastet,None,Tablo,Lushen,2021-01-03 01:30:27,kamechan♪,eilonbd
+7,True,Fran,Loren,Verdehile,Masha,Seara,None,Masha,Fran,Seara,Okeanos,Shimitae,Tablo,Eshir,Leah/LightCHUN-LI,Okeanos,None,Shimitae,Leah/LightCHUN-LI,2021-01-03 01:27:05,kamechan♪,Air-Rock
+8,True,Seara,Loren,Daphnis,Mina,Verdehile,Seara,None,Seara,Verdehile,Fran,Vigor,Okeanos,Leo,Triana,None,Leo,Fran,Triana,2021-01-03 01:23:30,kamechan♪,[ĐC].Max_Nhọ
+9,False,Loren,Verdehile,Daphnis,Eshir,Seara,Seara,None,Daphnis,Seara,Fran,Vigor,Brandia,Tyron,Mina,None,Tyron,Tyron,Mina,2021-01-03 01:19:55,kamechan♪,弃坑的傻大梅子
+10,True,Seara,Fran,Verdehile,Daphnis,Eshir,None,Eshir,Seara,Eshir,Vigor,Yeonhong,Mina,Okeanos,Loren,Vigor,None,Yeonhong,Loren,2021-01-03 01:16:16,kamechan♪,TM.avi
+11,True,Seara,Loren,Verdehile,Mina,Daphnis,Seara,None,Seara,Daphnis,Fran,Vigor,Konamiya,Cheongpung,Diana,None,Diana,Fran,Diana,2021-01-03 01:13:43,kamechan♪,Monkey`man〠
+12,True,Seara,Loren,Verdehile,Vigor,Daphnis,None,Vigor,Seara,Daphnis,Fran,Lulu,Taranys,Jager,Ragdoll,Fran,None,Fran,Ragdoll,2021-01-03 01:10:14,kamechan♪,Elmimo
+13,True,Seara,Vigor,Triana,Miho,Leo,Seara,None,Seara,Leo,Tablo,Jamire,Bastet,Taru,Lushen,None,Lushen,Tablo,Lushen,2021-01-03 01:07:01,kamechan♪,eilonbd
+14,False,Loren,Verdehile,Daphnis,Mina,Seara,Seara,None,Daphnis,Seara,Fran,Eshir,Okeanos,Cheongpung,Sian,None,Sian,Fran,Sian,2021-01-03 01:03:43,kamechan♪,Icedcoyote

@@ -1,0 +1,21 @@
+battle_#,win_loss,p1,p2,p3,p4,p5,first,last,leader,banned,opp_p1,opp_p2,opp_p3,opp_p4,opp_p5,opp_first,opp_last,opp_leader,opp_banned,date_added,player,opponent
+0,True,Loren,Verdehile,Barbara,Mina,Seara,Seara,None,Loren,Seara,Velajuel,Fran,Daphnis,Praha,QitianDasheng,None,QitianDasheng,Fran,QitianDasheng,2021-01-05 08:17:51,伝説のジェダイ,Edu_BR
+1,True,Vanessa,Loren,Verdehile,Taranys,Fran,None,Taranys,Vanessa,Fran,Seara,Bastet,Vigor,Chow,Daphnis,Seara,None,Seara,Daphnis,2021-01-05 06:51:37,伝説のジェダイ,DARK-TIG3R
+2,True,Fran,Loren,Verdehile,Daphnis,Seara,Seara,None,Fran,Seara,Molly,Juno,XingZhe,Vigor,Ragdoll,None,Vigor,XingZhe,Ragdoll,2021-01-04 23:58:54,伝説のジェダイ,歐洲布哥仔～
+3,True,Seara,Loren,Verdehile,Barbara,Daphnis,Seara,None,Seara,Daphnis,Fran,XingZhe,Vigor,Taranys,Artamiel,None,Taranys,XingZhe,Artamiel,2021-01-04 23:02:30,伝説のジェダイ,**JAS**
+4,True,Seara,Fran,Savannah,Barbara,Loren,None,Barbara,Seara,Loren,Vigor,Bastet,Miho,Garo,Clara,Vigor,None,Bastet,Clara,2021-01-04 20:08:26,伝説のジェダイ,[BH]•Khel♤
+5,True,Fran,Loren,Verdehile,Barbara,Seara,Seara,None,Fran,Seara,Okeanos,Daphnis,Bastet,Savannah,Gemini,None,Gemini,Okeanos,Gemini,2021-01-04 20:02:27,伝説のジェダイ,BobbyAK47SEQPA
+6,True,Fran,Daphnis,Loren,Verdehile,Molly,None,Molly,Fran,Molly,Seara,Yeonhong,Hathor,Barbara,Chiwu,Seara,None,Seara,Chiwu,2021-01-04 19:57:50,伝説のジェダイ,•!3r!$!ngr•
+7,True,Fran,Daphnis,Savannah,Eshir,Chiwu,None,Eshir,Fran,Chiwu,Tiana,Malaka,Lushen,Konamiya,Seara,Seara,None,Malaka,Seara,2021-01-04 19:39:52,伝説のジェダイ,卢卡库陋
+8,True,Seara,Bastet,Daphnis,Barbara,Tablo,Seara,None,Seara,Tablo,Elucia,Shaina,Molly,Juno,Okeanos,None,Juno,Elucia,Okeanos,2021-01-04 19:37:50,伝説のジェダイ,CoolMiMom
+9,True,Fran,Loren,Verdehile,Daphnis,Seara,Fran,None,Fran,Seara,Vigor,Lulu,Ragdoll,Miho,Leo,None,Miho,Ragdoll,Leo,2021-01-03 09:36:05,伝説のジェダイ,✎﹏Lofi
+10,True,Fran,Seara,Loren,Verdehile,Daphnis,Fran,None,Seara,Daphnis,Vigor,Lulu,Diana,Laika,Ragdoll,None,Laika,Laika,Ragdoll,2021-01-03 09:30:13,伝説のジェダイ,✎﹏Lofi
+11,True,Seara,Fran,Verdehile,Barbara,Loren,None,Barbara,Seara,Loren,MoLong,XingZhe,Daphnis,Velajuel,Harmonia,MoLong,None,MoLong,Harmonia,2021-01-05 13:42:59,伝説のジェダイ,Kwoshiki
+12,True,Fran,Loren,Savannah,Daphnis,Hathor,None,Hathor,Fran,Hathor,Seara,Barbara,Masha,Diana,Verdehile,Seara,None,Seara,Verdehile,2021-01-07 01:08:11,伝説のジェダイ,Judas
+13,True,Seara,Fran,Daphnis,Savannah,Verdehile,None,Savannah,Seara,Verdehile,Ragdoll,Loren,Barbara,Hathor,Giana,Ragdoll,None,Hathor,Giana,2021-01-07 00:23:30,伝説のジェダイ,ばみゅーだ
+14,True,Seara,Fran,Loren,Daphnis,Verdehile,Seara,None,Seara,Verdehile,Okeanos,Savannah,Juno,Nephthys,Moore/WaterRYU,None,Nephthys,Nephthys,Moore/WaterRYU,2021-01-06 23:45:05,伝説のジェダイ,航爷变戏法
+15,True,Fran,Verdehile,Chiwu,Barbara,Hathor,None,Barbara,Chiwu,Hathor,Seara,Okeanos,Cheongpung,ShiHou,Moore/WaterRYU1,Seara,None,Seara,Moore/WaterRYU1,2021-01-06 20:28:29,伝説のジェダイ,eilonbd
+16,True,Seara,Daphnis,Loren,Verdehile,Barbara,Seara,None,Seara,Barbara,Fran,Okeanos,Moore/WaterRYU,Rica,Cheongpung,None,Rica,Moore/WaterRYU,Cheongpung,2021-01-07 13:54:30,伝説のジェダイ,ホーピニアス
+17,True,Fran,Barbara,Daphnis,Loren,Seara,Seara,None,Fran,Seara,Okeanos,Molly,Cheongpung,Savannah,Chiwu,None,Chiwu,Okeanos,Chiwu,2021-01-07 12:47:23,伝説のジェダイ,IgorES
+18,True,Fran,Juno,Molly,XingZhe,Akroma,None,XingZhe,XingZhe,Akroma,Seara,Giana,Barbara,Vigor,Masha,Seara,None,Giana,Masha,2021-01-07 12:44:41,伝説のジェダイ,IgorES
+19,True,Seara,Fran,Verdehile,Daphnis,Loren,Seara,None,Seara,Loren,Molly,XingZhe,Taranys,Triana,Artamiel,None,Triana,XingZhe,Artamiel,2021-01-07 17:17:14,伝説のジェダイ,Wish|Vick
