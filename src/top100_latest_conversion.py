@@ -18,12 +18,16 @@ def main(argv: list) -> None:
         elif opt in ("-i", "--ifile"):
             in_file = arg
 
+    
     rename_latest_top100_file(in_file)
     print("Top100 latest file conversion: Completed")
     print("--------------------")                
 
 def rename_latest_top100_file(top100_folder: str) -> None:
-    latest_top100_file = sorted(os.listdir(top100_folder), reverse=True)
+    prev_top100 = top100_folder + "top100.csv"
+    if os.path.exists(prev_top100):
+        os.remove(prev_top100)
+    latest_top100_file = sorted(os.listdir(top100_folder), reverse=False)
     for f in latest_top100_file:
         if (f.endswith(".csv")) & (not f.endswith("top100.csv")):
             latest_top100_file = top100_folder + f
